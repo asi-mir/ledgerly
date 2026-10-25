@@ -29,12 +29,44 @@ def init_sentry(dsn: str, environment: str) -> bool:
             include_local_variables=False,
             max_breadcrumbs=20,
             shutdown_timeout=2,
+            before_send_transaction=_log_transaction,
         )
         _enabled = True
     except Exception:  # pragma: no cover - never let Sentry stop the bot
         log.exception("sentry init failed")
         _enabled = False
     return _enabled
+
+
+def _seconds(item: dict) -> float:
+    from datetime import datetime
+
+    def as_dt(value):
+        if isinstance(value, (int, float)):
+            return datetime.fromtimestamp(value)
+        if isinstance(value, str):
+            return datetime.fromisoformat(value.replace("Z", "+00:00"))
+        return value
+
+    return (as_dt(item.get("timestamp")) - as_dt(item.get("start_timestamp"))).total_seconds()
+
+
+def _log_transaction(event: dict, _hint: dict) -> dict:
+    """Log the trace id and step timings (no content), so a trace can be found and read out."""
+    try:
+        total = _seconds(event)
+        steps = []
+        for span in event.get("spans", []):
+            data = span.get("data") or {}
+            step = f"{span.get('op')} {_seconds(span):.2f}s"
+            if "gen_ai.usage.total_tokens" in data:
+                step += f" tokens={data['gen_ai.usage.input_tokens']}+{data['gen_ai.usage.output_tokens']}"
+            steps.append(step)
+        trace_id = (event.get("contexts", {}).get("trace") or {}).get("trace_id")
+        log.info("sentry trace=%s event=%s name=%r total=%.2fs steps=%s", trace_id, event.get("event_id"), event.get("transaction"), total, "; ".join(steps))
+    except Exception:  # pragma: no cover
+        log.exception("sentry log failed")
+    return event
 
 
 class _NoSpan:

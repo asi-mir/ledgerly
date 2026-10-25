@@ -108,17 +108,24 @@ async def process_message(message: dict) -> None:
     kind = _kind(message)
     with tracing.update_transaction(kind) as tx:
         try:
+            await telegram.send_chat_action(chat_id)  # "typing…" while Gemma and TabPFN work
+        except Exception:
+            log.warning("sendChatAction failed")
+        try:
             replies = await route(ctx, message, kind)
         except Exception as exc:
             log.exception("update failed")
             tracing.capture_exception(exc)
             tx.set_status("internal_error")
             replies = [ERROR_REPLY]
-        for text in replies:
-            await telegram.send_message(chat_id, text)
+        for reply in replies:
+            if isinstance(reply, bytes):  # a PNG, e.g. the forecast chart
+                await telegram.send_photo(chat_id, reply, filename="forecast.png")
+            else:
+                await telegram.send_message(chat_id, reply)
 
 
-async def route(ctx: Ctx, message: dict, kind: str) -> list[str]:
+async def route(ctx: Ctx, message: dict, kind: str) -> list[str | bytes]:
     from app import agent, onboarding, receipts
 
     if kind == "photo":
