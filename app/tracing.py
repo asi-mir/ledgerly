@@ -16,8 +16,8 @@ _enabled = False
 
 # Telegram puts the bot token in the URL path (/bot<token>/sendMessage). Never let it leave.
 _TOKEN = re.compile(r"bot\d+:[A-Za-z0-9_-]+")
-# Render pings /health every few seconds; the webhook request itself is covered by "telegram …".
-_SKIP = {"/health", "/webhook", "GET /health", "POST /webhook"}
+# Only our own "telegram …" transactions are sent. Render pings /health every few seconds, and
+# the raw webhook request is already covered by the "telegram …" trace.
 
 
 def scrub(value):
@@ -76,8 +76,8 @@ def _seconds(item: dict) -> float:
 
 def _log_transaction(event: dict, _hint: dict) -> dict | None:
     """Drop health checks, scrub tokens, and log the trace id and step timings (no content)."""
-    if event.get("transaction") in _SKIP:
-        return None
+    if not str(event.get("transaction", "")).startswith("telegram"):
+        return None  # health checks, bare HTTP requests, 404s: not a message, not a trace
     event = scrub(event)
     try:
         total = _seconds(event)
