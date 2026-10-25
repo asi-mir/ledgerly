@@ -73,3 +73,10 @@ def test_start_again_changes_budget(ctx):
 @pytest.mark.parametrize(("day", "text"), [(1, "1st"), (2, "2nd"), (3, "3rd"), (11, "11th"), (21, "21st"), (22, "22nd")])
 def test_ordinal(day, text):
     assert onboarding.ordinal(day) == text
+
+
+def test_a_sentence_is_never_a_budget(ctx):
+    run(onboarding.handle_start(ctx))
+    assert run(onboarding.handle_answer(ctx, "Arman's birthday is Dec 14.")) == [onboarding.ASK_BUDGET_AGAIN]
+    for answer in ("30000", "₺30,000", "30.000", "30k", "30000 TL"):
+        assert onboarding._BUDGET.match(answer), answer

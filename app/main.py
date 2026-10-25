@@ -17,6 +17,9 @@ from app.db import get_engine
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 log = logging.getLogger("ledgerly")
+# httpx logs every request URL at INFO, and Telegram URLs contain the bot token.
+logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.getLogger("httpcore").setLevel(logging.WARNING)
 
 WEBHOOK_PATH = "/webhook"
 ERROR_REPLY = "Sorry, something went wrong on my side 🦥 Please try again in a minute."
@@ -63,7 +66,29 @@ async def lifespan(_app: FastAPI):
 
         await asyncio.to_thread(seed_demo, engine)
     asyncio.create_task(_register_webhook())
+    asyncio.create_task(_warm_up(engine, today(cfg)))
     yield
+
+
+async def _warm_up(engine, day) -> None:
+    """Load the heavy libraries and the first forecast in the background after boot.
+
+    On Render's free CPU, the first TabPFN forecast took 34 s, much of it importing
+    pandas, scikit-learn and the TabPFN client. After this, /forecast answers from the cache.
+    """
+    try:
+        await asyncio.to_thread(_import_heavy)
+        from app import forecast
+
+        await forecast.warm(engine, day)
+    except Exception:
+        log.exception("warm-up failed")
+
+
+def _import_heavy() -> None:
+    import google.genai  # noqa: F401
+    import numpy  # noqa: F401
+    import tabpfn_client  # noqa: F401
 
 
 app = FastAPI(title="Ledgerly", lifespan=lifespan)
@@ -123,6 +148,11 @@ async def process_message(message: dict) -> None:
                 await telegram.send_photo(chat_id, reply, filename="forecast.png")
             else:
                 await telegram.send_message(chat_id, reply)
+    if kind in ("photo", "text"):
+        # A new receipt or event changes the forecast: compute it now, so /forecast is quick.
+        from app import forecast
+
+        asyncio.create_task(forecast.warm(ctx.engine, ctx.today))
 
 
 async def route(ctx: Ctx, message: dict, kind: str) -> list[str | bytes]:

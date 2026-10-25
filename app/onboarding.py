@@ -23,6 +23,9 @@ NEXT_STEPS = (
     "🧱 Send /forecast to see your Wall Day."
 )
 
+# The budget answer must be just an amount ("30000", "₺30,000", "30k"), so a sentence such as
+# "Arman's birthday is Dec 14" is never read as a budget of 14.
+_BUDGET = re.compile(r"^(?:₺|tl)?\s*\d[\d.,' ]*\s*(?:k)?\s*(?:₺|tl|try|lira)?[.!]?$", re.IGNORECASE)
 _DAY = re.compile(r"^(?:the\s+)?(\d{1,2})(?:st|nd|rd|th)?(?:\s+of\s+the\s+month)?[.!]?$")
 
 
@@ -50,7 +53,7 @@ async def handle_answer(ctx: Ctx, text: str) -> list[str] | None:
     """If onboarding is waiting for an answer, handle it. Else None."""
     step = get_settings(ctx.engine).get("step")
     if step == "budget":
-        amount = parse_amount(text)
+        amount = parse_amount(text) if _BUDGET.match(text.strip()) else None
         if amount is None or amount <= 0:
             return [ASK_BUDGET_AGAIN]
         update_settings(ctx.engine, budget_cents=to_cents(amount), step="payday")

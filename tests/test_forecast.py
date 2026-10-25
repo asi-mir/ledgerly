@@ -325,3 +325,18 @@ def test_an_event_told_twice_counts_once():
     again = dict(yalda, guests=12, title="yalda night ")
     (row,) = fc.build_rows([date(2026, 12, 19)], {}, [yalda, again], 1, date(2026, 9, 1), freeze=DEC1)
     assert row[col("guests_next_3")] == 12
+
+
+def test_two_questions_at_once_share_one_tabpfn_call(household):
+    fake = FakePredictor(per_day=1000.0)
+    fc._predict, real = fake, fc._predict
+
+    async def both():
+        return await asyncio.gather(fc.run_forecast(household, DEC1), fc.warm(household, DEC1))
+
+    try:
+        first, _ = asyncio.run(both())
+    finally:
+        fc._predict = real
+    assert fake.calls == 1
+    assert first.wall_day == date(2026, 12, 31)

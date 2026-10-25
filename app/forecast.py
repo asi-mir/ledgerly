@@ -265,11 +265,13 @@ class _Base:
 
 
 _cache: dict[tuple, _Base] = {}
+_inflight: dict[tuple, asyncio.Task] = {}  # one TabPFN call per key, even if two messages ask at once
 _CACHE_SIZE = 16
 
 
 def clear_cache() -> None:
     _cache.clear()
+    _inflight.clear()
 
 
 def _load(engine: Engine) -> tuple:
@@ -423,15 +425,41 @@ async def run_forecast(engine: Engine, today: date, extra: list[tuple[date, floa
     the prediction for that day; TabPFN itself is not called again (its daily predictions are
     cached per day and per data fingerprint).
     """
+    base = await _base(engine, today)
+    return _assemble(base, extra or [])
+
+
+async def _base(engine: Engine, today: date) -> _Base:
     settings, series, events, fingerprint = await asyncio.to_thread(_load, engine)
     key = (id(engine), today, fingerprint)
-    base = _cache.get(key)
-    if base is None:
-        base = await _compute(settings, series, events, today)
-        if len(_cache) >= _CACHE_SIZE:
-            _cache.pop(next(iter(_cache)))
-        _cache[key] = base
-    return _assemble(base, extra or [])
+    if key in _cache:
+        return _cache[key]
+    task = _inflight.get(key)
+    if task is None:
+        task = asyncio.ensure_future(_compute(settings, series, events, today))
+        _inflight[key] = task
+    try:
+        base = await asyncio.shield(task)
+    finally:
+        if task.done():
+            _inflight.pop(key, None)
+    if len(_cache) >= _CACHE_SIZE:
+        _cache.pop(next(iter(_cache)))
+    _cache[key] = base
+    return base
+
+
+async def warm(engine: Engine, today: date) -> None:
+    """Compute and cache the forecast in the background (after boot, a receipt or an event)."""
+    from app.db import get_settings
+
+    try:
+        if not (await asyncio.to_thread(get_settings, engine)).get("budget_cents"):
+            return
+        with tracing.update_transaction("forecast warm-up"):
+            await _base(engine, today)
+    except Exception:
+        log.exception("forecast warm-up failed")
 
 
 # ---------------------------------------------------------------- replies

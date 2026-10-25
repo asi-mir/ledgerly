@@ -7,11 +7,27 @@ and every helper below becomes a no-op. A Sentry problem must never break the bo
 from __future__ import annotations
 
 import logging
+import re
 from contextlib import contextmanager
 
 log = logging.getLogger("ledgerly.tracing")
 
 _enabled = False
+
+# Telegram puts the bot token in the URL path (/bot<token>/sendMessage). Never let it leave.
+_TOKEN = re.compile(r"bot\d+:[A-Za-z0-9_-]+")
+# Render pings /health every few seconds; the webhook request itself is covered by "telegram …".
+_SKIP = {"/health", "/webhook", "GET /health", "POST /webhook"}
+
+
+def scrub(value):
+    if isinstance(value, str):
+        return _TOKEN.sub("bot[Filtered]", value)
+    if isinstance(value, dict):
+        return {k: scrub(v) for k, v in value.items()}
+    if isinstance(value, list):
+        return [scrub(v) for v in value]
+    return value
 
 
 def init_sentry(dsn: str, environment: str) -> bool:
@@ -21,8 +37,15 @@ def init_sentry(dsn: str, environment: str) -> bool:
     try:
         import sentry_sdk
 
+        from sentry_sdk.integrations.google_genai import GoogleGenAIIntegration
+
         sentry_sdk.init(
             dsn=dsn,
+            # Our own gen_ai.chat span records model, seconds and tokens; the automatic one
+            # would count every Gemma call twice.
+            disabled_integrations=[GoogleGenAIIntegration()],
+            before_send=lambda event, _hint: scrub(event),
+            before_breadcrumb=lambda crumb, _hint: scrub(crumb),
             environment=environment,
             traces_sample_rate=1.0,
             send_default_pii=False,
@@ -51,8 +74,11 @@ def _seconds(item: dict) -> float:
     return (as_dt(item.get("timestamp")) - as_dt(item.get("start_timestamp"))).total_seconds()
 
 
-def _log_transaction(event: dict, _hint: dict) -> dict:
-    """Log the trace id and step timings (no content), so a trace can be found and read out."""
+def _log_transaction(event: dict, _hint: dict) -> dict | None:
+    """Drop health checks, scrub tokens, and log the trace id and step timings (no content)."""
+    if event.get("transaction") in _SKIP:
+        return None
+    event = scrub(event)
     try:
         total = _seconds(event)
         steps = []
