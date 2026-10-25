@@ -1,0 +1,2761 @@
+receipt,date,merchant,item,amount,category,receipt_total
+1,2025-12-01,Bereket Fırını,EKMEK,14.30,Bread/Water,29.60
+1,2025-12-01,Bereket Fırını,EKMEK,15.30,Bread/Water,29.60
+2,2025-12-01,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,200.00,Transport,200.00
+3,2025-12-01,Papatya Market,BİSKÜVİ,24.10,Groceries,216.70
+3,2025-12-01,Papatya Market,MEYVE SUYU 1L,40.70,Groceries,216.70
+3,2025-12-01,Papatya Market,KAŞAR PEYNİR 250G,102.60,Groceries,216.70
+3,2025-12-01,Papatya Market,SÜT 1L,35.00,Groceries,216.70
+3,2025-12-01,Papatya Market,EKMEK,14.30,Bread/Water,216.70
+4,2025-12-01,Yol Akaryakıt,BENZİN,668.00,Transport,668.00
+5,2025-12-02,Bereket Fırını,EKMEK,15.10,Bread/Water,30.70
+5,2025-12-02,Bereket Fırını,EKMEK,15.60,Bread/Water,30.70
+6,2025-12-02,Damla Su,DAMACANA SU 19L,110.30,Bread/Water,110.30
+7,2025-12-03,Bahçe Manav,LİMON 1KG,48.40,Fruit and Vegs,295.20
+7,2025-12-03,Bahçe Manav,ISPANAK 1KG,66.70,Fruit and Vegs,295.20
+7,2025-12-03,Bahçe Manav,PORTAKAL 1KG,48.20,Fruit and Vegs,295.20
+7,2025-12-03,Bahçe Manav,BİBER 1KG,74.50,Fruit and Vegs,295.20
+7,2025-12-03,Bahçe Manav,MANDALİNA 1KG,57.40,Fruit and Vegs,295.20
+8,2025-12-03,Bereket Fırını,EKMEK,15.60,Bread/Water,31.00
+8,2025-12-03,Bereket Fırını,EKMEK,15.40,Bread/Water,31.00
+9,2025-12-03,Lale Sitesi Yönetimi,AİDAT,604.00,Dues,604.00
+10,2025-12-04,Bereket Fırını,EKMEK,14.90,Bread/Water,30.30
+10,2025-12-04,Bereket Fırını,EKMEK,15.40,Bread/Water,30.30
+11,2025-12-04,Kasap Usta,SUCUK 250G,95.50,Meat/Chicken/Fish,312.30
+11,2025-12-04,Kasap Usta,DANA KUŞBAŞI 500G,216.80,Meat/Chicken/Fish,312.30
+12,2025-12-04,Neşeli Oyuncak,OYUNCAK SETİ,3087.70,Gifts,3087.70
+13,2025-12-04,Papatya Market,KAŞAR PEYNİR 250G,98.50,Groceries,209.90
+13,2025-12-04,Papatya Market,YUMURTA 10'LU,56.40,Groceries,209.90
+13,2025-12-04,Papatya Market,MAKARNA 500G,19.60,Groceries,209.90
+13,2025-12-04,Papatya Market,BİSKÜVİ,21.80,Groceries,209.90
+13,2025-12-04,Papatya Market,EKMEK,13.60,Bread/Water,209.90
+14,2025-12-05,Bereket Fırını,EKMEK,15.10,Bread/Water,30.70
+14,2025-12-05,Bereket Fırını,EKMEK,15.60,Bread/Water,30.70
+15,2025-12-05,HızlıNet,İNTERNET FATURASI,445.60,Internet/Phone,445.60
+16,2025-12-05,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,440.10,Entertainment/Restaurant,440.10
+17,2025-12-05,Tatlı Köşe Pastanesi,DOĞUM GÜNÜ PASTASI,918.70,Gifts,918.70
+18,2025-12-06,Bereket Fırını,EKMEK,14.80,Bread/Water,84.10
+18,2025-12-06,Bereket Fırını,EKMEK,15.20,Bread/Water,84.10
+18,2025-12-06,Bereket Fırını,EKMEK,14.40,Bread/Water,84.10
+18,2025-12-06,Bereket Fırını,POĞAÇA,39.70,Bread/Water,84.10
+19,2025-12-06,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,1254.10
+19,2025-12-06,Güneş Süpermarket,DANA KIYMA 500G,222.90,Meat/Chicken/Fish,1254.10
+19,2025-12-06,Güneş Süpermarket,BEYAZ PEYNİR 500G,138.00,Groceries,1254.10
+19,2025-12-06,Güneş Süpermarket,SALATALIK 1KG,25.40,Fruit and Vegs,1254.10
+19,2025-12-06,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,148.40,Groceries,1254.10
+19,2025-12-06,Güneş Süpermarket,ÇAY 1KG,169.90,Groceries,1254.10
+19,2025-12-06,Güneş Süpermarket,PATATES 2KG,39.30,Fruit and Vegs,1254.10
+19,2025-12-06,Güneş Süpermarket,YUMURTA 15'Lİ,78.60,Groceries,1254.10
+19,2025-12-06,Güneş Süpermarket,PİRİNÇ 1KG,57.00,Groceries,1254.10
+19,2025-12-06,Güneş Süpermarket,SOĞAN 2KG,32.90,Fruit and Vegs,1254.10
+19,2025-12-06,Güneş Süpermarket,MAKARNA 500G,17.30,Groceries,1254.10
+19,2025-12-06,Güneş Süpermarket,SÜT 1L,31.70,Groceries,1254.10
+19,2025-12-06,Güneş Süpermarket,ELMA 1KG,33.50,Fruit and Vegs,1254.10
+19,2025-12-06,Güneş Süpermarket,DETERJAN 4KG,188.80,Groceries,1254.10
+19,2025-12-06,Güneş Süpermarket,YOĞURT 1.5KG,69.40,Groceries,1254.10
+20,2025-12-07,Bereket Fırını,EKMEK,15.30,Bread/Water,83.30
+20,2025-12-07,Bereket Fırını,EKMEK,14.30,Bread/Water,83.30
+20,2025-12-07,Bereket Fırını,EKMEK,14.40,Bread/Water,83.30
+20,2025-12-07,Bereket Fırını,POĞAÇA,39.30,Bread/Water,83.30
+21,2025-12-08,Bereket Fırını,EKMEK,14.80,Bread/Water,29.40
+21,2025-12-08,Bereket Fırını,EKMEK,14.60,Bread/Water,29.40
+22,2025-12-08,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,200.50,Transport,200.50
+23,2025-12-08,Papatya Market,MEYVE SUYU 1L,96.20,Groceries,194.10
+23,2025-12-08,Papatya Market,BİSKÜVİ,50.80,Groceries,194.10
+23,2025-12-08,Papatya Market,MAKARNA 500G,47.10,Groceries,194.10
+24,2025-12-08,Zarif Hediyelik,HEDİYE KUTUSU,2448.80,Gifts,2448.80
+25,2025-12-09,Bereket Fırını,EKMEK,14.70,Bread/Water,29.80
+25,2025-12-09,Bereket Fırını,EKMEK,15.10,Bread/Water,29.80
+26,2025-12-09,Damla Su,DAMACANA SU 19L,115.50,Bread/Water,115.50
+27,2025-12-09,Tatlı Köşe Pastanesi,DOĞUM GÜNÜ PASTASI,964.20,Gifts,964.20
+28,2025-12-10,Bahçe Manav,LİMON 1KG,40.90,Fruit and Vegs,285.30
+28,2025-12-10,Bahçe Manav,DOMATES 1KG,48.90,Fruit and Vegs,285.30
+28,2025-12-10,Bahçe Manav,BİBER 1KG,62.20,Fruit and Vegs,285.30
+28,2025-12-10,Bahçe Manav,MUZ 1KG,93.40,Fruit and Vegs,285.30
+28,2025-12-10,Bahçe Manav,PORTAKAL 1KG,39.90,Fruit and Vegs,285.30
+29,2025-12-10,Bereket Fırını,EKMEK,14.40,Bread/Water,28.90
+29,2025-12-10,Bereket Fırını,EKMEK,14.50,Bread/Water,28.90
+30,2025-12-10,Şehir Elektrik,ELEKTRİK FATURASI,446.40,Electrical bill,446.40
+31,2025-12-11,Bereket Fırını,EKMEK,15.50,Bread/Water,30.10
+31,2025-12-11,Bereket Fırını,EKMEK,14.60,Bread/Water,30.10
+32,2025-12-11,Kasap Usta,TAVUK GÖĞÜS 1KG,95.70,Meat/Chicken/Fish,300.70
+32,2025-12-11,Kasap Usta,DANA KUŞBAŞI 500G,205.00,Meat/Chicken/Fish,300.70
+33,2025-12-11,Papatya Market,YUMURTA 10'LU,105.80,Groceries,193.60
+33,2025-12-11,Papatya Market,EKMEK,25.00,Bread/Water,193.60
+33,2025-12-11,Papatya Market,SÜT 1L,62.80,Groceries,193.60
+34,2025-12-12,Bereket Fırını,EKMEK,14.80,Bread/Water,29.50
+34,2025-12-12,Bereket Fırını,EKMEK,14.70,Bread/Water,29.50
+35,2025-12-12,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,362.50,Entertainment/Restaurant,362.50
+36,2025-12-12,Tatlı Köşe Pastanesi,BAKLAVA 1KG,1353.60,Gifts,1353.60
+37,2025-12-12,Şehir Su,SU FATURASI,216.10,Water bill,216.10
+38,2025-12-13,Bereket Fırını,EKMEK,15.40,Bread/Water,86.80
+38,2025-12-13,Bereket Fırını,EKMEK,15.80,Bread/Water,86.80
+38,2025-12-13,Bereket Fırını,EKMEK,14.90,Bread/Water,86.80
+38,2025-12-13,Bereket Fırını,POĞAÇA,40.70,Bread/Water,86.80
+39,2025-12-13,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,1248.50
+39,2025-12-13,Güneş Süpermarket,DANA KIYMA 500G,230.00,Meat/Chicken/Fish,1248.50
+39,2025-12-13,Güneş Süpermarket,DOMATES 1KG,30.00,Fruit and Vegs,1248.50
+39,2025-12-13,Güneş Süpermarket,TAVUK BUT 1KG,111.10,Meat/Chicken/Fish,1248.50
+39,2025-12-13,Güneş Süpermarket,ÇAY 1KG,185.00,Groceries,1248.50
+39,2025-12-13,Güneş Süpermarket,YUMURTA 15'Lİ,84.00,Groceries,1248.50
+39,2025-12-13,Güneş Süpermarket,ZEYTİN 500G,106.20,Groceries,1248.50
+39,2025-12-13,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,131.60,Groceries,1248.50
+39,2025-12-13,Güneş Süpermarket,PİRİNÇ 1KG,63.20,Groceries,1248.50
+39,2025-12-13,Güneş Süpermarket,PATATES 2KG,42.40,Fruit and Vegs,1248.50
+39,2025-12-13,Güneş Süpermarket,MAKARNA 500G,18.30,Groceries,1248.50
+39,2025-12-13,Güneş Süpermarket,DETERJAN 4KG,220.10,Groceries,1248.50
+39,2025-12-13,Güneş Süpermarket,SU 5L,25.60,Bread/Water,1248.50
+40,2025-12-13,Neşeli Oyuncak,OYUNCAK SETİ,3099.60,Gifts,3099.60
+41,2025-12-14,Bereket Fırını,EKMEK,14.90,Bread/Water,86.10
+41,2025-12-14,Bereket Fırını,EKMEK,14.90,Bread/Water,86.10
+41,2025-12-14,Bereket Fırını,EKMEK,15.20,Bread/Water,86.10
+41,2025-12-14,Bereket Fırını,POĞAÇA,41.10,Bread/Water,86.10
+42,2025-12-14,Tatlı Köşe Pastanesi,DOĞUM GÜNÜ PASTASI,924.50,Gifts,924.50
+43,2025-12-15,Bereket Fırını,EKMEK,15.80,Bread/Water,30.80
+43,2025-12-15,Bereket Fırını,EKMEK,15.00,Bread/Water,30.80
+44,2025-12-15,Kent Doğalgaz,DOĞALGAZ FATURASI,442.00,Gas bill,442.00
+45,2025-12-15,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,201.10,Transport,201.10
+46,2025-12-15,Papatya Market,KAŞAR PEYNİR 250G,91.60,Groceries,182.60
+46,2025-12-15,Papatya Market,EKMEK,13.40,Bread/Water,182.60
+46,2025-12-15,Papatya Market,MAKARNA 500G,18.50,Groceries,182.60
+46,2025-12-15,Papatya Market,BULAŞIK SÜNGERİ,25.30,Groceries,182.60
+46,2025-12-15,Papatya Market,SÜT 1L,33.80,Groceries,182.60
+47,2025-12-16,Bereket Fırını,EKMEK,14.40,Bread/Water,29.90
+47,2025-12-16,Bereket Fırını,EKMEK,15.50,Bread/Water,29.90
+48,2025-12-16,Damla Su,DAMACANA SU 19L,111.50,Bread/Water,111.50
+49,2025-12-16,Yol Akaryakıt,BENZİN,716.80,Transport,716.80
+50,2025-12-16,Zarif Hediyelik,ŞAL,2404.10,Gifts,2404.10
+51,2025-12-17,Bahçe Manav,DOMATES 1KG,55.20,Fruit and Vegs,330.60
+51,2025-12-17,Bahçe Manav,MUZ 1KG,111.60,Fruit and Vegs,330.60
+51,2025-12-17,Bahçe Manav,PORTAKAL 1KG,48.10,Fruit and Vegs,330.60
+51,2025-12-17,Bahçe Manav,ISPANAK 1KG,66.20,Fruit and Vegs,330.60
+51,2025-12-17,Bahçe Manav,LİMON 1KG,49.50,Fruit and Vegs,330.60
+52,2025-12-17,Bereket Fırını,EKMEK,14.40,Bread/Water,29.80
+52,2025-12-17,Bereket Fırını,EKMEK,15.40,Bread/Water,29.80
+53,2025-12-17,Tatlı Köşe Pastanesi,DOĞUM GÜNÜ PASTASI,978.20,Gifts,978.20
+54,2025-12-18,Bereket Fırını,EKMEK,15.40,Bread/Water,30.80
+54,2025-12-18,Bereket Fırını,EKMEK,15.40,Bread/Water,30.80
+55,2025-12-18,Kasap Usta,SUCUK 250G,91.20,Meat/Chicken/Fish,304.60
+55,2025-12-18,Kasap Usta,DANA KUŞBAŞI 500G,213.40,Meat/Chicken/Fish,304.60
+56,2025-12-18,Papatya Market,MAKARNA 500G,32.20,Groceries,200.00
+56,2025-12-18,Papatya Market,YUMURTA 10'LU,101.80,Groceries,200.00
+56,2025-12-18,Papatya Market,MEYVE SUYU 1L,66.00,Groceries,200.00
+57,2025-12-19,Bereket Fırını,EKMEK,15.70,Bread/Water,31.20
+57,2025-12-19,Bereket Fırını,EKMEK,15.50,Bread/Water,31.20
+58,2025-12-19,Güneş Süpermarket,KARPUZ,470.30,Fruit and Vegs,7002.80
+58,2025-12-19,Güneş Süpermarket,NAR 3KG,174.10,Fruit and Vegs,7002.80
+58,2025-12-19,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,7002.80
+58,2025-12-19,Güneş Süpermarket,MEYVE SUYU,225.00,Groceries,7002.80
+58,2025-12-19,Güneş Süpermarket,GAZOZ,292.90,Groceries,7002.80
+58,2025-12-19,Güneş Süpermarket,TAVUK BUT,1412.90,Meat/Chicken/Fish,7002.80
+58,2025-12-19,Güneş Süpermarket,SALATALIK,319.60,Fruit and Vegs,7002.80
+58,2025-12-19,Güneş Süpermarket,ZEYTİNYAĞI,1601.50,Groceries,7002.80
+58,2025-12-19,Güneş Süpermarket,YOĞURT,554.90,Groceries,7002.80
+58,2025-12-19,Güneş Süpermarket,PİRİNÇ,1799.50,Groceries,7002.80
+58,2025-12-19,Güneş Süpermarket,SU,151.10,Bread/Water,7002.80
+59,2025-12-19,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,421.00,Entertainment/Restaurant,421.00
+60,2025-12-20,Bereket Fırını,EKMEK,14.70,Bread/Water,88.30
+60,2025-12-20,Bereket Fırını,EKMEK,15.60,Bread/Water,88.30
+60,2025-12-20,Bereket Fırını,EKMEK,15.90,Bread/Water,88.30
+60,2025-12-20,Bereket Fırını,POĞAÇA,42.10,Bread/Water,88.30
+61,2025-12-20,HızlıNet,MOBİL HAT FATURASI,373.00,Internet/Phone,373.00
+62,2025-12-20,Çınar Kuruyemiş,BAKLAVA 1KG,951.00,Groceries,3722.20
+62,2025-12-20,Çınar Kuruyemiş,ÇEKİRDEK,890.00,Groceries,3722.20
+62,2025-12-20,Çınar Kuruyemiş,KURU ÜZÜM,1082.50,Groceries,3722.20
+62,2025-12-20,Çınar Kuruyemiş,LEBLEBİ,798.70,Groceries,3722.20
+63,2025-12-21,Bereket Fırını,EKMEK,15.70,Bread/Water,85.70
+63,2025-12-21,Bereket Fırını,EKMEK,14.60,Bread/Water,85.70
+63,2025-12-21,Bereket Fırını,EKMEK,14.70,Bread/Water,85.70
+63,2025-12-21,Bereket Fırını,POĞAÇA,40.70,Bread/Water,85.70
+64,2025-12-21,Lale Çiçekçilik,ÇİÇEK BUKETİ,711.30,Additional expenses,711.30
+65,2025-12-22,Bereket Fırını,EKMEK,15.10,Bread/Water,30.60
+65,2025-12-22,Bereket Fırını,EKMEK,15.50,Bread/Water,30.60
+66,2025-12-22,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,201.70,Transport,201.70
+67,2025-12-22,Papatya Market,KAŞAR PEYNİR 250G,85.90,Groceries,209.30
+67,2025-12-22,Papatya Market,BİSKÜVİ,20.10,Groceries,209.30
+67,2025-12-22,Papatya Market,MAKARNA 500G,16.60,Groceries,209.30
+67,2025-12-22,Papatya Market,YUMURTA 10'LU,50.40,Groceries,209.30
+67,2025-12-22,Papatya Market,MEYVE SUYU 1L,36.30,Groceries,209.30
+68,2025-12-23,Bereket Fırını,EKMEK,14.40,Bread/Water,29.70
+68,2025-12-23,Bereket Fırını,EKMEK,15.30,Bread/Water,29.70
+69,2025-12-23,Damla Su,DAMACANA SU 19L,112.90,Bread/Water,112.90
+70,2025-12-24,Bahçe Manav,LİMON 1KG,56.80,Fruit and Vegs,315.70
+70,2025-12-24,Bahçe Manav,MUZ 1KG,128.90,Fruit and Vegs,315.70
+70,2025-12-24,Bahçe Manav,PATLICAN 1KG,76.90,Fruit and Vegs,315.70
+70,2025-12-24,Bahçe Manav,PORTAKAL 1KG,53.10,Fruit and Vegs,315.70
+71,2025-12-24,Bereket Fırını,EKMEK,14.50,Bread/Water,29.00
+71,2025-12-24,Bereket Fırını,EKMEK,14.50,Bread/Water,29.00
+72,2025-12-24,Şifa Eczanesi,ECZANE,333.10,Additional expenses,333.10
+73,2025-12-25,Bereket Fırını,EKMEK,15.70,Bread/Water,31.10
+73,2025-12-25,Bereket Fırını,EKMEK,15.40,Bread/Water,31.10
+74,2025-12-25,Kasap Usta,TAVUK GÖĞÜS 1KG,141.20,Meat/Chicken/Fish,269.10
+74,2025-12-25,Kasap Usta,SUCUK 250G,127.90,Meat/Chicken/Fish,269.10
+75,2025-12-25,Papatya Market,EKMEK,14.70,Bread/Water,201.80
+75,2025-12-25,Papatya Market,MAKARNA 500G,19.90,Groceries,201.80
+75,2025-12-25,Papatya Market,SÜT 1L,34.60,Groceries,201.80
+75,2025-12-25,Papatya Market,KAŞAR PEYNİR 250G,104.70,Groceries,201.80
+75,2025-12-25,Papatya Market,BULAŞIK SÜNGERİ,27.90,Groceries,201.80
+76,2025-12-26,Bereket Fırını,EKMEK,15.70,Bread/Water,31.50
+76,2025-12-26,Bereket Fırını,EKMEK,15.80,Bread/Water,31.50
+77,2025-12-26,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,416.10,Entertainment/Restaurant,416.10
+78,2025-12-27,Bereket Fırını,EKMEK,15.40,Bread/Water,85.70
+78,2025-12-27,Bereket Fırını,EKMEK,14.90,Bread/Water,85.70
+78,2025-12-27,Bereket Fırını,EKMEK,15.90,Bread/Water,85.70
+78,2025-12-27,Bereket Fırını,POĞAÇA,39.50,Bread/Water,85.70
+79,2025-12-27,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,1248.70
+79,2025-12-27,Güneş Süpermarket,SU 5L,59.00,Bread/Water,1248.70
+79,2025-12-27,Güneş Süpermarket,MAKARNA 500G,42.30,Groceries,1248.70
+79,2025-12-27,Güneş Süpermarket,YOĞURT 1.5KG,167.90,Groceries,1248.70
+79,2025-12-27,Güneş Süpermarket,SOĞAN 2KG,77.70,Fruit and Vegs,1248.70
+79,2025-12-27,Güneş Süpermarket,SALATALIK 1KG,59.40,Fruit and Vegs,1248.70
+79,2025-12-27,Güneş Süpermarket,TAVUK BUT 1KG,262.30,Meat/Chicken/Fish,1248.70
+79,2025-12-27,Güneş Süpermarket,DOMATES 1KG,71.30,Fruit and Vegs,1248.70
+79,2025-12-27,Güneş Süpermarket,PATATES 2KG,97.50,Fruit and Vegs,1248.70
+79,2025-12-27,Güneş Süpermarket,PİRİNÇ 1KG,137.90,Groceries,1248.70
+79,2025-12-27,Güneş Süpermarket,YUMURTA 15'Lİ,196.80,Groceries,1248.70
+79,2025-12-27,Güneş Süpermarket,SÜT 1L,75.60,Groceries,1248.70
+80,2025-12-28,Bereket Fırını,EKMEK,14.90,Bread/Water,86.70
+80,2025-12-28,Bereket Fırını,EKMEK,15.50,Bread/Water,86.70
+80,2025-12-28,Bereket Fırını,EKMEK,15.00,Bread/Water,86.70
+80,2025-12-28,Bereket Fırını,POĞAÇA,41.30,Bread/Water,86.70
+81,2025-12-29,Bereket Fırını,EKMEK,15.30,Bread/Water,30.90
+81,2025-12-29,Bereket Fırını,EKMEK,15.60,Bread/Water,30.90
+82,2025-12-29,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,202.20,Transport,202.20
+83,2025-12-29,Papatya Market,YUMURTA 10'LU,101.30,Groceries,212.70
+83,2025-12-29,Papatya Market,MEYVE SUYU 1L,66.80,Groceries,212.70
+83,2025-12-29,Papatya Market,BULAŞIK SÜNGERİ,44.60,Groceries,212.70
+84,2025-12-30,Bereket Fırını,EKMEK,15.60,Bread/Water,31.20
+84,2025-12-30,Bereket Fırını,EKMEK,15.60,Bread/Water,31.20
+85,2025-12-30,Damla Su,DAMACANA SU 19L,110.10,Bread/Water,110.10
+86,2025-12-31,Bahçe Manav,LİMON 1KG,55.20,Fruit and Vegs,334.30
+86,2025-12-31,Bahçe Manav,DOMATES 1KG,69.10,Fruit and Vegs,334.30
+86,2025-12-31,Bahçe Manav,PATLICAN 1KG,77.90,Fruit and Vegs,334.30
+86,2025-12-31,Bahçe Manav,MUZ 1KG,132.10,Fruit and Vegs,334.30
+87,2025-12-31,Bereket Fırını,EKMEK,15.00,Bread/Water,30.80
+87,2025-12-31,Bereket Fırını,EKMEK,15.80,Bread/Water,30.80
+88,2026-01-01,Bereket Fırını,EKMEK,14.70,Bread/Water,30.10
+88,2026-01-01,Bereket Fırını,EKMEK,15.40,Bread/Water,30.10
+89,2026-01-01,Kasap Usta,DANA KUŞBAŞI 500G,222.40,Meat/Chicken/Fish,325.10
+89,2026-01-01,Kasap Usta,TAVUK GÖĞÜS 1KG,102.70,Meat/Chicken/Fish,325.10
+90,2026-01-01,Papatya Market,BULAŞIK SÜNGERİ,65.00,Groceries,190.40
+90,2026-01-01,Papatya Market,MEYVE SUYU 1L,95.90,Groceries,190.40
+90,2026-01-01,Papatya Market,EKMEK,29.50,Bread/Water,190.40
+91,2026-01-01,Yol Akaryakıt,BENZİN,761.00,Transport,761.00
+92,2026-01-02,Bereket Fırını,EKMEK,14.60,Bread/Water,29.60
+92,2026-01-02,Bereket Fırını,EKMEK,15.00,Bread/Water,29.60
+93,2026-01-02,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,370.60,Entertainment/Restaurant,370.60
+94,2026-01-03,Bereket Fırını,EKMEK,15.20,Bread/Water,85.30
+94,2026-01-03,Bereket Fırını,EKMEK,15.70,Bread/Water,85.30
+94,2026-01-03,Bereket Fırını,EKMEK,15.50,Bread/Water,85.30
+94,2026-01-03,Bereket Fırını,POĞAÇA,38.90,Bread/Water,85.30
+95,2026-01-03,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,1248.30
+95,2026-01-03,Güneş Süpermarket,PATATES 2KG,71.10,Fruit and Vegs,1248.30
+95,2026-01-03,Güneş Süpermarket,DOMATES 1KG,45.90,Fruit and Vegs,1248.30
+95,2026-01-03,Güneş Süpermarket,SÜT 1L,50.90,Groceries,1248.30
+95,2026-01-03,Güneş Süpermarket,MAKARNA 500G,31.50,Groceries,1248.30
+95,2026-01-03,Güneş Süpermarket,SU 5L,41.50,Bread/Water,1248.30
+95,2026-01-03,Güneş Süpermarket,YOĞURT 1.5KG,120.40,Groceries,1248.30
+95,2026-01-03,Güneş Süpermarket,SOĞAN 2KG,55.20,Fruit and Vegs,1248.30
+95,2026-01-03,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,252.30,Groceries,1248.30
+95,2026-01-03,Güneş Süpermarket,YUMURTA 15'Lİ,132.40,Groceries,1248.30
+95,2026-01-03,Güneş Süpermarket,BEYAZ PEYNİR 500G,224.60,Groceries,1248.30
+95,2026-01-03,Güneş Süpermarket,ZEYTİN 500G,165.00,Groceries,1248.30
+95,2026-01-03,Güneş Süpermarket,ELMA 1KG,56.50,Fruit and Vegs,1248.30
+96,2026-01-03,Lale Sitesi Yönetimi,AİDAT,600.20,Dues,600.20
+97,2026-01-04,Bereket Fırını,EKMEK,16.00,Bread/Water,86.30
+97,2026-01-04,Bereket Fırını,EKMEK,14.60,Bread/Water,86.30
+97,2026-01-04,Bereket Fırını,EKMEK,14.60,Bread/Water,86.30
+97,2026-01-04,Bereket Fırını,POĞAÇA,41.10,Bread/Water,86.30
+98,2026-01-05,Bereket Fırını,EKMEK,15.90,Bread/Water,31.40
+98,2026-01-05,Bereket Fırını,EKMEK,15.50,Bread/Water,31.40
+99,2026-01-05,HızlıNet,İNTERNET FATURASI,461.80,Internet/Phone,461.80
+100,2026-01-05,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,202.80,Transport,202.80
+101,2026-01-05,Papatya Market,KAŞAR PEYNİR 250G,124.30,Groceries,204.20
+101,2026-01-05,Papatya Market,MAKARNA 500G,23.70,Groceries,204.20
+101,2026-01-05,Papatya Market,EKMEK,16.20,Bread/Water,204.20
+101,2026-01-05,Papatya Market,SÜT 1L,40.00,Groceries,204.20
+102,2026-01-06,Bereket Fırını,EKMEK,15.00,Bread/Water,30.80
+102,2026-01-06,Bereket Fırını,EKMEK,15.80,Bread/Water,30.80
+103,2026-01-06,Damla Su,DAMACANA SU 19L,108.00,Bread/Water,108.00
+104,2026-01-07,Bahçe Manav,BİBER 1KG,59.80,Fruit and Vegs,326.70
+104,2026-01-07,Bahçe Manav,PATLICAN 1KG,50.80,Fruit and Vegs,326.70
+104,2026-01-07,Bahçe Manav,DOMATES 1KG,45.20,Fruit and Vegs,326.70
+104,2026-01-07,Bahçe Manav,MANDALİNA 1KG,45.70,Fruit and Vegs,326.70
+104,2026-01-07,Bahçe Manav,MUZ 1KG,88.50,Fruit and Vegs,326.70
+104,2026-01-07,Bahçe Manav,PORTAKAL 1KG,36.70,Fruit and Vegs,326.70
+105,2026-01-07,Bereket Fırını,EKMEK,14.60,Bread/Water,29.60
+105,2026-01-07,Bereket Fırını,EKMEK,15.00,Bread/Water,29.60
+106,2026-01-08,Bereket Fırını,EKMEK,15.70,Bread/Water,31.00
+106,2026-01-08,Bereket Fırını,EKMEK,15.30,Bread/Water,31.00
+107,2026-01-08,Kasap Usta,SUCUK 250G,83.40,Meat/Chicken/Fish,273.70
+107,2026-01-08,Kasap Usta,DANA KUŞBAŞI 500G,190.30,Meat/Chicken/Fish,273.70
+108,2026-01-08,Papatya Market,KAŞAR PEYNİR 250G,83.40,Groceries,207.20
+108,2026-01-08,Papatya Market,YUMURTA 10'LU,49.60,Groceries,207.20
+108,2026-01-08,Papatya Market,BULAŞIK SÜNGERİ,22.20,Groceries,207.20
+108,2026-01-08,Papatya Market,MEYVE SUYU 1L,32.90,Groceries,207.20
+108,2026-01-08,Papatya Market,BİSKÜVİ,19.10,Groceries,207.20
+109,2026-01-09,Bereket Fırını,EKMEK,15.50,Bread/Water,31.50
+109,2026-01-09,Bereket Fırını,EKMEK,16.00,Bread/Water,31.50
+110,2026-01-09,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,394.90,Entertainment/Restaurant,394.90
+111,2026-01-10,Bereket Fırını,EKMEK,15.80,Bread/Water,86.40
+111,2026-01-10,Bereket Fırını,EKMEK,16.00,Bread/Water,86.40
+111,2026-01-10,Bereket Fırını,EKMEK,15.90,Bread/Water,86.40
+111,2026-01-10,Bereket Fırını,POĞAÇA,38.70,Bread/Water,86.40
+112,2026-01-10,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1342.20
+112,2026-01-10,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,186.20,Groceries,1342.20
+112,2026-01-10,Güneş Süpermarket,PİRİNÇ 1KG,70.00,Groceries,1342.20
+112,2026-01-10,Güneş Süpermarket,PATATES 2KG,48.00,Fruit and Vegs,1342.20
+112,2026-01-10,Güneş Süpermarket,SU 5L,29.00,Bread/Water,1342.20
+112,2026-01-10,Güneş Süpermarket,TAVUK BUT 1KG,134.90,Meat/Chicken/Fish,1342.20
+112,2026-01-10,Güneş Süpermarket,MAKARNA 500G,22.80,Groceries,1342.20
+112,2026-01-10,Güneş Süpermarket,ELMA 1KG,40.70,Fruit and Vegs,1342.20
+112,2026-01-10,Güneş Süpermarket,ÇAY 1KG,214.60,Groceries,1342.20
+112,2026-01-10,Güneş Süpermarket,YOĞURT 1.5KG,86.10,Groceries,1342.20
+112,2026-01-10,Güneş Süpermarket,BEYAZ PEYNİR 500G,160.70,Groceries,1342.20
+112,2026-01-10,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,153.60,Groceries,1342.20
+112,2026-01-10,Güneş Süpermarket,SALATALIK 1KG,29.40,Fruit and Vegs,1342.20
+112,2026-01-10,Güneş Süpermarket,ZEYTİN 500G,125.50,Groceries,1342.20
+112,2026-01-10,Güneş Süpermarket,SÜT 1L,39.60,Groceries,1342.20
+113,2026-01-10,Şehir Elektrik,ELEKTRİK FATURASI,404.70,Electrical bill,404.70
+114,2026-01-11,Bereket Fırını,EKMEK,15.60,Bread/Water,83.70
+114,2026-01-11,Bereket Fırını,EKMEK,14.50,Bread/Water,83.70
+114,2026-01-11,Bereket Fırını,EKMEK,14.90,Bread/Water,83.70
+114,2026-01-11,Bereket Fırını,POĞAÇA,38.70,Bread/Water,83.70
+115,2026-01-12,Bereket Fırını,EKMEK,15.30,Bread/Water,30.90
+115,2026-01-12,Bereket Fırını,EKMEK,15.60,Bread/Water,30.90
+116,2026-01-12,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,203.30,Transport,203.30
+117,2026-01-12,Papatya Market,MAKARNA 500G,17.80,Groceries,195.60
+117,2026-01-12,Papatya Market,EKMEK,12.80,Bread/Water,195.60
+117,2026-01-12,Papatya Market,MEYVE SUYU 1L,39.00,Groceries,195.60
+117,2026-01-12,Papatya Market,SÜT 1L,33.90,Groceries,195.60
+117,2026-01-12,Papatya Market,KAŞAR PEYNİR 250G,92.10,Groceries,195.60
+118,2026-01-12,Şehir Su,SU FATURASI,231.60,Water bill,231.60
+119,2026-01-13,Bereket Fırını,EKMEK,15.30,Bread/Water,30.10
+119,2026-01-13,Bereket Fırını,EKMEK,14.80,Bread/Water,30.10
+120,2026-01-13,Damla Su,DAMACANA SU 19L,114.80,Bread/Water,114.80
+121,2026-01-14,Bahçe Manav,PATLICAN 1KG,59.50,Fruit and Vegs,272.50
+121,2026-01-14,Bahçe Manav,MUZ 1KG,101.00,Fruit and Vegs,272.50
+121,2026-01-14,Bahçe Manav,DOMATES 1KG,53.40,Fruit and Vegs,272.50
+121,2026-01-14,Bahçe Manav,ISPANAK 1KG,58.60,Fruit and Vegs,272.50
+122,2026-01-14,Bereket Fırını,EKMEK,14.50,Bread/Water,30.50
+122,2026-01-14,Bereket Fırını,EKMEK,16.00,Bread/Water,30.50
+123,2026-01-15,Bereket Fırını,EKMEK,16.00,Bread/Water,31.70
+123,2026-01-15,Bereket Fırını,EKMEK,15.70,Bread/Water,31.70
+124,2026-01-15,Kasap Usta,DANA KUŞBAŞI 500G,240.40,Meat/Chicken/Fish,337.10
+124,2026-01-15,Kasap Usta,SUCUK 250G,96.70,Meat/Chicken/Fish,337.10
+125,2026-01-15,Kent Doğalgaz,DOĞALGAZ FATURASI,491.10,Gas bill,491.10
+126,2026-01-15,Papatya Market,MAKARNA 500G,27.60,Groceries,216.90
+126,2026-01-15,Papatya Market,KAŞAR PEYNİR 250G,134.60,Groceries,216.90
+126,2026-01-15,Papatya Market,MEYVE SUYU 1L,54.70,Groceries,216.90
+127,2026-01-16,Bereket Fırını,EKMEK,14.70,Bread/Water,29.90
+127,2026-01-16,Bereket Fırını,EKMEK,15.20,Bread/Water,29.90
+128,2026-01-16,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,413.30,Entertainment/Restaurant,413.30
+129,2026-01-16,Yol Akaryakıt,BENZİN,698.50,Transport,698.50
+130,2026-01-17,Bereket Fırını,EKMEK,15.30,Bread/Water,85.70
+130,2026-01-17,Bereket Fırını,EKMEK,15.50,Bread/Water,85.70
+130,2026-01-17,Bereket Fırını,EKMEK,15.60,Bread/Water,85.70
+130,2026-01-17,Bereket Fırını,POĞAÇA,39.30,Bread/Water,85.70
+131,2026-01-17,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,1304.70
+131,2026-01-17,Güneş Süpermarket,ELMA 1KG,89.60,Fruit and Vegs,1304.70
+131,2026-01-17,Güneş Süpermarket,SALATALIK 1KG,65.30,Fruit and Vegs,1304.70
+131,2026-01-17,Güneş Süpermarket,YOĞURT 1.5KG,188.20,Groceries,1304.70
+131,2026-01-17,Güneş Süpermarket,PATATES 2KG,108.50,Fruit and Vegs,1304.70
+131,2026-01-17,Güneş Süpermarket,SÜT 1L,86.60,Groceries,1304.70
+131,2026-01-17,Güneş Süpermarket,SU 5L,68.10,Bread/Water,1304.70
+131,2026-01-17,Güneş Süpermarket,DOMATES 1KG,79.50,Fruit and Vegs,1304.70
+131,2026-01-17,Güneş Süpermarket,YUMURTA 15'Lİ,200.60,Groceries,1304.70
+131,2026-01-17,Güneş Süpermarket,PİRİNÇ 1KG,147.30,Groceries,1304.70
+131,2026-01-17,Güneş Süpermarket,ZEYTİN 500G,270.00,Groceries,1304.70
+132,2026-01-18,Bereket Fırını,EKMEK,14.60,Bread/Water,85.90
+132,2026-01-18,Bereket Fırını,EKMEK,15.10,Bread/Water,85.90
+132,2026-01-18,Bereket Fırını,EKMEK,15.40,Bread/Water,85.90
+132,2026-01-18,Bereket Fırını,POĞAÇA,40.80,Bread/Water,85.90
+133,2026-01-19,Bereket Fırını,EKMEK,15.00,Bread/Water,29.70
+133,2026-01-19,Bereket Fırını,EKMEK,14.70,Bread/Water,29.70
+134,2026-01-19,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,203.90,Transport,203.90
+135,2026-01-19,Papatya Market,MEYVE SUYU 1L,64.20,Groceries,197.40
+135,2026-01-19,Papatya Market,BULAŞIK SÜNGERİ,42.60,Groceries,197.40
+135,2026-01-19,Papatya Market,YUMURTA 10'LU,90.60,Groceries,197.40
+136,2026-01-20,Bereket Fırını,EKMEK,15.30,Bread/Water,31.00
+136,2026-01-20,Bereket Fırını,EKMEK,15.70,Bread/Water,31.00
+137,2026-01-20,Damla Su,DAMACANA SU 19L,115.20,Bread/Water,115.20
+138,2026-01-20,HızlıNet,MOBİL HAT FATURASI,347.60,Internet/Phone,347.60
+139,2026-01-21,Bahçe Manav,PORTAKAL 1KG,37.00,Fruit and Vegs,306.00
+139,2026-01-21,Bahçe Manav,LİMON 1KG,36.40,Fruit and Vegs,306.00
+139,2026-01-21,Bahçe Manav,BİBER 1KG,54.70,Fruit and Vegs,306.00
+139,2026-01-21,Bahçe Manav,DOMATES 1KG,43.40,Fruit and Vegs,306.00
+139,2026-01-21,Bahçe Manav,ISPANAK 1KG,47.50,Fruit and Vegs,306.00
+139,2026-01-21,Bahçe Manav,MUZ 1KG,87.00,Fruit and Vegs,306.00
+140,2026-01-21,Bereket Fırını,EKMEK,15.10,Bread/Water,30.70
+140,2026-01-21,Bereket Fırını,EKMEK,15.60,Bread/Water,30.70
+141,2026-01-22,Bereket Fırını,EKMEK,15.40,Bread/Water,30.40
+141,2026-01-22,Bereket Fırını,EKMEK,15.00,Bread/Water,30.40
+142,2026-01-22,Kasap Usta,SUCUK 250G,152.40,Meat/Chicken/Fish,316.40
+142,2026-01-22,Kasap Usta,TAVUK GÖĞÜS 1KG,164.00,Meat/Chicken/Fish,316.40
+143,2026-01-22,Papatya Market,SÜT 1L,68.00,Groceries,193.00
+143,2026-01-22,Papatya Market,EKMEK,27.00,Bread/Water,193.00
+143,2026-01-22,Papatya Market,BULAŞIK SÜNGERİ,55.70,Groceries,193.00
+143,2026-01-22,Papatya Market,MAKARNA 500G,42.30,Groceries,193.00
+144,2026-01-23,Bereket Fırını,EKMEK,15.50,Bread/Water,30.20
+144,2026-01-23,Bereket Fırını,EKMEK,14.70,Bread/Water,30.20
+145,2026-01-23,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,393.20,Entertainment/Restaurant,393.20
+146,2026-01-23,Zarif Hediyelik,HEDİYE KUTUSU,1999.00,Gifts,1999.00
+147,2026-01-24,Bereket Fırını,EKMEK,14.90,Bread/Water,87.40
+147,2026-01-24,Bereket Fırını,EKMEK,16.10,Bread/Water,87.40
+147,2026-01-24,Bereket Fırını,EKMEK,15.50,Bread/Water,87.40
+147,2026-01-24,Bereket Fırını,POĞAÇA,40.90,Bread/Water,87.40
+148,2026-01-24,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,1307.00
+148,2026-01-24,Güneş Süpermarket,SOĞAN 2KG,31.50,Fruit and Vegs,1307.00
+148,2026-01-24,Güneş Süpermarket,DANA KIYMA 500G,214.60,Meat/Chicken/Fish,1307.00
+148,2026-01-24,Güneş Süpermarket,YOĞURT 1.5KG,68.80,Groceries,1307.00
+148,2026-01-24,Güneş Süpermarket,PİRİNÇ 1KG,53.80,Groceries,1307.00
+148,2026-01-24,Güneş Süpermarket,BEYAZ PEYNİR 500G,122.80,Groceries,1307.00
+148,2026-01-24,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,153.80,Groceries,1307.00
+148,2026-01-24,Güneş Süpermarket,PATATES 2KG,41.00,Fruit and Vegs,1307.00
+148,2026-01-24,Güneş Süpermarket,DOMATES 1KG,26.80,Fruit and Vegs,1307.00
+148,2026-01-24,Güneş Süpermarket,SU 5L,22.50,Bread/Water,1307.00
+148,2026-01-24,Güneş Süpermarket,DETERJAN 4KG,196.10,Groceries,1307.00
+148,2026-01-24,Güneş Süpermarket,ÇAY 1KG,164.20,Groceries,1307.00
+148,2026-01-24,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,113.10,Groceries,1307.00
+148,2026-01-24,Güneş Süpermarket,ZEYTİN 500G,97.00,Groceries,1307.00
+149,2026-01-24,Tatlı Köşe Pastanesi,DOĞUM GÜNÜ PASTASI,929.10,Gifts,929.10
+150,2026-01-24,Şifa Eczanesi,ECZANE,216.90,Additional expenses,216.90
+151,2026-01-25,Bereket Fırını,EKMEK,15.90,Bread/Water,88.20
+151,2026-01-25,Bereket Fırını,EKMEK,15.80,Bread/Water,88.20
+151,2026-01-25,Bereket Fırını,EKMEK,16.10,Bread/Water,88.20
+151,2026-01-25,Bereket Fırını,POĞAÇA,40.40,Bread/Water,88.20
+152,2026-01-26,Bereket Fırını,EKMEK,15.10,Bread/Water,30.70
+152,2026-01-26,Bereket Fırını,EKMEK,15.60,Bread/Water,30.70
+153,2026-01-26,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,204.40,Transport,204.40
+154,2026-01-26,Papatya Market,KAŞAR PEYNİR 250G,159.00,Groceries,223.70
+154,2026-01-26,Papatya Market,BİSKÜVİ,35.00,Groceries,223.70
+154,2026-01-26,Papatya Market,MAKARNA 500G,29.70,Groceries,223.70
+155,2026-01-27,Bereket Fırını,EKMEK,15.40,Bread/Water,31.30
+155,2026-01-27,Bereket Fırını,EKMEK,15.90,Bread/Water,31.30
+156,2026-01-27,Damla Su,DAMACANA SU 19L,116.20,Bread/Water,116.20
+157,2026-01-28,Bahçe Manav,ISPANAK 1KG,54.20,Fruit and Vegs,328.90
+157,2026-01-28,Bahçe Manav,MANDALİNA 1KG,45.00,Fruit and Vegs,328.90
+157,2026-01-28,Bahçe Manav,LİMON 1KG,40.50,Fruit and Vegs,328.90
+157,2026-01-28,Bahçe Manav,MUZ 1KG,91.70,Fruit and Vegs,328.90
+157,2026-01-28,Bahçe Manav,PORTAKAL 1KG,40.50,Fruit and Vegs,328.90
+157,2026-01-28,Bahçe Manav,BİBER 1KG,57.00,Fruit and Vegs,328.90
+158,2026-01-28,Bereket Fırını,EKMEK,15.50,Bread/Water,30.90
+158,2026-01-28,Bereket Fırını,EKMEK,15.40,Bread/Water,30.90
+159,2026-01-29,Bereket Fırını,EKMEK,16.00,Bread/Water,30.90
+159,2026-01-29,Bereket Fırını,EKMEK,14.90,Bread/Water,30.90
+160,2026-01-29,Kasap Usta,DANA KUŞBAŞI 500G,216.70,Meat/Chicken/Fish,314.20
+160,2026-01-29,Kasap Usta,TAVUK GÖĞÜS 1KG,97.50,Meat/Chicken/Fish,314.20
+161,2026-01-29,Papatya Market,MEYVE SUYU 1L,58.50,Groceries,204.20
+161,2026-01-29,Papatya Market,EKMEK,19.70,Bread/Water,204.20
+161,2026-01-29,Papatya Market,BULAŞIK SÜNGERİ,38.90,Groceries,204.20
+161,2026-01-29,Papatya Market,YUMURTA 10'LU,87.10,Groceries,204.20
+162,2026-01-30,Bereket Fırını,EKMEK,15.70,Bread/Water,31.60
+162,2026-01-30,Bereket Fırını,EKMEK,15.90,Bread/Water,31.60
+163,2026-01-30,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,369.90,Entertainment/Restaurant,369.90
+164,2026-01-31,Bereket Fırını,EKMEK,16.10,Bread/Water,88.40
+164,2026-01-31,Bereket Fırını,EKMEK,14.80,Bread/Water,88.40
+164,2026-01-31,Bereket Fırını,EKMEK,15.40,Bread/Water,88.40
+164,2026-01-31,Bereket Fırını,POĞAÇA,42.10,Bread/Water,88.40
+165,2026-01-31,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1484.50
+165,2026-01-31,Güneş Süpermarket,TAVUK BUT 1KG,139.30,Meat/Chicken/Fish,1484.50
+165,2026-01-31,Güneş Süpermarket,SALATALIK 1KG,32.70,Fruit and Vegs,1484.50
+165,2026-01-31,Güneş Süpermarket,ÇAY 1KG,237.80,Groceries,1484.50
+165,2026-01-31,Güneş Süpermarket,PATATES 2KG,56.00,Fruit and Vegs,1484.50
+165,2026-01-31,Güneş Süpermarket,SU 5L,31.30,Bread/Water,1484.50
+165,2026-01-31,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,205.40,Groceries,1484.50
+165,2026-01-31,Güneş Süpermarket,MAKARNA 500G,23.80,Groceries,1484.50
+165,2026-01-31,Güneş Süpermarket,DANA KIYMA 500G,280.00,Meat/Chicken/Fish,1484.50
+165,2026-01-31,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,164.30,Groceries,1484.50
+165,2026-01-31,Güneş Süpermarket,YUMURTA 15'Lİ,98.60,Groceries,1484.50
+165,2026-01-31,Güneş Süpermarket,BEYAZ PEYNİR 500G,169.80,Groceries,1484.50
+165,2026-01-31,Güneş Süpermarket,SOĞAN 2KG,44.40,Fruit and Vegs,1484.50
+166,2026-02-01,Bereket Fırını,EKMEK,15.10,Bread/Water,85.30
+166,2026-02-01,Bereket Fırını,EKMEK,15.30,Bread/Water,85.30
+166,2026-02-01,Bereket Fırını,EKMEK,15.70,Bread/Water,85.30
+166,2026-02-01,Bereket Fırını,POĞAÇA,39.20,Bread/Water,85.30
+167,2026-02-01,Yol Akaryakıt,BENZİN,753.00,Transport,753.00
+168,2026-02-02,Bereket Fırını,EKMEK,14.90,Bread/Water,29.60
+168,2026-02-02,Bereket Fırını,EKMEK,14.70,Bread/Water,29.60
+169,2026-02-02,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,205.00,Transport,205.00
+170,2026-02-02,Papatya Market,YUMURTA 10'LU,71.20,Groceries,214.00
+170,2026-02-02,Papatya Market,KAŞAR PEYNİR 250G,125.60,Groceries,214.00
+170,2026-02-02,Papatya Market,EKMEK,17.20,Bread/Water,214.00
+171,2026-02-03,Bereket Fırını,EKMEK,14.80,Bread/Water,30.60
+171,2026-02-03,Bereket Fırını,EKMEK,15.80,Bread/Water,30.60
+172,2026-02-03,Damla Su,DAMACANA SU 19L,115.80,Bread/Water,115.80
+173,2026-02-03,Lale Sitesi Yönetimi,AİDAT,644.80,Dues,644.80
+174,2026-02-04,Bahçe Manav,LİMON 1KG,40.10,Fruit and Vegs,341.30
+174,2026-02-04,Bahçe Manav,PORTAKAL 1KG,39.30,Fruit and Vegs,341.30
+174,2026-02-04,Bahçe Manav,PATLICAN 1KG,51.70,Fruit and Vegs,341.30
+174,2026-02-04,Bahçe Manav,ISPANAK 1KG,53.50,Fruit and Vegs,341.30
+174,2026-02-04,Bahçe Manav,MUZ 1KG,95.90,Fruit and Vegs,341.30
+174,2026-02-04,Bahçe Manav,BİBER 1KG,60.80,Fruit and Vegs,341.30
+175,2026-02-04,Bereket Fırını,EKMEK,14.70,Bread/Water,29.50
+175,2026-02-04,Bereket Fırını,EKMEK,14.80,Bread/Water,29.50
+176,2026-02-05,Bereket Fırını,EKMEK,15.00,Bread/Water,30.20
+176,2026-02-05,Bereket Fırını,EKMEK,15.20,Bread/Water,30.20
+177,2026-02-05,HızlıNet,İNTERNET FATURASI,433.90,Internet/Phone,433.90
+178,2026-02-05,Kasap Usta,DANA KUŞBAŞI 500G,214.90,Meat/Chicken/Fish,306.70
+178,2026-02-05,Kasap Usta,SUCUK 250G,91.80,Meat/Chicken/Fish,306.70
+179,2026-02-05,Papatya Market,EKMEK,45.90,Bread/Water,213.30
+179,2026-02-05,Papatya Market,BULAŞIK SÜNGERİ,94.80,Groceries,213.30
+179,2026-02-05,Papatya Market,BİSKÜVİ,72.60,Groceries,213.30
+180,2026-02-06,Bereket Fırını,EKMEK,16.10,Bread/Water,30.80
+180,2026-02-06,Bereket Fırını,EKMEK,14.70,Bread/Water,30.80
+181,2026-02-06,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,426.50,Entertainment/Restaurant,426.50
+182,2026-02-07,Bereket Fırını,EKMEK,15.80,Bread/Water,88.90
+182,2026-02-07,Bereket Fırını,EKMEK,15.30,Bread/Water,88.90
+182,2026-02-07,Bereket Fırını,EKMEK,15.30,Bread/Water,88.90
+182,2026-02-07,Bereket Fırını,POĞAÇA,42.50,Bread/Water,88.90
+183,2026-02-07,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,1391.70
+183,2026-02-07,Güneş Süpermarket,ZEYTİN 500G,144.90,Groceries,1391.70
+183,2026-02-07,Güneş Süpermarket,YUMURTA 15'Lİ,113.90,Groceries,1391.70
+183,2026-02-07,Güneş Süpermarket,DOMATES 1KG,40.40,Fruit and Vegs,1391.70
+183,2026-02-07,Güneş Süpermarket,DETERJAN 4KG,277.50,Groceries,1391.70
+183,2026-02-07,Güneş Süpermarket,ELMA 1KG,46.80,Fruit and Vegs,1391.70
+183,2026-02-07,Güneş Süpermarket,SALATALIK 1KG,34.40,Fruit and Vegs,1391.70
+183,2026-02-07,Güneş Süpermarket,SU 5L,34.80,Bread/Water,1391.70
+183,2026-02-07,Güneş Süpermarket,ÇAY 1KG,246.40,Groceries,1391.70
+183,2026-02-07,Güneş Süpermarket,DANA KIYMA 500G,299.10,Meat/Chicken/Fish,1391.70
+183,2026-02-07,Güneş Süpermarket,TAVUK BUT 1KG,152.50,Meat/Chicken/Fish,1391.70
+184,2026-02-08,Bereket Fırını,EKMEK,15.80,Bread/Water,89.10
+184,2026-02-08,Bereket Fırını,EKMEK,16.00,Bread/Water,89.10
+184,2026-02-08,Bereket Fırını,EKMEK,15.50,Bread/Water,89.10
+184,2026-02-08,Bereket Fırını,POĞAÇA,41.80,Bread/Water,89.10
+185,2026-02-09,Bereket Fırını,EKMEK,15.50,Bread/Water,31.20
+185,2026-02-09,Bereket Fırını,EKMEK,15.70,Bread/Water,31.20
+186,2026-02-09,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,205.60,Transport,205.60
+187,2026-02-09,Papatya Market,EKMEK,16.40,Bread/Water,206.50
+187,2026-02-09,Papatya Market,BİSKÜVİ,27.60,Groceries,206.50
+187,2026-02-09,Papatya Market,MEYVE SUYU 1L,49.60,Groceries,206.50
+187,2026-02-09,Papatya Market,SÜT 1L,41.00,Groceries,206.50
+187,2026-02-09,Papatya Market,YUMURTA 10'LU,71.90,Groceries,206.50
+188,2026-02-10,Bereket Fırını,EKMEK,14.70,Bread/Water,30.10
+188,2026-02-10,Bereket Fırını,EKMEK,15.40,Bread/Water,30.10
+189,2026-02-10,Damla Su,DAMACANA SU 19L,116.80,Bread/Water,116.80
+190,2026-02-10,Zarif Hediyelik,GÜMÜŞ KOLYE,3586.10,Gifts,3586.10
+191,2026-02-10,Şehir Elektrik,ELEKTRİK FATURASI,399.30,Electrical bill,399.30
+192,2026-02-11,Bahçe Manav,DOMATES 1KG,63.90,Fruit and Vegs,330.10
+192,2026-02-11,Bahçe Manav,ISPANAK 1KG,71.90,Fruit and Vegs,330.10
+192,2026-02-11,Bahçe Manav,PORTAKAL 1KG,58.20,Fruit and Vegs,330.10
+192,2026-02-11,Bahçe Manav,BİBER 1KG,80.00,Fruit and Vegs,330.10
+192,2026-02-11,Bahçe Manav,LİMON 1KG,56.10,Fruit and Vegs,330.10
+193,2026-02-11,Bereket Fırını,EKMEK,15.20,Bread/Water,30.00
+193,2026-02-11,Bereket Fırını,EKMEK,14.80,Bread/Water,30.00
+194,2026-02-11,Tatlı Köşe Pastanesi,DOĞUM GÜNÜ PASTASI,1025.40,Gifts,1025.40
+195,2026-02-12,Bereket Fırını,EKMEK,14.70,Bread/Water,30.60
+195,2026-02-12,Bereket Fırını,EKMEK,15.90,Bread/Water,30.60
+196,2026-02-12,Kasap Usta,TAVUK GÖĞÜS 1KG,174.50,Meat/Chicken/Fish,327.40
+196,2026-02-12,Kasap Usta,SUCUK 250G,152.90,Meat/Chicken/Fish,327.40
+197,2026-02-12,Papatya Market,KAŞAR PEYNİR 250G,118.40,Groceries,218.30
+197,2026-02-12,Papatya Market,MAKARNA 500G,22.60,Groceries,218.30
+197,2026-02-12,Papatya Market,BULAŞIK SÜNGERİ,32.70,Groceries,218.30
+197,2026-02-12,Papatya Market,BİSKÜVİ,28.10,Groceries,218.30
+197,2026-02-12,Papatya Market,EKMEK,16.50,Bread/Water,218.30
+198,2026-02-12,Şehir Su,SU FATURASI,212.00,Water bill,212.00
+199,2026-02-13,Bereket Fırını,EKMEK,15.50,Bread/Water,31.00
+199,2026-02-13,Bereket Fırını,EKMEK,15.50,Bread/Water,31.00
+200,2026-02-13,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,408.90,Entertainment/Restaurant,408.90
+201,2026-02-14,Bereket Fırını,EKMEK,15.10,Bread/Water,86.90
+201,2026-02-14,Bereket Fırını,EKMEK,15.20,Bread/Water,86.90
+201,2026-02-14,Bereket Fırını,EKMEK,16.10,Bread/Water,86.90
+201,2026-02-14,Bereket Fırını,POĞAÇA,40.50,Bread/Water,86.90
+202,2026-02-14,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,1382.00
+202,2026-02-14,Güneş Süpermarket,TAVUK BUT 1KG,119.80,Meat/Chicken/Fish,1382.00
+202,2026-02-14,Güneş Süpermarket,SÜT 1L,35.90,Groceries,1382.00
+202,2026-02-14,Güneş Süpermarket,ÇAY 1KG,207.60,Groceries,1382.00
+202,2026-02-14,Güneş Süpermarket,DETERJAN 4KG,235.20,Groceries,1382.00
+202,2026-02-14,Güneş Süpermarket,SOĞAN 2KG,38.20,Fruit and Vegs,1382.00
+202,2026-02-14,Güneş Süpermarket,DOMATES 1KG,34.60,Fruit and Vegs,1382.00
+202,2026-02-14,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,173.50,Groceries,1382.00
+202,2026-02-14,Güneş Süpermarket,DANA KIYMA 500G,237.80,Meat/Chicken/Fish,1382.00
+202,2026-02-14,Güneş Süpermarket,ZEYTİN 500G,109.80,Groceries,1382.00
+202,2026-02-14,Güneş Süpermarket,ELMA 1KG,38.70,Fruit and Vegs,1382.00
+202,2026-02-14,Güneş Süpermarket,BEYAZ PEYNİR 500G,149.90,Groceries,1382.00
+203,2026-02-15,Bereket Fırını,EKMEK,15.90,Bread/Water,87.20
+203,2026-02-15,Bereket Fırını,EKMEK,14.80,Bread/Water,87.20
+203,2026-02-15,Bereket Fırını,EKMEK,16.00,Bread/Water,87.20
+203,2026-02-15,Bereket Fırını,POĞAÇA,40.50,Bread/Water,87.20
+204,2026-02-15,Kent Doğalgaz,DOĞALGAZ FATURASI,470.60,Gas bill,470.60
+205,2026-02-16,Bereket Fırını,EKMEK,16.10,Bread/Water,31.40
+205,2026-02-16,Bereket Fırını,EKMEK,15.30,Bread/Water,31.40
+206,2026-02-16,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,206.10,Transport,206.10
+207,2026-02-16,Papatya Market,SÜT 1L,33.50,Groceries,204.90
+207,2026-02-16,Papatya Market,BULAŞIK SÜNGERİ,25.50,Groceries,204.90
+207,2026-02-16,Papatya Market,MEYVE SUYU 1L,36.60,Groceries,204.90
+207,2026-02-16,Papatya Market,KAŞAR PEYNİR 250G,97.10,Groceries,204.90
+207,2026-02-16,Papatya Market,EKMEK,12.20,Bread/Water,204.90
+208,2026-02-16,Yol Akaryakıt,BENZİN,676.70,Transport,676.70
+209,2026-02-17,Bereket Fırını,EKMEK,15.00,Bread/Water,30.60
+209,2026-02-17,Bereket Fırını,EKMEK,15.60,Bread/Water,30.60
+210,2026-02-17,Damla Su,DAMACANA SU 19L,118.90,Bread/Water,118.90
+211,2026-02-18,Bahçe Manav,ISPANAK 1KG,47.10,Fruit and Vegs,311.20
+211,2026-02-18,Bahçe Manav,LİMON 1KG,36.90,Fruit and Vegs,311.20
+211,2026-02-18,Bahçe Manav,MUZ 1KG,84.50,Fruit and Vegs,311.20
+211,2026-02-18,Bahçe Manav,MANDALİNA 1KG,42.20,Fruit and Vegs,311.20
+211,2026-02-18,Bahçe Manav,BİBER 1KG,51.80,Fruit and Vegs,311.20
+211,2026-02-18,Bahçe Manav,PATLICAN 1KG,48.70,Fruit and Vegs,311.20
+212,2026-02-18,Bereket Fırını,EKMEK,16.10,Bread/Water,30.90
+212,2026-02-18,Bereket Fırını,EKMEK,14.80,Bread/Water,30.90
+213,2026-02-19,Bereket Fırını,EKMEK,15.10,Bread/Water,29.90
+213,2026-02-19,Bereket Fırını,EKMEK,14.80,Bread/Water,29.90
+214,2026-02-19,Kasap Usta,TAVUK GÖĞÜS 1KG,146.10,Meat/Chicken/Fish,286.70
+214,2026-02-19,Kasap Usta,SUCUK 250G,140.60,Meat/Chicken/Fish,286.70
+215,2026-02-19,Papatya Market,BULAŞIK SÜNGERİ,30.20,Groceries,206.70
+215,2026-02-19,Papatya Market,YUMURTA 10'LU,65.10,Groceries,206.70
+215,2026-02-19,Papatya Market,KAŞAR PEYNİR 250G,111.40,Groceries,206.70
+216,2026-02-20,Bereket Fırını,EKMEK,16.10,Bread/Water,32.10
+216,2026-02-20,Bereket Fırını,EKMEK,16.00,Bread/Water,32.10
+217,2026-02-20,HızlıNet,MOBİL HAT FATURASI,375.40,Internet/Phone,375.40
+218,2026-02-20,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,398.60,Entertainment/Restaurant,398.60
+219,2026-02-21,Bereket Fırını,EKMEK,15.30,Bread/Water,89.50
+219,2026-02-21,Bereket Fırını,EKMEK,16.10,Bread/Water,89.50
+219,2026-02-21,Bereket Fırını,EKMEK,15.50,Bread/Water,89.50
+219,2026-02-21,Bereket Fırını,POĞAÇA,42.60,Bread/Water,89.50
+220,2026-02-21,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1333.60
+220,2026-02-21,Güneş Süpermarket,SÜT 1L,44.80,Groceries,1333.60
+220,2026-02-21,Güneş Süpermarket,BEYAZ PEYNİR 500G,187.80,Groceries,1333.60
+220,2026-02-21,Güneş Süpermarket,PATATES 2KG,61.20,Fruit and Vegs,1333.60
+220,2026-02-21,Güneş Süpermarket,SALATALIK 1KG,34.20,Fruit and Vegs,1333.60
+220,2026-02-21,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,168.10,Groceries,1333.60
+220,2026-02-21,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,222.20,Groceries,1333.60
+220,2026-02-21,Güneş Süpermarket,TAVUK BUT 1KG,150.80,Meat/Chicken/Fish,1333.60
+220,2026-02-21,Güneş Süpermarket,ZEYTİN 500G,144.30,Groceries,1333.60
+220,2026-02-21,Güneş Süpermarket,ÇAY 1KG,244.40,Groceries,1333.60
+220,2026-02-21,Güneş Süpermarket,SU 5L,33.60,Bread/Water,1333.60
+220,2026-02-21,Güneş Süpermarket,DOMATES 1KG,41.10,Fruit and Vegs,1333.60
+221,2026-02-22,Bereket Fırını,EKMEK,15.80,Bread/Water,87.40
+221,2026-02-22,Bereket Fırını,EKMEK,15.10,Bread/Water,87.40
+221,2026-02-22,Bereket Fırını,EKMEK,15.90,Bread/Water,87.40
+221,2026-02-22,Bereket Fırını,POĞAÇA,40.60,Bread/Water,87.40
+222,2026-02-23,Bereket Fırını,EKMEK,15.80,Bread/Water,31.80
+222,2026-02-23,Bereket Fırını,EKMEK,16.00,Bread/Water,31.80
+223,2026-02-23,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,206.70,Transport,206.70
+224,2026-02-23,Papatya Market,BULAŞIK SÜNGERİ,63.50,Groceries,223.50
+224,2026-02-23,Papatya Market,MEYVE SUYU 1L,86.40,Groceries,223.50
+224,2026-02-23,Papatya Market,EKMEK,30.00,Bread/Water,223.50
+224,2026-02-23,Papatya Market,MAKARNA 500G,43.60,Groceries,223.50
+225,2026-02-24,Bereket Fırını,EKMEK,15.30,Bread/Water,31.10
+225,2026-02-24,Bereket Fırını,EKMEK,15.80,Bread/Water,31.10
+226,2026-02-24,Damla Su,DAMACANA SU 19L,115.90,Bread/Water,115.90
+227,2026-02-24,Şifa Eczanesi,ECZANE,303.00,Additional expenses,303.00
+228,2026-02-25,Bahçe Manav,MUZ 1KG,123.60,Fruit and Vegs,320.20
+228,2026-02-25,Bahçe Manav,PATLICAN 1KG,76.90,Fruit and Vegs,320.20
+228,2026-02-25,Bahçe Manav,MANDALİNA 1KG,66.10,Fruit and Vegs,320.20
+228,2026-02-25,Bahçe Manav,PORTAKAL 1KG,53.60,Fruit and Vegs,320.20
+229,2026-02-25,Bereket Fırını,EKMEK,15.40,Bread/Water,31.40
+229,2026-02-25,Bereket Fırını,EKMEK,16.00,Bread/Water,31.40
+230,2026-02-26,Bereket Fırını,EKMEK,15.70,Bread/Water,30.50
+230,2026-02-26,Bereket Fırını,EKMEK,14.80,Bread/Water,30.50
+231,2026-02-26,Kasap Usta,DANA KUŞBAŞI 500G,239.50,Meat/Chicken/Fish,342.10
+231,2026-02-26,Kasap Usta,SUCUK 250G,102.60,Meat/Chicken/Fish,342.10
+232,2026-02-26,Papatya Market,EKMEK,14.20,Bread/Water,218.30
+232,2026-02-26,Papatya Market,SÜT 1L,34.50,Groceries,218.30
+232,2026-02-26,Papatya Market,MEYVE SUYU 1L,44.30,Groceries,218.30
+232,2026-02-26,Papatya Market,BİSKÜVİ,23.90,Groceries,218.30
+232,2026-02-26,Papatya Market,KAŞAR PEYNİR 250G,101.40,Groceries,218.30
+233,2026-02-27,Bereket Fırını,EKMEK,15.40,Bread/Water,31.40
+233,2026-02-27,Bereket Fırını,EKMEK,16.00,Bread/Water,31.40
+234,2026-02-27,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,415.50,Entertainment/Restaurant,415.50
+235,2026-02-28,Bereket Fırını,EKMEK,15.20,Bread/Water,90.00
+235,2026-02-28,Bereket Fırını,EKMEK,16.30,Bread/Water,90.00
+235,2026-02-28,Bereket Fırını,EKMEK,16.20,Bread/Water,90.00
+235,2026-02-28,Bereket Fırını,POĞAÇA,42.30,Bread/Water,90.00
+236,2026-02-28,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,1413.10
+236,2026-02-28,Güneş Süpermarket,MAKARNA 500G,22.00,Groceries,1413.10
+236,2026-02-28,Güneş Süpermarket,DANA KIYMA 500G,262.40,Meat/Chicken/Fish,1413.10
+236,2026-02-28,Güneş Süpermarket,ÇAY 1KG,217.10,Groceries,1413.10
+236,2026-02-28,Güneş Süpermarket,PİRİNÇ 1KG,71.00,Groceries,1413.10
+236,2026-02-28,Güneş Süpermarket,SOĞAN 2KG,41.80,Fruit and Vegs,1413.10
+236,2026-02-28,Güneş Süpermarket,ELMA 1KG,40.70,Fruit and Vegs,1413.10
+236,2026-02-28,Güneş Süpermarket,SÜT 1L,36.80,Groceries,1413.10
+236,2026-02-28,Güneş Süpermarket,SALATALIK 1KG,31.10,Fruit and Vegs,1413.10
+236,2026-02-28,Güneş Süpermarket,PATATES 2KG,48.00,Fruit and Vegs,1413.10
+236,2026-02-28,Güneş Süpermarket,DETERJAN 4KG,253.00,Groceries,1413.10
+236,2026-02-28,Güneş Süpermarket,DOMATES 1KG,36.10,Fruit and Vegs,1413.10
+236,2026-02-28,Güneş Süpermarket,SU 5L,30.90,Bread/Water,1413.10
+236,2026-02-28,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,197.00,Groceries,1413.10
+236,2026-02-28,Güneş Süpermarket,ZEYTİN 500G,124.20,Groceries,1413.10
+237,2026-03-01,Bereket Fırını,EKMEK,16.30,Bread/Water,89.10
+237,2026-03-01,Bereket Fırını,EKMEK,15.90,Bread/Water,89.10
+237,2026-03-01,Bereket Fırını,EKMEK,16.00,Bread/Water,89.10
+237,2026-03-01,Bereket Fırını,POĞAÇA,40.90,Bread/Water,89.10
+238,2026-03-01,Yol Akaryakıt,BENZİN,668.90,Transport,668.90
+239,2026-03-02,Bereket Fırını,EKMEK,15.20,Bread/Water,31.30
+239,2026-03-02,Bereket Fırını,EKMEK,16.10,Bread/Water,31.30
+240,2026-03-02,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,207.30,Transport,207.30
+241,2026-03-02,Papatya Market,YUMURTA 10'LU,86.70,Groceries,195.50
+241,2026-03-02,Papatya Market,BULAŞIK SÜNGERİ,38.00,Groceries,195.50
+241,2026-03-02,Papatya Market,EKMEK,20.20,Bread/Water,195.50
+241,2026-03-02,Papatya Market,SÜT 1L,50.60,Groceries,195.50
+242,2026-03-03,Bereket Fırını,EKMEK,15.90,Bread/Water,31.80
+242,2026-03-03,Bereket Fırını,EKMEK,15.90,Bread/Water,31.80
+243,2026-03-03,Damla Su,DAMACANA SU 19L,117.90,Bread/Water,117.90
+244,2026-03-03,Lale Sitesi Yönetimi,AİDAT,588.70,Dues,588.70
+245,2026-03-04,Bahçe Manav,LİMON 1KG,42.20,Fruit and Vegs,314.60
+245,2026-03-04,Bahçe Manav,BİBER 1KG,59.90,Fruit and Vegs,314.60
+245,2026-03-04,Bahçe Manav,ISPANAK 1KG,57.10,Fruit and Vegs,314.60
+245,2026-03-04,Bahçe Manav,MANDALİNA 1KG,49.70,Fruit and Vegs,314.60
+245,2026-03-04,Bahçe Manav,DOMATES 1KG,49.40,Fruit and Vegs,314.60
+245,2026-03-04,Bahçe Manav,PATLICAN 1KG,56.30,Fruit and Vegs,314.60
+246,2026-03-04,Bereket Fırını,EKMEK,15.50,Bread/Water,31.50
+246,2026-03-04,Bereket Fırını,EKMEK,16.00,Bread/Water,31.50
+247,2026-03-05,Bereket Fırını,EKMEK,15.40,Bread/Water,30.40
+247,2026-03-05,Bereket Fırını,EKMEK,15.00,Bread/Water,30.40
+248,2026-03-05,HızlıNet,İNTERNET FATURASI,438.60,Internet/Phone,438.60
+249,2026-03-05,Kasap Usta,SUCUK 250G,91.50,Meat/Chicken/Fish,318.00
+249,2026-03-05,Kasap Usta,DANA KUŞBAŞI 500G,226.50,Meat/Chicken/Fish,318.00
+250,2026-03-05,Papatya Market,EKMEK,46.50,Bread/Water,201.80
+250,2026-03-05,Papatya Market,BULAŞIK SÜNGERİ,90.80,Groceries,201.80
+250,2026-03-05,Papatya Market,MAKARNA 500G,64.50,Groceries,201.80
+251,2026-03-06,Bereket Fırını,EKMEK,15.50,Bread/Water,31.00
+251,2026-03-06,Bereket Fırını,EKMEK,15.50,Bread/Water,31.00
+252,2026-03-06,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,402.40,Entertainment/Restaurant,402.40
+253,2026-03-07,Bereket Fırını,EKMEK,15.30,Bread/Water,87.30
+253,2026-03-07,Bereket Fırını,EKMEK,15.00,Bread/Water,87.30
+253,2026-03-07,Bereket Fırını,EKMEK,15.00,Bread/Water,87.30
+253,2026-03-07,Bereket Fırını,POĞAÇA,42.00,Bread/Water,87.30
+254,2026-03-07,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,1546.30
+254,2026-03-07,Güneş Süpermarket,DANA KIYMA 500G,284.60,Meat/Chicken/Fish,1546.30
+254,2026-03-07,Güneş Süpermarket,YOĞURT 1.5KG,98.30,Groceries,1546.30
+254,2026-03-07,Güneş Süpermarket,MAKARNA 500G,23.60,Groceries,1546.30
+254,2026-03-07,Güneş Süpermarket,ÇAY 1KG,242.80,Groceries,1546.30
+254,2026-03-07,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,171.30,Groceries,1546.30
+254,2026-03-07,Güneş Süpermarket,PATATES 2KG,57.20,Fruit and Vegs,1546.30
+254,2026-03-07,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,210.30,Groceries,1546.30
+254,2026-03-07,Güneş Süpermarket,DETERJAN 4KG,279.00,Groceries,1546.30
+254,2026-03-07,Güneş Süpermarket,DOMATES 1KG,38.10,Fruit and Vegs,1546.30
+254,2026-03-07,Güneş Süpermarket,ZEYTİN 500G,140.10,Groceries,1546.30
+255,2026-03-08,Bereket Fırını,EKMEK,15.10,Bread/Water,86.30
+255,2026-03-08,Bereket Fırını,EKMEK,15.60,Bread/Water,86.30
+255,2026-03-08,Bereket Fırını,EKMEK,15.70,Bread/Water,86.30
+255,2026-03-08,Bereket Fırını,POĞAÇA,39.90,Bread/Water,86.30
+256,2026-03-09,Bereket Fırını,EKMEK,15.90,Bread/Water,31.00
+256,2026-03-09,Bereket Fırını,EKMEK,15.10,Bread/Water,31.00
+257,2026-03-09,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,207.80,Transport,207.80
+258,2026-03-09,Papatya Market,EKMEK,17.00,Bread/Water,204.30
+258,2026-03-09,Papatya Market,BİSKÜVİ,27.20,Groceries,204.30
+258,2026-03-09,Papatya Market,BULAŞIK SÜNGERİ,34.70,Groceries,204.30
+258,2026-03-09,Papatya Market,KAŞAR PEYNİR 250G,125.40,Groceries,204.30
+259,2026-03-10,Bereket Fırını,EKMEK,16.30,Bread/Water,31.30
+259,2026-03-10,Bereket Fırını,EKMEK,15.00,Bread/Water,31.30
+260,2026-03-10,Damla Su,DAMACANA SU 19L,113.90,Bread/Water,113.90
+261,2026-03-10,Şehir Elektrik,ELEKTRİK FATURASI,461.30,Electrical bill,461.30
+262,2026-03-11,Bahçe Manav,LİMON 1KG,34.30,Fruit and Vegs,287.60
+262,2026-03-11,Bahçe Manav,MUZ 1KG,81.00,Fruit and Vegs,287.60
+262,2026-03-11,Bahçe Manav,MANDALİNA 1KG,40.60,Fruit and Vegs,287.60
+262,2026-03-11,Bahçe Manav,DOMATES 1KG,39.70,Fruit and Vegs,287.60
+262,2026-03-11,Bahçe Manav,PATLICAN 1KG,46.80,Fruit and Vegs,287.60
+262,2026-03-11,Bahçe Manav,ISPANAK 1KG,45.20,Fruit and Vegs,287.60
+263,2026-03-11,Bereket Fırını,EKMEK,16.40,Bread/Water,32.70
+263,2026-03-11,Bereket Fırını,EKMEK,16.30,Bread/Water,32.70
+264,2026-03-12,Bereket Fırını,EKMEK,15.80,Bread/Water,31.00
+264,2026-03-12,Bereket Fırını,EKMEK,15.20,Bread/Water,31.00
+265,2026-03-12,Kasap Usta,DANA KUŞBAŞI 500G,229.60,Meat/Chicken/Fish,325.10
+265,2026-03-12,Kasap Usta,TAVUK GÖĞÜS 1KG,95.50,Meat/Chicken/Fish,325.10
+266,2026-03-12,Papatya Market,MAKARNA 500G,23.40,Groceries,200.10
+266,2026-03-12,Papatya Market,KAŞAR PEYNİR 250G,112.70,Groceries,200.10
+266,2026-03-12,Papatya Market,MEYVE SUYU 1L,47.20,Groceries,200.10
+266,2026-03-12,Papatya Market,EKMEK,16.80,Bread/Water,200.10
+267,2026-03-12,Şehir Su,SU FATURASI,214.70,Water bill,214.70
+268,2026-03-13,Bereket Fırını,EKMEK,16.20,Bread/Water,32.50
+268,2026-03-13,Bereket Fırını,EKMEK,16.30,Bread/Water,32.50
+269,2026-03-13,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,443.00,Entertainment/Restaurant,443.00
+270,2026-03-14,Bereket Fırını,EKMEK,16.40,Bread/Water,89.40
+270,2026-03-14,Bereket Fırını,EKMEK,15.80,Bread/Water,89.40
+270,2026-03-14,Bereket Fırını,EKMEK,15.90,Bread/Water,89.40
+270,2026-03-14,Bereket Fırını,POĞAÇA,41.30,Bread/Water,89.40
+271,2026-03-14,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,1504.90
+271,2026-03-14,Güneş Süpermarket,SÜT 1L,40.60,Groceries,1504.90
+271,2026-03-14,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,154.90,Groceries,1504.90
+271,2026-03-14,Güneş Süpermarket,PATATES 2KG,52.40,Fruit and Vegs,1504.90
+271,2026-03-14,Güneş Süpermarket,SU 5L,33.20,Bread/Water,1504.90
+271,2026-03-14,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,211.90,Groceries,1504.90
+271,2026-03-14,Güneş Süpermarket,ZEYTİN 500G,128.90,Groceries,1504.90
+271,2026-03-14,Güneş Süpermarket,BEYAZ PEYNİR 500G,179.70,Groceries,1504.90
+271,2026-03-14,Güneş Süpermarket,DOMATES 1KG,39.00,Fruit and Vegs,1504.90
+271,2026-03-14,Güneş Süpermarket,SOĞAN 2KG,41.40,Fruit and Vegs,1504.90
+271,2026-03-14,Güneş Süpermarket,DETERJAN 4KG,249.40,Groceries,1504.90
+271,2026-03-14,Güneş Süpermarket,PİRİNÇ 1KG,78.30,Groceries,1504.90
+271,2026-03-14,Güneş Süpermarket,ÇAY 1KG,219.40,Groceries,1504.90
+271,2026-03-14,Güneş Süpermarket,ELMA 1KG,41.20,Fruit and Vegs,1504.90
+271,2026-03-14,Güneş Süpermarket,SALATALIK 1KG,33.60,Fruit and Vegs,1504.90
+272,2026-03-15,Bereket Fırını,EKMEK,16.10,Bread/Water,88.60
+272,2026-03-15,Bereket Fırını,EKMEK,15.30,Bread/Water,88.60
+272,2026-03-15,Bereket Fırını,EKMEK,15.00,Bread/Water,88.60
+272,2026-03-15,Bereket Fırını,POĞAÇA,42.20,Bread/Water,88.60
+273,2026-03-15,Kent Doğalgaz,DOĞALGAZ FATURASI,472.20,Gas bill,472.20
+274,2026-03-16,Bereket Fırını,EKMEK,15.00,Bread/Water,30.70
+274,2026-03-16,Bereket Fırını,EKMEK,15.70,Bread/Water,30.70
+275,2026-03-16,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,208.40,Transport,208.40
+276,2026-03-16,Papatya Market,BİSKÜVİ,49.30,Groceries,215.00
+276,2026-03-16,Papatya Market,MAKARNA 500G,40.00,Groceries,215.00
+276,2026-03-16,Papatya Market,YUMURTA 10'LU,125.70,Groceries,215.00
+277,2026-03-16,Yol Akaryakıt,BENZİN,727.80,Transport,727.80
+278,2026-03-17,Bereket Fırını,EKMEK,15.50,Bread/Water,31.20
+278,2026-03-17,Bereket Fırını,EKMEK,15.70,Bread/Water,31.20
+279,2026-03-17,Damla Su,DAMACANA SU 19L,116.00,Bread/Water,116.00
+280,2026-03-17,Çınar Kuruyemiş,LEBLEBİ,75.90,Groceries,631.00
+280,2026-03-17,Çınar Kuruyemiş,KARIŞIK KURUYEMİŞ,471.60,Groceries,631.00
+280,2026-03-17,Çınar Kuruyemiş,ÇEKİRDEK,83.50,Groceries,631.00
+281,2026-03-18,Bahçe Manav,DOMATES 1KG,66.70,Fruit and Vegs,303.00
+281,2026-03-18,Bahçe Manav,LİMON 1KG,52.60,Fruit and Vegs,303.00
+281,2026-03-18,Bahçe Manav,PORTAKAL 1KG,55.40,Fruit and Vegs,303.00
+281,2026-03-18,Bahçe Manav,MUZ 1KG,128.30,Fruit and Vegs,303.00
+282,2026-03-18,Bereket Fırını,EKMEK,16.00,Bread/Water,31.20
+282,2026-03-18,Bereket Fırını,EKMEK,15.20,Bread/Water,31.20
+283,2026-03-19,Bereket Fırını,EKMEK,15.90,Bread/Water,31.30
+283,2026-03-19,Bereket Fırını,EKMEK,15.40,Bread/Water,31.30
+284,2026-03-19,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,5123.40
+284,2026-03-19,Güneş Süpermarket,YOĞURT,444.20,Groceries,5123.40
+284,2026-03-19,Güneş Süpermarket,GAZOZ,214.20,Groceries,5123.40
+284,2026-03-19,Güneş Süpermarket,SALATALIK,240.60,Fruit and Vegs,5123.40
+284,2026-03-19,Güneş Süpermarket,DOMATES,299.40,Fruit and Vegs,5123.40
+284,2026-03-19,Güneş Süpermarket,TAVUK BUT,1100.50,Meat/Chicken/Fish,5123.40
+284,2026-03-19,Güneş Süpermarket,MEYVE SUYU,180.70,Groceries,5123.40
+284,2026-03-19,Güneş Süpermarket,ZEYTİNYAĞI,1266.60,Groceries,5123.40
+284,2026-03-19,Güneş Süpermarket,PİRİNÇ,1376.10,Groceries,5123.40
+285,2026-03-19,Kasap Usta,DANA KUŞBAŞI 500G,197.70,Meat/Chicken/Fish,292.10
+285,2026-03-19,Kasap Usta,TAVUK GÖĞÜS 1KG,94.40,Meat/Chicken/Fish,292.10
+286,2026-03-19,Papatya Market,BİSKÜVİ,45.70,Groceries,200.70
+286,2026-03-19,Papatya Market,MEYVE SUYU 1L,84.30,Groceries,200.70
+286,2026-03-19,Papatya Market,SÜT 1L,70.70,Groceries,200.70
+287,2026-03-20,Bahçe Manav,BAKLAVA,1900.60,Groceries,2478.30
+287,2026-03-20,Bahçe Manav,MANDALİNA,148.60,Fruit and Vegs,2478.30
+287,2026-03-20,Bahçe Manav,NAR,245.60,Fruit and Vegs,2478.30
+287,2026-03-20,Bahçe Manav,ÜZÜM,183.50,Fruit and Vegs,2478.30
+288,2026-03-20,Bereket Fırını,EKMEK,15.00,Bread/Water,29.90
+288,2026-03-20,Bereket Fırını,EKMEK,14.90,Bread/Water,29.90
+289,2026-03-20,HızlıNet,MOBİL HAT FATURASI,376.20,Internet/Phone,376.20
+290,2026-03-20,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,387.00,Entertainment/Restaurant,387.00
+291,2026-03-21,Bereket Fırını,EKMEK,15.80,Bread/Water,87.70
+291,2026-03-21,Bereket Fırını,EKMEK,15.50,Bread/Water,87.70
+291,2026-03-21,Bereket Fırını,EKMEK,15.40,Bread/Water,87.70
+291,2026-03-21,Bereket Fırını,POĞAÇA,41.00,Bread/Water,87.70
+292,2026-03-21,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1446.30
+292,2026-03-21,Güneş Süpermarket,TAVUK BUT 1KG,148.90,Meat/Chicken/Fish,1446.30
+292,2026-03-21,Güneş Süpermarket,MAKARNA 500G,25.30,Groceries,1446.30
+292,2026-03-21,Güneş Süpermarket,YOĞURT 1.5KG,91.80,Groceries,1446.30
+292,2026-03-21,Güneş Süpermarket,BEYAZ PEYNİR 500G,188.30,Groceries,1446.30
+292,2026-03-21,Güneş Süpermarket,SÜT 1L,44.70,Groceries,1446.30
+292,2026-03-21,Güneş Süpermarket,ELMA 1KG,46.40,Fruit and Vegs,1446.30
+292,2026-03-21,Güneş Süpermarket,DOMATES 1KG,39.00,Fruit and Vegs,1446.30
+292,2026-03-21,Güneş Süpermarket,SALATALIK 1KG,35.10,Fruit and Vegs,1446.30
+292,2026-03-21,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,210.50,Groceries,1446.30
+292,2026-03-21,Güneş Süpermarket,DANA KIYMA 500G,304.60,Meat/Chicken/Fish,1446.30
+292,2026-03-21,Güneş Süpermarket,DETERJAN 4KG,277.50,Groceries,1446.30
+292,2026-03-21,Güneş Süpermarket,SU 5L,33.10,Bread/Water,1446.30
+293,2026-03-21,Lale Çiçekçilik,ÇİÇEK BUKETİ,492.10,Additional expenses,492.10
+294,2026-03-22,Bereket Fırını,EKMEK,16.20,Bread/Water,89.20
+294,2026-03-22,Bereket Fırını,EKMEK,15.90,Bread/Water,89.20
+294,2026-03-22,Bereket Fırını,EKMEK,16.00,Bread/Water,89.20
+294,2026-03-22,Bereket Fırını,POĞAÇA,41.10,Bread/Water,89.20
+295,2026-03-23,Bereket Fırını,EKMEK,15.30,Bread/Water,31.00
+295,2026-03-23,Bereket Fırını,EKMEK,15.70,Bread/Water,31.00
+296,2026-03-23,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,209.00,Transport,209.00
+297,2026-03-23,Papatya Market,EKMEK,51.30,Bread/Water,208.90
+297,2026-03-23,Papatya Market,BİSKÜVİ,82.80,Groceries,208.90
+297,2026-03-23,Papatya Market,MAKARNA 500G,74.80,Groceries,208.90
+298,2026-03-24,Bereket Fırını,EKMEK,15.30,Bread/Water,31.60
+298,2026-03-24,Bereket Fırını,EKMEK,16.30,Bread/Water,31.60
+299,2026-03-24,Damla Su,DAMACANA SU 19L,111.30,Bread/Water,111.30
+300,2026-03-24,Şifa Eczanesi,ECZANE,299.10,Additional expenses,299.10
+301,2026-03-25,Bahçe Manav,BİBER 1KG,58.30,Fruit and Vegs,288.50
+301,2026-03-25,Bahçe Manav,PORTAKAL 1KG,41.30,Fruit and Vegs,288.50
+301,2026-03-25,Bahçe Manav,MANDALİNA 1KG,44.20,Fruit and Vegs,288.50
+301,2026-03-25,Bahçe Manav,PATLICAN 1KG,55.10,Fruit and Vegs,288.50
+301,2026-03-25,Bahçe Manav,ISPANAK 1KG,51.70,Fruit and Vegs,288.50
+301,2026-03-25,Bahçe Manav,LİMON 1KG,37.90,Fruit and Vegs,288.50
+302,2026-03-25,Bereket Fırını,EKMEK,15.60,Bread/Water,30.60
+302,2026-03-25,Bereket Fırını,EKMEK,15.00,Bread/Water,30.60
+303,2026-03-26,Bereket Fırını,EKMEK,15.50,Bread/Water,30.40
+303,2026-03-26,Bereket Fırını,EKMEK,14.90,Bread/Water,30.40
+304,2026-03-26,Kasap Usta,TAVUK GÖĞÜS 1KG,156.90,Meat/Chicken/Fish,305.80
+304,2026-03-26,Kasap Usta,SUCUK 250G,148.90,Meat/Chicken/Fish,305.80
+305,2026-03-26,Papatya Market,KAŞAR PEYNİR 250G,108.00,Groceries,208.30
+305,2026-03-26,Papatya Market,MAKARNA 500G,21.00,Groceries,208.30
+305,2026-03-26,Papatya Market,EKMEK,14.40,Bread/Water,208.30
+305,2026-03-26,Papatya Market,SÜT 1L,37.00,Groceries,208.30
+305,2026-03-26,Papatya Market,BULAŞIK SÜNGERİ,27.90,Groceries,208.30
+306,2026-03-27,Bereket Fırını,EKMEK,15.90,Bread/Water,32.00
+306,2026-03-27,Bereket Fırını,EKMEK,16.10,Bread/Water,32.00
+307,2026-03-27,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,407.60,Entertainment/Restaurant,407.60
+308,2026-03-28,Bereket Fırını,EKMEK,15.50,Bread/Water,88.60
+308,2026-03-28,Bereket Fırını,EKMEK,15.60,Bread/Water,88.60
+308,2026-03-28,Bereket Fırını,EKMEK,15.50,Bread/Water,88.60
+308,2026-03-28,Bereket Fırını,POĞAÇA,42.00,Bread/Water,88.60
+309,2026-03-28,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,1370.60
+309,2026-03-28,Güneş Süpermarket,PİRİNÇ 1KG,62.20,Groceries,1370.60
+309,2026-03-28,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,131.00,Groceries,1370.60
+309,2026-03-28,Güneş Süpermarket,SALATALIK 1KG,26.30,Fruit and Vegs,1370.60
+309,2026-03-28,Güneş Süpermarket,ZEYTİN 500G,105.30,Groceries,1370.60
+309,2026-03-28,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,165.10,Groceries,1370.60
+309,2026-03-28,Güneş Süpermarket,BEYAZ PEYNİR 500G,132.60,Groceries,1370.60
+309,2026-03-28,Güneş Süpermarket,ÇAY 1KG,178.50,Groceries,1370.60
+309,2026-03-28,Güneş Süpermarket,DETERJAN 4KG,203.60,Groceries,1370.60
+309,2026-03-28,Güneş Süpermarket,MAKARNA 500G,19.40,Groceries,1370.60
+309,2026-03-28,Güneş Süpermarket,DANA KIYMA 500G,217.40,Meat/Chicken/Fish,1370.60
+309,2026-03-28,Güneş Süpermarket,YOĞURT 1.5KG,73.90,Groceries,1370.60
+309,2026-03-28,Güneş Süpermarket,SU 5L,25.40,Bread/Water,1370.60
+309,2026-03-28,Güneş Süpermarket,DOMATES 1KG,28.90,Fruit and Vegs,1370.60
+310,2026-03-29,Bereket Fırını,EKMEK,15.00,Bread/Water,86.80
+310,2026-03-29,Bereket Fırını,EKMEK,15.40,Bread/Water,86.80
+310,2026-03-29,Bereket Fırını,EKMEK,16.30,Bread/Water,86.80
+310,2026-03-29,Bereket Fırını,POĞAÇA,40.10,Bread/Water,86.80
+311,2026-03-30,Bereket Fırını,EKMEK,16.10,Bread/Water,32.30
+311,2026-03-30,Bereket Fırını,EKMEK,16.20,Bread/Water,32.30
+312,2026-03-30,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,209.50,Transport,209.50
+313,2026-03-30,Papatya Market,EKMEK,12.70,Bread/Water,197.80
+313,2026-03-30,Papatya Market,MEYVE SUYU 1L,40.30,Groceries,197.80
+313,2026-03-30,Papatya Market,MAKARNA 500G,19.20,Groceries,197.80
+313,2026-03-30,Papatya Market,SÜT 1L,33.00,Groceries,197.80
+313,2026-03-30,Papatya Market,KAŞAR PEYNİR 250G,92.60,Groceries,197.80
+314,2026-03-31,Bereket Fırını,EKMEK,15.60,Bread/Water,30.60
+314,2026-03-31,Bereket Fırını,EKMEK,15.00,Bread/Water,30.60
+315,2026-03-31,Damla Su,DAMACANA SU 19L,110.90,Bread/Water,110.90
+316,2026-04-01,Bahçe Manav,LİMON 1KG,55.00,Fruit and Vegs,337.00
+316,2026-04-01,Bahçe Manav,PORTAKAL 1KG,56.20,Fruit and Vegs,337.00
+316,2026-04-01,Bahçe Manav,BİBER 1KG,79.70,Fruit and Vegs,337.00
+316,2026-04-01,Bahçe Manav,PATLICAN 1KG,71.40,Fruit and Vegs,337.00
+316,2026-04-01,Bahçe Manav,ISPANAK 1KG,74.70,Fruit and Vegs,337.00
+317,2026-04-01,Bereket Fırını,EKMEK,15.70,Bread/Water,30.90
+317,2026-04-01,Bereket Fırını,EKMEK,15.20,Bread/Water,30.90
+318,2026-04-01,Kasap Usta,DANA KUŞBAŞI 500G,538.20,Meat/Chicken/Fish,1016.30
+318,2026-04-01,Kasap Usta,TAVUK GÖĞÜS 1KG,242.70,Meat/Chicken/Fish,1016.30
+318,2026-04-01,Kasap Usta,SUCUK 250G,235.40,Meat/Chicken/Fish,1016.30
+319,2026-04-01,Yol Akaryakıt,BENZİN,693.20,Transport,693.20
+320,2026-04-02,Bereket Fırını,EKMEK,15.00,Bread/Water,31.30
+320,2026-04-02,Bereket Fırını,EKMEK,16.30,Bread/Water,31.30
+321,2026-04-02,Kasap Usta,DANA KUŞBAŞI 500G,207.60,Meat/Chicken/Fish,290.50
+321,2026-04-02,Kasap Usta,SUCUK 250G,82.90,Meat/Chicken/Fish,290.50
+322,2026-04-02,Papatya Market,SÜT 1L,88.20,Groceries,354.50
+322,2026-04-02,Papatya Market,BULAŞIK SÜNGERİ,69.80,Groceries,354.50
+322,2026-04-02,Papatya Market,EKMEK,36.50,Bread/Water,354.50
+322,2026-04-02,Papatya Market,YUMURTA 10'LU,160.00,Groceries,354.50
+323,2026-04-02,Papatya Market,BULAŞIK SÜNGERİ,22.80,Groceries,190.20
+323,2026-04-02,Papatya Market,YUMURTA 10'LU,50.60,Groceries,190.20
+323,2026-04-02,Papatya Market,MEYVE SUYU 1L,35.20,Groceries,190.20
+323,2026-04-02,Papatya Market,KAŞAR PEYNİR 250G,81.60,Groceries,190.20
+324,2026-04-03,Bereket Fırını,EKMEK,15.80,Bread/Water,31.90
+324,2026-04-03,Bereket Fırını,EKMEK,16.10,Bread/Water,31.90
+325,2026-04-03,Lale Sitesi Yönetimi,AİDAT,671.70,Dues,671.70
+326,2026-04-03,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,429.10,Entertainment/Restaurant,429.10
+327,2026-04-04,Bereket Fırını,EKMEK,15.70,Bread/Water,89.70
+327,2026-04-04,Bereket Fırını,EKMEK,16.20,Bread/Water,89.70
+327,2026-04-04,Bereket Fırını,EKMEK,16.10,Bread/Water,89.70
+327,2026-04-04,Bereket Fırını,POĞAÇA,41.70,Bread/Water,89.70
+328,2026-04-04,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1546.20
+328,2026-04-04,Güneş Süpermarket,ZEYTİN 500G,108.70,Groceries,1546.20
+328,2026-04-04,Güneş Süpermarket,PİRİNÇ 1KG,62.40,Groceries,1546.20
+328,2026-04-04,Güneş Süpermarket,DANA KIYMA 500G,231.00,Meat/Chicken/Fish,1546.20
+328,2026-04-04,Güneş Süpermarket,ELMA 1KG,36.30,Fruit and Vegs,1546.20
+328,2026-04-04,Güneş Süpermarket,BEYAZ PEYNİR 500G,141.50,Groceries,1546.20
+328,2026-04-04,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,127.50,Groceries,1546.20
+328,2026-04-04,Güneş Süpermarket,TAVUK BUT 1KG,117.80,Meat/Chicken/Fish,1546.20
+328,2026-04-04,Güneş Süpermarket,SALATALIK 1KG,27.90,Fruit and Vegs,1546.20
+328,2026-04-04,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,170.40,Groceries,1546.20
+328,2026-04-04,Güneş Süpermarket,DETERJAN 4KG,209.70,Groceries,1546.20
+328,2026-04-04,Güneş Süpermarket,ÇAY 1KG,178.80,Groceries,1546.20
+328,2026-04-04,Güneş Süpermarket,MAKARNA 500G,19.10,Groceries,1546.20
+328,2026-04-04,Güneş Süpermarket,YUMURTA 15'Lİ,80.80,Groceries,1546.20
+328,2026-04-04,Güneş Süpermarket,SÜT 1L,33.20,Groceries,1546.20
+329,2026-04-05,Bereket Fırını,EKMEK,15.40,Bread/Water,86.80
+329,2026-04-05,Bereket Fırını,EKMEK,15.00,Bread/Water,86.80
+329,2026-04-05,Bereket Fırını,EKMEK,15.60,Bread/Water,86.80
+329,2026-04-05,Bereket Fırını,POĞAÇA,40.80,Bread/Water,86.80
+330,2026-04-05,HızlıNet,İNTERNET FATURASI,465.40,Internet/Phone,465.40
+331,2026-04-06,Bereket Fırını,EKMEK,16.40,Bread/Water,32.70
+331,2026-04-06,Bereket Fırını,EKMEK,16.30,Bread/Water,32.70
+332,2026-04-06,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,210.10,Transport,210.10
+333,2026-04-06,Papatya Market,MAKARNA 500G,27.70,Groceries,197.70
+333,2026-04-06,Papatya Market,BİSKÜVİ,31.50,Groceries,197.70
+333,2026-04-06,Papatya Market,EKMEK,20.20,Bread/Water,197.70
+333,2026-04-06,Papatya Market,BULAŞIK SÜNGERİ,37.60,Groceries,197.70
+333,2026-04-06,Papatya Market,YUMURTA 10'LU,80.70,Groceries,197.70
+334,2026-04-07,Bereket Fırını,EKMEK,15.00,Bread/Water,30.60
+334,2026-04-07,Bereket Fırını,EKMEK,15.60,Bread/Water,30.60
+335,2026-04-07,Damla Su,DAMACANA SU 19L,110.60,Bread/Water,110.60
+336,2026-04-08,Bahçe Manav,ISPANAK 1KG,54.30,Fruit and Vegs,322.50
+336,2026-04-08,Bahçe Manav,DOMATES 1KG,47.70,Fruit and Vegs,322.50
+336,2026-04-08,Bahçe Manav,MUZ 1KG,92.80,Fruit and Vegs,322.50
+336,2026-04-08,Bahçe Manav,PORTAKAL 1KG,41.20,Fruit and Vegs,322.50
+336,2026-04-08,Bahçe Manav,LİMON 1KG,38.20,Fruit and Vegs,322.50
+336,2026-04-08,Bahçe Manav,MANDALİNA 1KG,48.30,Fruit and Vegs,322.50
+337,2026-04-08,Bereket Fırını,EKMEK,15.30,Bread/Water,30.60
+337,2026-04-08,Bereket Fırını,EKMEK,15.30,Bread/Water,30.60
+338,2026-04-09,Bereket Fırını,EKMEK,16.50,Bread/Water,31.80
+338,2026-04-09,Bereket Fırını,EKMEK,15.30,Bread/Water,31.80
+339,2026-04-09,Kasap Usta,DANA KUŞBAŞI 500G,224.70,Meat/Chicken/Fish,314.90
+339,2026-04-09,Kasap Usta,SUCUK 250G,90.20,Meat/Chicken/Fish,314.90
+340,2026-04-09,Papatya Market,BULAŞIK SÜNGERİ,31.50,Groceries,220.70
+340,2026-04-09,Papatya Market,SÜT 1L,40.40,Groceries,220.70
+340,2026-04-09,Papatya Market,KAŞAR PEYNİR 250G,124.60,Groceries,220.70
+340,2026-04-09,Papatya Market,MAKARNA 500G,24.20,Groceries,220.70
+341,2026-04-10,Bereket Fırını,EKMEK,16.00,Bread/Water,32.30
+341,2026-04-10,Bereket Fırını,EKMEK,16.30,Bread/Water,32.30
+342,2026-04-10,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,444.80,Entertainment/Restaurant,444.80
+343,2026-04-10,Şehir Elektrik,ELEKTRİK FATURASI,422.10,Electrical bill,422.10
+344,2026-04-11,Bereket Fırını,EKMEK,16.50,Bread/Water,91.60
+344,2026-04-11,Bereket Fırını,EKMEK,16.30,Bread/Water,91.60
+344,2026-04-11,Bereket Fırını,EKMEK,16.40,Bread/Water,91.60
+344,2026-04-11,Bereket Fırını,POĞAÇA,42.40,Bread/Water,91.60
+345,2026-04-11,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1507.00
+345,2026-04-11,Güneş Süpermarket,PİRİNÇ 1KG,71.80,Groceries,1507.00
+345,2026-04-11,Güneş Süpermarket,SU 5L,28.80,Bread/Water,1507.00
+345,2026-04-11,Güneş Süpermarket,YOĞURT 1.5KG,82.90,Groceries,1507.00
+345,2026-04-11,Güneş Süpermarket,DETERJAN 4KG,245.90,Groceries,1507.00
+345,2026-04-11,Güneş Süpermarket,DANA KIYMA 500G,257.80,Meat/Chicken/Fish,1507.00
+345,2026-04-11,Güneş Süpermarket,BEYAZ PEYNİR 500G,167.20,Groceries,1507.00
+345,2026-04-11,Güneş Süpermarket,PATATES 2KG,47.40,Fruit and Vegs,1507.00
+345,2026-04-11,Güneş Süpermarket,TAVUK BUT 1KG,127.70,Meat/Chicken/Fish,1507.00
+345,2026-04-11,Güneş Süpermarket,SÜT 1L,38.00,Groceries,1507.00
+345,2026-04-11,Güneş Süpermarket,DOMATES 1KG,35.80,Fruit and Vegs,1507.00
+345,2026-04-11,Güneş Süpermarket,ZEYTİN 500G,116.80,Groceries,1507.00
+345,2026-04-11,Güneş Süpermarket,YUMURTA 15'Lİ,91.20,Groceries,1507.00
+345,2026-04-11,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,156.50,Groceries,1507.00
+345,2026-04-11,Güneş Süpermarket,SOĞAN 2KG,38.10,Fruit and Vegs,1507.00
+346,2026-04-12,Bereket Fırını,EKMEK,15.20,Bread/Water,87.00
+346,2026-04-12,Bereket Fırını,EKMEK,16.10,Bread/Water,87.00
+346,2026-04-12,Bereket Fırını,EKMEK,15.40,Bread/Water,87.00
+346,2026-04-12,Bereket Fırını,POĞAÇA,40.30,Bread/Water,87.00
+347,2026-04-12,Şehir Su,SU FATURASI,228.40,Water bill,228.40
+348,2026-04-13,Bereket Fırını,EKMEK,16.50,Bread/Water,32.80
+348,2026-04-13,Bereket Fırını,EKMEK,16.30,Bread/Water,32.80
+349,2026-04-13,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,210.70,Transport,210.70
+350,2026-04-13,Papatya Market,EKMEK,18.60,Bread/Water,228.20
+350,2026-04-13,Papatya Market,MAKARNA 500G,26.30,Groceries,228.20
+350,2026-04-13,Papatya Market,SÜT 1L,47.50,Groceries,228.20
+350,2026-04-13,Papatya Market,KAŞAR PEYNİR 250G,135.80,Groceries,228.20
+351,2026-04-14,Bereket Fırını,EKMEK,15.90,Bread/Water,32.40
+351,2026-04-14,Bereket Fırını,EKMEK,16.50,Bread/Water,32.40
+352,2026-04-14,Damla Su,DAMACANA SU 19L,121.20,Bread/Water,121.20
+353,2026-04-15,Bahçe Manav,MANDALİNA 1KG,47.30,Fruit and Vegs,288.20
+353,2026-04-15,Bahçe Manav,PORTAKAL 1KG,38.10,Fruit and Vegs,288.20
+353,2026-04-15,Bahçe Manav,BİBER 1KG,57.90,Fruit and Vegs,288.20
+353,2026-04-15,Bahçe Manav,MUZ 1KG,90.20,Fruit and Vegs,288.20
+353,2026-04-15,Bahçe Manav,PATLICAN 1KG,54.70,Fruit and Vegs,288.20
+354,2026-04-15,Bereket Fırını,EKMEK,16.00,Bread/Water,31.10
+354,2026-04-15,Bereket Fırını,EKMEK,15.10,Bread/Water,31.10
+355,2026-04-15,Kent Doğalgaz,DOĞALGAZ FATURASI,482.90,Gas bill,482.90
+356,2026-04-16,Bereket Fırını,EKMEK,16.00,Bread/Water,32.40
+356,2026-04-16,Bereket Fırını,EKMEK,16.40,Bread/Water,32.40
+357,2026-04-16,Kasap Usta,TAVUK GÖĞÜS 1KG,106.00,Meat/Chicken/Fish,335.00
+357,2026-04-16,Kasap Usta,DANA KUŞBAŞI 500G,229.00,Meat/Chicken/Fish,335.00
+358,2026-04-16,Papatya Market,YUMURTA 10'LU,121.00,Groceries,193.50
+358,2026-04-16,Papatya Market,MAKARNA 500G,43.50,Groceries,193.50
+358,2026-04-16,Papatya Market,EKMEK,29.00,Bread/Water,193.50
+359,2026-04-16,Yol Akaryakıt,BENZİN,790.40,Transport,790.40
+360,2026-04-17,Bereket Fırını,EKMEK,16.30,Bread/Water,32.70
+360,2026-04-17,Bereket Fırını,EKMEK,16.40,Bread/Water,32.70
+361,2026-04-17,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,384.60,Entertainment/Restaurant,384.60
+362,2026-04-18,Bereket Fırını,EKMEK,16.50,Bread/Water,88.50
+362,2026-04-18,Bereket Fırını,EKMEK,15.10,Bread/Water,88.50
+362,2026-04-18,Bereket Fırını,EKMEK,15.20,Bread/Water,88.50
+362,2026-04-18,Bereket Fırını,POĞAÇA,41.70,Bread/Water,88.50
+363,2026-04-18,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1307.40
+363,2026-04-18,Güneş Süpermarket,SÜT 1L,45.30,Groceries,1307.40
+363,2026-04-18,Güneş Süpermarket,MAKARNA 500G,27.60,Groceries,1307.40
+363,2026-04-18,Güneş Süpermarket,YOĞURT 1.5KG,109.80,Groceries,1307.40
+363,2026-04-18,Güneş Süpermarket,ÇAY 1KG,268.10,Groceries,1307.40
+363,2026-04-18,Güneş Süpermarket,SALATALIK 1KG,38.10,Fruit and Vegs,1307.40
+363,2026-04-18,Güneş Süpermarket,SOĞAN 2KG,47.70,Fruit and Vegs,1307.40
+363,2026-04-18,Güneş Süpermarket,SU 5L,38.60,Bread/Water,1307.40
+363,2026-04-18,Güneş Süpermarket,ZEYTİN 500G,147.70,Groceries,1307.40
+363,2026-04-18,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,228.10,Groceries,1307.40
+363,2026-04-18,Güneş Süpermarket,TAVUK BUT 1KG,154.80,Meat/Chicken/Fish,1307.40
+363,2026-04-18,Güneş Süpermarket,PATATES 2KG,63.00,Fruit and Vegs,1307.40
+363,2026-04-18,Güneş Süpermarket,ELMA 1KG,49.60,Fruit and Vegs,1307.40
+363,2026-04-18,Güneş Süpermarket,PİRİNÇ 1KG,87.90,Groceries,1307.40
+364,2026-04-19,Bereket Fırını,EKMEK,16.10,Bread/Water,91.80
+364,2026-04-19,Bereket Fırını,EKMEK,15.90,Bread/Water,91.80
+364,2026-04-19,Bereket Fırını,EKMEK,15.60,Bread/Water,91.80
+364,2026-04-19,Bereket Fırını,POĞAÇA,44.20,Bread/Water,91.80
+365,2026-04-20,Bereket Fırını,EKMEK,15.10,Bread/Water,30.80
+365,2026-04-20,Bereket Fırını,EKMEK,15.70,Bread/Water,30.80
+366,2026-04-20,HızlıNet,MOBİL HAT FATURASI,386.70,Internet/Phone,386.70
+367,2026-04-20,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,211.30,Transport,211.30
+368,2026-04-20,Papatya Market,EKMEK,40.50,Bread/Water,201.20
+368,2026-04-20,Papatya Market,SÜT 1L,103.90,Groceries,201.20
+368,2026-04-20,Papatya Market,MAKARNA 500G,56.80,Groceries,201.20
+369,2026-04-21,Bereket Fırını,EKMEK,16.50,Bread/Water,32.50
+369,2026-04-21,Bereket Fırını,EKMEK,16.00,Bread/Water,32.50
+370,2026-04-21,Damla Su,DAMACANA SU 19L,117.10,Bread/Water,117.10
+371,2026-04-22,Bahçe Manav,DOMATES 1KG,40.30,Fruit and Vegs,298.60
+371,2026-04-22,Bahçe Manav,PATLICAN 1KG,45.50,Fruit and Vegs,298.60
+371,2026-04-22,Bahçe Manav,BİBER 1KG,51.80,Fruit and Vegs,298.60
+371,2026-04-22,Bahçe Manav,PORTAKAL 1KG,32.40,Fruit and Vegs,298.60
+371,2026-04-22,Bahçe Manav,ISPANAK 1KG,47.20,Fruit and Vegs,298.60
+371,2026-04-22,Bahçe Manav,MUZ 1KG,81.40,Fruit and Vegs,298.60
+372,2026-04-22,Bereket Fırını,EKMEK,15.30,Bread/Water,31.00
+372,2026-04-22,Bereket Fırını,EKMEK,15.70,Bread/Water,31.00
+373,2026-04-23,Bereket Fırını,EKMEK,16.40,Bread/Water,32.30
+373,2026-04-23,Bereket Fırını,EKMEK,15.90,Bread/Water,32.30
+374,2026-04-23,Kasap Usta,DANA KUŞBAŞI 500G,222.00,Meat/Chicken/Fish,325.30
+374,2026-04-23,Kasap Usta,TAVUK GÖĞÜS 1KG,103.30,Meat/Chicken/Fish,325.30
+375,2026-04-23,Papatya Market,YUMURTA 10'LU,63.30,Groceries,219.30
+375,2026-04-23,Papatya Market,MAKARNA 500G,20.90,Groceries,219.30
+375,2026-04-23,Papatya Market,KAŞAR PEYNİR 250G,111.80,Groceries,219.30
+375,2026-04-23,Papatya Market,BİSKÜVİ,23.30,Groceries,219.30
+376,2026-04-24,Bereket Fırını,EKMEK,15.40,Bread/Water,31.10
+376,2026-04-24,Bereket Fırını,EKMEK,15.70,Bread/Water,31.10
+377,2026-04-24,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,397.30,Entertainment/Restaurant,397.30
+378,2026-04-24,Neşeli Oyuncak,OYUNCAK BEBEK,2307.80,Gifts,2307.80
+379,2026-04-24,Şifa Eczanesi,ECZANE,295.00,Additional expenses,295.00
+380,2026-04-25,Bereket Fırını,EKMEK,16.50,Bread/Water,90.40
+380,2026-04-25,Bereket Fırını,EKMEK,16.40,Bread/Water,90.40
+380,2026-04-25,Bereket Fırını,EKMEK,15.90,Bread/Water,90.40
+380,2026-04-25,Bereket Fırını,POĞAÇA,41.60,Bread/Water,90.40
+381,2026-04-25,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,1296.80
+381,2026-04-25,Güneş Süpermarket,PATATES 2KG,46.80,Fruit and Vegs,1296.80
+381,2026-04-25,Güneş Süpermarket,MAKARNA 500G,21.50,Groceries,1296.80
+381,2026-04-25,Güneş Süpermarket,ÇAY 1KG,198.20,Groceries,1296.80
+381,2026-04-25,Güneş Süpermarket,YOĞURT 1.5KG,78.80,Groceries,1296.80
+381,2026-04-25,Güneş Süpermarket,SÜT 1L,36.50,Groceries,1296.80
+381,2026-04-25,Güneş Süpermarket,DETERJAN 4KG,237.30,Groceries,1296.80
+381,2026-04-25,Güneş Süpermarket,SALATALIK 1KG,28.50,Fruit and Vegs,1296.80
+381,2026-04-25,Güneş Süpermarket,DOMATES 1KG,33.70,Fruit and Vegs,1296.80
+381,2026-04-25,Güneş Süpermarket,SU 5L,27.60,Bread/Water,1296.80
+381,2026-04-25,Güneş Süpermarket,PİRİNÇ 1KG,67.80,Groceries,1296.80
+381,2026-04-25,Güneş Süpermarket,DANA KIYMA 500G,255.60,Meat/Chicken/Fish,1296.80
+381,2026-04-25,Güneş Süpermarket,TAVUK BUT 1KG,122.60,Meat/Chicken/Fish,1296.80
+381,2026-04-25,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,140.90,Groceries,1296.80
+382,2026-04-25,Tatlı Köşe Pastanesi,DOĞUM GÜNÜ PASTASI,1039.60,Gifts,1039.60
+383,2026-04-26,Bereket Fırını,EKMEK,15.40,Bread/Water,89.00
+383,2026-04-26,Bereket Fırını,EKMEK,16.10,Bread/Water,89.00
+383,2026-04-26,Bereket Fırını,EKMEK,16.30,Bread/Water,89.00
+383,2026-04-26,Bereket Fırını,POĞAÇA,41.20,Bread/Water,89.00
+384,2026-04-27,Bereket Fırını,EKMEK,16.00,Bread/Water,32.60
+384,2026-04-27,Bereket Fırını,EKMEK,16.60,Bread/Water,32.60
+385,2026-04-27,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,211.90,Transport,211.90
+386,2026-04-27,Papatya Market,SÜT 1L,39.90,Groceries,233.20
+386,2026-04-27,Papatya Market,BİSKÜVİ,28.20,Groceries,233.20
+386,2026-04-27,Papatya Market,KAŞAR PEYNİR 250G,124.50,Groceries,233.20
+386,2026-04-27,Papatya Market,MAKARNA 500G,24.70,Groceries,233.20
+386,2026-04-27,Papatya Market,EKMEK,15.90,Bread/Water,233.20
+387,2026-04-28,Bereket Fırını,EKMEK,15.90,Bread/Water,32.40
+387,2026-04-28,Bereket Fırını,EKMEK,16.50,Bread/Water,32.40
+388,2026-04-28,Damla Su,DAMACANA SU 19L,114.40,Bread/Water,114.40
+389,2026-04-29,Bahçe Manav,LİMON 1KG,47.60,Fruit and Vegs,294.10
+389,2026-04-29,Bahçe Manav,PATLICAN 1KG,58.70,Fruit and Vegs,294.10
+389,2026-04-29,Bahçe Manav,ISPANAK 1KG,64.60,Fruit and Vegs,294.10
+389,2026-04-29,Bahçe Manav,DOMATES 1KG,55.60,Fruit and Vegs,294.10
+389,2026-04-29,Bahçe Manav,BİBER 1KG,67.60,Fruit and Vegs,294.10
+390,2026-04-29,Bereket Fırını,EKMEK,16.40,Bread/Water,31.90
+390,2026-04-29,Bereket Fırını,EKMEK,15.50,Bread/Water,31.90
+391,2026-04-30,Bereket Fırını,EKMEK,15.20,Bread/Water,30.80
+391,2026-04-30,Bereket Fırını,EKMEK,15.60,Bread/Water,30.80
+392,2026-04-30,Kasap Usta,DANA KUŞBAŞI 500G,245.00,Meat/Chicken/Fish,348.50
+392,2026-04-30,Kasap Usta,SUCUK 250G,103.50,Meat/Chicken/Fish,348.50
+393,2026-04-30,Papatya Market,EKMEK,45.10,Bread/Water,191.90
+393,2026-04-30,Papatya Market,BİSKÜVİ,79.30,Groceries,191.90
+393,2026-04-30,Papatya Market,MAKARNA 500G,67.50,Groceries,191.90
+394,2026-05-01,Bereket Fırını,EKMEK,15.20,Bread/Water,31.20
+394,2026-05-01,Bereket Fırını,EKMEK,16.00,Bread/Water,31.20
+395,2026-05-01,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,428.20,Entertainment/Restaurant,428.20
+396,2026-05-01,Yol Akaryakıt,BENZİN,707.00,Transport,707.00
+397,2026-05-02,Bereket Fırını,EKMEK,16.60,Bread/Water,89.20
+397,2026-05-02,Bereket Fırını,EKMEK,15.70,Bread/Water,89.20
+397,2026-05-02,Bereket Fırını,EKMEK,15.20,Bread/Water,89.20
+397,2026-05-02,Bereket Fırını,POĞAÇA,41.70,Bread/Water,89.20
+398,2026-05-02,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1506.50
+398,2026-05-02,Güneş Süpermarket,ELMA 1KG,44.10,Fruit and Vegs,1506.50
+398,2026-05-02,Güneş Süpermarket,SÜT 1L,44.10,Groceries,1506.50
+398,2026-05-02,Güneş Süpermarket,BEYAZ PEYNİR 500G,184.50,Groceries,1506.50
+398,2026-05-02,Güneş Süpermarket,YOĞURT 1.5KG,99.40,Groceries,1506.50
+398,2026-05-02,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,164.20,Groceries,1506.50
+398,2026-05-02,Güneş Süpermarket,DOMATES 1KG,41.30,Fruit and Vegs,1506.50
+398,2026-05-02,Güneş Süpermarket,PİRİNÇ 1KG,83.30,Groceries,1506.50
+398,2026-05-02,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,222.90,Groceries,1506.50
+398,2026-05-02,Güneş Süpermarket,SOĞAN 2KG,43.60,Fruit and Vegs,1506.50
+398,2026-05-02,Güneş Süpermarket,ÇAY 1KG,232.80,Groceries,1506.50
+398,2026-05-02,Güneş Süpermarket,TAVUK BUT 1KG,151.40,Meat/Chicken/Fish,1506.50
+398,2026-05-02,Güneş Süpermarket,YUMURTA 15'Lİ,103.80,Groceries,1506.50
+398,2026-05-02,Güneş Süpermarket,PATATES 2KG,57.40,Fruit and Vegs,1506.50
+398,2026-05-02,Güneş Süpermarket,SU 5L,32.60,Bread/Water,1506.50
+399,2026-05-03,Bereket Fırını,EKMEK,16.60,Bread/Water,92.50
+399,2026-05-03,Bereket Fırını,EKMEK,16.40,Bread/Water,92.50
+399,2026-05-03,Bereket Fırını,EKMEK,16.00,Bread/Water,92.50
+399,2026-05-03,Bereket Fırını,POĞAÇA,43.50,Bread/Water,92.50
+400,2026-05-03,Lale Sitesi Yönetimi,AİDAT,656.30,Dues,656.30
+401,2026-05-04,Bereket Fırını,EKMEK,16.60,Bread/Water,33.30
+401,2026-05-04,Bereket Fırını,EKMEK,16.70,Bread/Water,33.30
+402,2026-05-04,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,212.40,Transport,212.40
+403,2026-05-04,Papatya Market,MAKARNA 500G,26.60,Groceries,191.40
+403,2026-05-04,Papatya Market,MEYVE SUYU 1L,51.40,Groceries,191.40
+403,2026-05-04,Papatya Market,BULAŞIK SÜNGERİ,36.70,Groceries,191.40
+403,2026-05-04,Papatya Market,YUMURTA 10'LU,76.70,Groceries,191.40
+404,2026-05-05,Bereket Fırını,EKMEK,15.50,Bread/Water,32.00
+404,2026-05-05,Bereket Fırını,EKMEK,16.50,Bread/Water,32.00
+405,2026-05-05,Damla Su,DAMACANA SU 19L,117.30,Bread/Water,117.30
+406,2026-05-05,HızlıNet,İNTERNET FATURASI,446.60,Internet/Phone,446.60
+407,2026-05-06,Bahçe Manav,MANDALİNA 1KG,47.90,Fruit and Vegs,303.10
+407,2026-05-06,Bahçe Manav,DOMATES 1KG,52.00,Fruit and Vegs,303.10
+407,2026-05-06,Bahçe Manav,LİMON 1KG,44.90,Fruit and Vegs,303.10
+407,2026-05-06,Bahçe Manav,ISPANAK 1KG,54.70,Fruit and Vegs,303.10
+407,2026-05-06,Bahçe Manav,MUZ 1KG,103.60,Fruit and Vegs,303.10
+408,2026-05-06,Bereket Fırını,EKMEK,15.70,Bread/Water,32.30
+408,2026-05-06,Bereket Fırını,EKMEK,16.60,Bread/Water,32.30
+409,2026-05-07,Bereket Fırını,EKMEK,15.70,Bread/Water,32.30
+409,2026-05-07,Bereket Fırını,EKMEK,16.60,Bread/Water,32.30
+410,2026-05-07,Kasap Usta,DANA KUŞBAŞI 500G,243.00,Meat/Chicken/Fish,342.50
+410,2026-05-07,Kasap Usta,SUCUK 250G,99.50,Meat/Chicken/Fish,342.50
+411,2026-05-07,Papatya Market,MAKARNA 500G,27.70,Groceries,215.90
+411,2026-05-07,Papatya Market,MEYVE SUYU 1L,57.30,Groceries,215.90
+411,2026-05-07,Papatya Market,YUMURTA 10'LU,83.50,Groceries,215.90
+411,2026-05-07,Papatya Market,SÜT 1L,47.40,Groceries,215.90
+412,2026-05-08,Bereket Fırını,EKMEK,16.00,Bread/Water,32.50
+412,2026-05-08,Bereket Fırını,EKMEK,16.50,Bread/Water,32.50
+413,2026-05-08,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,399.40,Entertainment/Restaurant,399.40
+414,2026-05-09,Bereket Fırını,EKMEK,15.30,Bread/Water,90.70
+414,2026-05-09,Bereket Fırını,EKMEK,16.30,Bread/Water,90.70
+414,2026-05-09,Bereket Fırını,EKMEK,16.10,Bread/Water,90.70
+414,2026-05-09,Bereket Fırını,POĞAÇA,43.00,Bread/Water,90.70
+415,2026-05-09,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,1514.90
+415,2026-05-09,Güneş Süpermarket,SU 5L,36.80,Bread/Water,1514.90
+415,2026-05-09,Güneş Süpermarket,ÇAY 1KG,237.10,Groceries,1514.90
+415,2026-05-09,Güneş Süpermarket,DOMATES 1KG,39.40,Fruit and Vegs,1514.90
+415,2026-05-09,Güneş Süpermarket,YUMURTA 15'Lİ,115.40,Groceries,1514.90
+415,2026-05-09,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,221.50,Groceries,1514.90
+415,2026-05-09,Güneş Süpermarket,DETERJAN 4KG,279.40,Groceries,1514.90
+415,2026-05-09,Güneş Süpermarket,DANA KIYMA 500G,291.90,Meat/Chicken/Fish,1514.90
+415,2026-05-09,Güneş Süpermarket,BEYAZ PEYNİR 500G,187.20,Groceries,1514.90
+415,2026-05-09,Güneş Süpermarket,ELMA 1KG,46.10,Fruit and Vegs,1514.90
+415,2026-05-09,Güneş Süpermarket,PATATES 2KG,59.10,Fruit and Vegs,1514.90
+416,2026-05-10,Bereket Fırını,EKMEK,16.00,Bread/Water,90.80
+416,2026-05-10,Bereket Fırını,EKMEK,16.60,Bread/Water,90.80
+416,2026-05-10,Bereket Fırını,EKMEK,16.50,Bread/Water,90.80
+416,2026-05-10,Bereket Fırını,POĞAÇA,41.70,Bread/Water,90.80
+417,2026-05-10,Şehir Elektrik,ELEKTRİK FATURASI,450.20,Electrical bill,450.20
+418,2026-05-11,Bereket Fırını,EKMEK,16.40,Bread/Water,31.80
+418,2026-05-11,Bereket Fırını,EKMEK,15.40,Bread/Water,31.80
+419,2026-05-11,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,213.00,Transport,213.00
+420,2026-05-11,Papatya Market,KAŞAR PEYNİR 250G,136.00,Groceries,198.60
+420,2026-05-11,Papatya Market,MAKARNA 500G,26.10,Groceries,198.60
+420,2026-05-11,Papatya Market,BULAŞIK SÜNGERİ,36.50,Groceries,198.60
+421,2026-05-12,Bereket Fırını,EKMEK,15.90,Bread/Water,32.20
+421,2026-05-12,Bereket Fırını,EKMEK,16.30,Bread/Water,32.20
+422,2026-05-12,Damla Su,DAMACANA SU 19L,118.10,Bread/Water,118.10
+423,2026-05-12,Şehir Su,SU FATURASI,246.70,Water bill,246.70
+424,2026-05-13,Bahçe Manav,PORTAKAL 1KG,47.10,Fruit and Vegs,324.50
+424,2026-05-13,Bahçe Manav,LİMON 1KG,48.10,Fruit and Vegs,324.50
+424,2026-05-13,Bahçe Manav,ISPANAK 1KG,61.10,Fruit and Vegs,324.50
+424,2026-05-13,Bahçe Manav,DOMATES 1KG,52.80,Fruit and Vegs,324.50
+424,2026-05-13,Bahçe Manav,MANDALİNA 1KG,54.10,Fruit and Vegs,324.50
+424,2026-05-13,Bahçe Manav,PATLICAN 1KG,61.30,Fruit and Vegs,324.50
+425,2026-05-13,Bereket Fırını,EKMEK,16.40,Bread/Water,32.20
+425,2026-05-13,Bereket Fırını,EKMEK,15.80,Bread/Water,32.20
+426,2026-05-14,Bereket Fırını,EKMEK,16.70,Bread/Water,32.40
+426,2026-05-14,Bereket Fırını,EKMEK,15.70,Bread/Water,32.40
+427,2026-05-14,Kasap Usta,DANA KUŞBAŞI 500G,198.60,Meat/Chicken/Fish,283.60
+427,2026-05-14,Kasap Usta,SUCUK 250G,85.00,Meat/Chicken/Fish,283.60
+428,2026-05-14,Papatya Market,MEYVE SUYU 1L,47.80,Groceries,209.10
+428,2026-05-14,Papatya Market,BİSKÜVİ,27.10,Groceries,209.10
+428,2026-05-14,Papatya Market,KAŞAR PEYNİR 250G,118.00,Groceries,209.10
+428,2026-05-14,Papatya Market,EKMEK,16.20,Bread/Water,209.10
+429,2026-05-15,Bereket Fırını,EKMEK,16.40,Bread/Water,31.60
+429,2026-05-15,Bereket Fırını,EKMEK,15.20,Bread/Water,31.60
+430,2026-05-15,Kent Doğalgaz,DOĞALGAZ FATURASI,472.60,Gas bill,472.60
+431,2026-05-15,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,385.00,Entertainment/Restaurant,385.00
+432,2026-05-16,Bereket Fırını,EKMEK,16.70,Bread/Water,91.60
+432,2026-05-16,Bereket Fırını,EKMEK,15.80,Bread/Water,91.60
+432,2026-05-16,Bereket Fırını,EKMEK,16.50,Bread/Water,91.60
+432,2026-05-16,Bereket Fırını,POĞAÇA,42.60,Bread/Water,91.60
+433,2026-05-16,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1449.20
+433,2026-05-16,Güneş Süpermarket,SU 5L,29.20,Bread/Water,1449.20
+433,2026-05-16,Güneş Süpermarket,SÜT 1L,36.90,Groceries,1449.20
+433,2026-05-16,Güneş Süpermarket,SALATALIK 1KG,29.90,Fruit and Vegs,1449.20
+433,2026-05-16,Güneş Süpermarket,ZEYTİN 500G,112.90,Groceries,1449.20
+433,2026-05-16,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,184.90,Groceries,1449.20
+433,2026-05-16,Güneş Süpermarket,DETERJAN 4KG,235.10,Groceries,1449.20
+433,2026-05-16,Güneş Süpermarket,BEYAZ PEYNİR 500G,161.40,Groceries,1449.20
+433,2026-05-16,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,149.30,Groceries,1449.20
+433,2026-05-16,Güneş Süpermarket,ELMA 1KG,39.70,Fruit and Vegs,1449.20
+433,2026-05-16,Güneş Süpermarket,YUMURTA 15'Lİ,96.30,Groceries,1449.20
+433,2026-05-16,Güneş Süpermarket,TAVUK BUT 1KG,129.70,Meat/Chicken/Fish,1449.20
+433,2026-05-16,Güneş Süpermarket,SOĞAN 2KG,40.70,Fruit and Vegs,1449.20
+433,2026-05-16,Güneş Süpermarket,ÇAY 1KG,202.10,Groceries,1449.20
+434,2026-05-16,Yol Akaryakıt,BENZİN,718.40,Transport,718.40
+435,2026-05-17,Bereket Fırını,EKMEK,16.80,Bread/Water,91.90
+435,2026-05-17,Bereket Fırını,EKMEK,15.70,Bread/Water,91.90
+435,2026-05-17,Bereket Fırını,EKMEK,15.30,Bread/Water,91.90
+435,2026-05-17,Bereket Fırını,POĞAÇA,44.10,Bread/Water,91.90
+436,2026-05-18,Bereket Fırını,EKMEK,16.10,Bread/Water,31.40
+436,2026-05-18,Bereket Fırını,EKMEK,15.30,Bread/Water,31.40
+437,2026-05-18,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,213.60,Transport,213.60
+438,2026-05-18,Papatya Market,EKMEK,13.40,Bread/Water,187.60
+438,2026-05-18,Papatya Market,BULAŞIK SÜNGERİ,25.50,Groceries,187.60
+438,2026-05-18,Papatya Market,BİSKÜVİ,22.60,Groceries,187.60
+438,2026-05-18,Papatya Market,KAŞAR PEYNİR 250G,93.20,Groceries,187.60
+438,2026-05-18,Papatya Market,SÜT 1L,32.90,Groceries,187.60
+439,2026-05-19,Bereket Fırını,EKMEK,16.80,Bread/Water,32.90
+439,2026-05-19,Bereket Fırını,EKMEK,16.10,Bread/Water,32.90
+440,2026-05-19,Damla Su,DAMACANA SU 19L,114.20,Bread/Water,114.20
+441,2026-05-20,Bahçe Manav,LİMON 1KG,46.50,Fruit and Vegs,329.20
+441,2026-05-20,Bahçe Manav,DOMATES 1KG,52.30,Fruit and Vegs,329.20
+441,2026-05-20,Bahçe Manav,BİBER 1KG,70.70,Fruit and Vegs,329.20
+441,2026-05-20,Bahçe Manav,MANDALİNA 1KG,52.70,Fruit and Vegs,329.20
+441,2026-05-20,Bahçe Manav,MUZ 1KG,107.00,Fruit and Vegs,329.20
+442,2026-05-20,Bereket Fırını,EKMEK,16.20,Bread/Water,32.00
+442,2026-05-20,Bereket Fırını,EKMEK,15.80,Bread/Water,32.00
+443,2026-05-20,HızlıNet,MOBİL HAT FATURASI,387.60,Internet/Phone,387.60
+444,2026-05-21,Bereket Fırını,EKMEK,16.00,Bread/Water,32.60
+444,2026-05-21,Bereket Fırını,EKMEK,16.60,Bread/Water,32.60
+445,2026-05-21,Kasap Usta,DANA KUŞBAŞI 500G,234.90,Meat/Chicken/Fish,332.70
+445,2026-05-21,Kasap Usta,SUCUK 250G,97.80,Meat/Chicken/Fish,332.70
+446,2026-05-21,Papatya Market,YUMURTA 10'LU,74.40,Groceries,201.10
+446,2026-05-21,Papatya Market,EKMEK,17.60,Bread/Water,201.10
+446,2026-05-21,Papatya Market,BULAŞIK SÜNGERİ,35.00,Groceries,201.10
+446,2026-05-21,Papatya Market,BİSKÜVİ,28.10,Groceries,201.10
+446,2026-05-21,Papatya Market,SÜT 1L,46.00,Groceries,201.10
+447,2026-05-22,Bereket Fırını,EKMEK,16.20,Bread/Water,31.80
+447,2026-05-22,Bereket Fırını,EKMEK,15.60,Bread/Water,31.80
+448,2026-05-22,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,425.20,Entertainment/Restaurant,425.20
+449,2026-05-23,Bereket Fırını,EKMEK,16.60,Bread/Water,89.60
+449,2026-05-23,Bereket Fırını,EKMEK,15.40,Bread/Water,89.60
+449,2026-05-23,Bereket Fırını,EKMEK,15.40,Bread/Water,89.60
+449,2026-05-23,Bereket Fırını,POĞAÇA,42.20,Bread/Water,89.60
+450,2026-05-23,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,1416.00
+450,2026-05-23,Güneş Süpermarket,PATATES 2KG,46.80,Fruit and Vegs,1416.00
+450,2026-05-23,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,143.70,Groceries,1416.00
+450,2026-05-23,Güneş Süpermarket,ZEYTİN 500G,116.30,Groceries,1416.00
+450,2026-05-23,Güneş Süpermarket,SALATALIK 1KG,30.20,Fruit and Vegs,1416.00
+450,2026-05-23,Güneş Süpermarket,DETERJAN 4KG,225.10,Groceries,1416.00
+450,2026-05-23,Güneş Süpermarket,BEYAZ PEYNİR 500G,157.50,Groceries,1416.00
+450,2026-05-23,Güneş Süpermarket,YOĞURT 1.5KG,80.70,Groceries,1416.00
+450,2026-05-23,Güneş Süpermarket,PİRİNÇ 1KG,66.10,Groceries,1416.00
+450,2026-05-23,Güneş Süpermarket,DOMATES 1KG,33.10,Fruit and Vegs,1416.00
+450,2026-05-23,Güneş Süpermarket,DANA KIYMA 500G,239.90,Meat/Chicken/Fish,1416.00
+450,2026-05-23,Güneş Süpermarket,MAKARNA 500G,22.00,Groceries,1416.00
+450,2026-05-23,Güneş Süpermarket,TAVUK BUT 1KG,120.50,Meat/Chicken/Fish,1416.00
+450,2026-05-23,Güneş Süpermarket,SÜT 1L,37.70,Groceries,1416.00
+450,2026-05-23,Güneş Süpermarket,YUMURTA 15'Lİ,95.40,Groceries,1416.00
+451,2026-05-24,Bereket Fırını,EKMEK,16.20,Bread/Water,90.30
+451,2026-05-24,Bereket Fırını,EKMEK,15.90,Bread/Water,90.30
+451,2026-05-24,Bereket Fırını,EKMEK,16.20,Bread/Water,90.30
+451,2026-05-24,Bereket Fırını,POĞAÇA,42.00,Bread/Water,90.30
+452,2026-05-24,Şifa Eczanesi,ECZANE,295.70,Additional expenses,295.70
+453,2026-05-25,Bereket Fırını,EKMEK,15.70,Bread/Water,32.10
+453,2026-05-25,Bereket Fırını,EKMEK,16.40,Bread/Water,32.10
+454,2026-05-25,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,214.20,Transport,214.20
+455,2026-05-25,Papatya Market,SÜT 1L,48.40,Groceries,218.80
+455,2026-05-25,Papatya Market,BULAŞIK SÜNGERİ,38.20,Groceries,218.80
+455,2026-05-25,Papatya Market,YUMURTA 10'LU,77.10,Groceries,218.80
+455,2026-05-25,Papatya Market,MEYVE SUYU 1L,55.10,Groceries,218.80
+456,2026-05-26,Bereket Fırını,EKMEK,15.70,Bread/Water,32.00
+456,2026-05-26,Bereket Fırını,EKMEK,16.30,Bread/Water,32.00
+457,2026-05-26,Damla Su,DAMACANA SU 19L,117.00,Bread/Water,117.00
+458,2026-05-27,Bahçe Manav,BİBER 1KG,71.40,Fruit and Vegs,338.60
+458,2026-05-27,Bahçe Manav,DOMATES 1KG,54.40,Fruit and Vegs,338.60
+458,2026-05-27,Bahçe Manav,PORTAKAL 1KG,46.90,Fruit and Vegs,338.60
+458,2026-05-27,Bahçe Manav,MUZ 1KG,104.30,Fruit and Vegs,338.60
+458,2026-05-27,Bahçe Manav,PATLICAN 1KG,61.60,Fruit and Vegs,338.60
+459,2026-05-27,Bereket Fırını,EKMEK,16.70,Bread/Water,32.20
+459,2026-05-27,Bereket Fırını,EKMEK,15.50,Bread/Water,32.20
+460,2026-05-28,Bereket Fırını,EKMEK,16.80,Bread/Water,33.60
+460,2026-05-28,Bereket Fırını,EKMEK,16.80,Bread/Water,33.60
+461,2026-05-28,Kasap Usta,DANA KUŞBAŞI 500G,212.00,Meat/Chicken/Fish,307.70
+461,2026-05-28,Kasap Usta,SUCUK 250G,95.70,Meat/Chicken/Fish,307.70
+462,2026-05-28,Papatya Market,BİSKÜVİ,20.00,Groceries,195.60
+462,2026-05-28,Papatya Market,EKMEK,12.50,Bread/Water,195.60
+462,2026-05-28,Papatya Market,MEYVE SUYU 1L,38.60,Groceries,195.60
+462,2026-05-28,Papatya Market,KAŞAR PEYNİR 250G,93.50,Groceries,195.60
+462,2026-05-28,Papatya Market,SÜT 1L,31.00,Groceries,195.60
+463,2026-05-29,Bereket Fırını,EKMEK,15.60,Bread/Water,32.40
+463,2026-05-29,Bereket Fırını,EKMEK,16.80,Bread/Water,32.40
+464,2026-05-29,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,454.10,Entertainment/Restaurant,454.10
+465,2026-05-29,Zarif Hediyelik,HEDİYE KUTUSU,2251.00,Gifts,2251.00
+466,2026-05-30,Bereket Fırını,EKMEK,16.00,Bread/Water,90.10
+466,2026-05-30,Bereket Fırını,EKMEK,16.40,Bread/Water,90.10
+466,2026-05-30,Bereket Fırını,EKMEK,15.80,Bread/Water,90.10
+466,2026-05-30,Bereket Fırını,POĞAÇA,41.90,Bread/Water,90.10
+467,2026-05-30,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,1527.40
+467,2026-05-30,Güneş Süpermarket,SÜT 1L,39.50,Groceries,1527.40
+467,2026-05-30,Güneş Süpermarket,ZEYTİN 500G,125.00,Groceries,1527.40
+467,2026-05-30,Güneş Süpermarket,BEYAZ PEYNİR 500G,160.50,Groceries,1527.40
+467,2026-05-30,Güneş Süpermarket,DETERJAN 4KG,252.60,Groceries,1527.40
+467,2026-05-30,Güneş Süpermarket,TAVUK BUT 1KG,135.80,Meat/Chicken/Fish,1527.40
+467,2026-05-30,Güneş Süpermarket,PATATES 2KG,50.10,Fruit and Vegs,1527.40
+467,2026-05-30,Güneş Süpermarket,ELMA 1KG,39.50,Fruit and Vegs,1527.40
+467,2026-05-30,Güneş Süpermarket,DOMATES 1KG,36.80,Fruit and Vegs,1527.40
+467,2026-05-30,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,148.90,Groceries,1527.40
+467,2026-05-30,Güneş Süpermarket,SOĞAN 2KG,40.80,Fruit and Vegs,1527.40
+467,2026-05-30,Güneş Süpermarket,ÇAY 1KG,209.60,Groceries,1527.40
+467,2026-05-30,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,196.10,Groceries,1527.40
+467,2026-05-30,Güneş Süpermarket,YOĞURT 1.5KG,91.20,Groceries,1527.40
+468,2026-05-30,Tatlı Köşe Pastanesi,DOĞUM GÜNÜ PASTASI,1052.10,Gifts,1052.10
+469,2026-05-31,Bereket Fırını,EKMEK,15.80,Bread/Water,90.30
+469,2026-05-31,Bereket Fırını,EKMEK,15.80,Bread/Water,90.30
+469,2026-05-31,Bereket Fırını,EKMEK,16.40,Bread/Water,90.30
+469,2026-05-31,Bereket Fırını,POĞAÇA,42.30,Bread/Water,90.30
+470,2026-06-01,Bereket Fırını,EKMEK,15.30,Bread/Water,31.50
+470,2026-06-01,Bereket Fırını,EKMEK,16.20,Bread/Water,31.50
+471,2026-06-01,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,214.80,Transport,214.80
+472,2026-06-01,Papatya Market,KAŞAR PEYNİR 250G,103.10,Groceries,203.00
+472,2026-06-01,Papatya Market,EKMEK,14.00,Bread/Water,203.00
+472,2026-06-01,Papatya Market,MAKARNA 500G,21.20,Groceries,203.00
+472,2026-06-01,Papatya Market,YUMURTA 10'LU,64.70,Groceries,203.00
+473,2026-06-01,Yol Akaryakıt,BENZİN,777.70,Transport,777.70
+474,2026-06-02,Bereket Fırını,EKMEK,16.10,Bread/Water,32.50
+474,2026-06-02,Bereket Fırını,EKMEK,16.40,Bread/Water,32.50
+475,2026-06-02,Damla Su,DAMACANA SU 19L,114.70,Bread/Water,114.70
+476,2026-06-03,Bahçe Manav,ISPANAK 1KG,55.50,Fruit and Vegs,324.90
+476,2026-06-03,Bahçe Manav,MUZ 1KG,99.10,Fruit and Vegs,324.90
+476,2026-06-03,Bahçe Manav,PATLICAN 1KG,55.00,Fruit and Vegs,324.90
+476,2026-06-03,Bahçe Manav,MANDALİNA 1KG,49.70,Fruit and Vegs,324.90
+476,2026-06-03,Bahçe Manav,BİBER 1KG,65.60,Fruit and Vegs,324.90
+477,2026-06-03,Bereket Fırını,EKMEK,16.20,Bread/Water,32.80
+477,2026-06-03,Bereket Fırını,EKMEK,16.60,Bread/Water,32.80
+478,2026-06-03,Lale Sitesi Yönetimi,AİDAT,606.10,Dues,606.10
+479,2026-06-04,Bereket Fırını,EKMEK,15.50,Bread/Water,31.60
+479,2026-06-04,Bereket Fırını,EKMEK,16.10,Bread/Water,31.60
+480,2026-06-04,Kasap Usta,TAVUK GÖĞÜS 1KG,177.10,Meat/Chicken/Fish,340.70
+480,2026-06-04,Kasap Usta,SUCUK 250G,163.60,Meat/Chicken/Fish,340.70
+481,2026-06-04,Papatya Market,SÜT 1L,48.20,Groceries,235.20
+481,2026-06-04,Papatya Market,EKMEK,19.40,Bread/Water,235.20
+481,2026-06-04,Papatya Market,KAŞAR PEYNİR 250G,140.90,Groceries,235.20
+481,2026-06-04,Papatya Market,MAKARNA 500G,26.70,Groceries,235.20
+482,2026-06-05,Bereket Fırını,EKMEK,16.00,Bread/Water,31.40
+482,2026-06-05,Bereket Fırını,EKMEK,15.40,Bread/Water,31.40
+483,2026-06-05,HızlıNet,İNTERNET FATURASI,521.50,Internet/Phone,521.50
+484,2026-06-05,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,405.10,Entertainment/Restaurant,405.10
+485,2026-06-06,Bereket Fırını,EKMEK,15.60,Bread/Water,89.60
+485,2026-06-06,Bereket Fırını,EKMEK,16.50,Bread/Water,89.60
+485,2026-06-06,Bereket Fırını,EKMEK,15.60,Bread/Water,89.60
+485,2026-06-06,Bereket Fırını,POĞAÇA,41.90,Bread/Water,89.60
+486,2026-06-06,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1557.20
+486,2026-06-06,Güneş Süpermarket,DANA KIYMA 500G,302.00,Meat/Chicken/Fish,1557.20
+486,2026-06-06,Güneş Süpermarket,ÇAY 1KG,241.80,Groceries,1557.20
+486,2026-06-06,Güneş Süpermarket,ZEYTİN 500G,133.40,Groceries,1557.20
+486,2026-06-06,Güneş Süpermarket,YOĞURT 1.5KG,99.30,Groceries,1557.20
+486,2026-06-06,Güneş Süpermarket,DOMATES 1KG,40.70,Fruit and Vegs,1557.20
+486,2026-06-06,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,206.10,Groceries,1557.20
+486,2026-06-06,Güneş Süpermarket,SU 5L,34.50,Bread/Water,1557.20
+486,2026-06-06,Güneş Süpermarket,SÜT 1L,42.80,Groceries,1557.20
+486,2026-06-06,Güneş Süpermarket,MAKARNA 500G,24.20,Groceries,1557.20
+486,2026-06-06,Güneş Süpermarket,ELMA 1KG,44.30,Fruit and Vegs,1557.20
+486,2026-06-06,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,165.20,Groceries,1557.20
+486,2026-06-06,Güneş Süpermarket,TAVUK BUT 1KG,144.80,Meat/Chicken/Fish,1557.20
+486,2026-06-06,Güneş Süpermarket,PİRİNÇ 1KG,77.00,Groceries,1557.20
+487,2026-06-07,Bereket Fırını,EKMEK,16.60,Bread/Water,92.90
+487,2026-06-07,Bereket Fırını,EKMEK,16.80,Bread/Water,92.90
+487,2026-06-07,Bereket Fırını,EKMEK,15.40,Bread/Water,92.90
+487,2026-06-07,Bereket Fırını,POĞAÇA,44.10,Bread/Water,92.90
+488,2026-06-08,Bereket Fırını,EKMEK,16.90,Bread/Water,33.10
+488,2026-06-08,Bereket Fırını,EKMEK,16.20,Bread/Water,33.10
+489,2026-06-08,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,215.40,Transport,215.40
+490,2026-06-08,Papatya Market,EKMEK,16.00,Bread/Water,227.40
+490,2026-06-08,Papatya Market,BULAŞIK SÜNGERİ,30.40,Groceries,227.40
+490,2026-06-08,Papatya Market,YUMURTA 10'LU,68.80,Groceries,227.40
+490,2026-06-08,Papatya Market,KAŞAR PEYNİR 250G,112.20,Groceries,227.40
+491,2026-06-09,Bereket Fırını,EKMEK,16.20,Bread/Water,32.00
+491,2026-06-09,Bereket Fırını,EKMEK,15.80,Bread/Water,32.00
+492,2026-06-09,Damla Su,DAMACANA SU 19L,117.10,Bread/Water,117.10
+493,2026-06-10,Bahçe Manav,BİBER 1KG,59.80,Fruit and Vegs,348.80
+493,2026-06-10,Bahçe Manav,LİMON 1KG,40.70,Fruit and Vegs,348.80
+493,2026-06-10,Bahçe Manav,MUZ 1KG,100.50,Fruit and Vegs,348.80
+493,2026-06-10,Bahçe Manav,MANDALİNA 1KG,49.90,Fruit and Vegs,348.80
+493,2026-06-10,Bahçe Manav,PORTAKAL 1KG,40.70,Fruit and Vegs,348.80
+493,2026-06-10,Bahçe Manav,ISPANAK 1KG,57.20,Fruit and Vegs,348.80
+494,2026-06-10,Bereket Fırını,EKMEK,15.40,Bread/Water,31.60
+494,2026-06-10,Bereket Fırını,EKMEK,16.20,Bread/Water,31.60
+495,2026-06-10,Şehir Elektrik,ELEKTRİK FATURASI,477.50,Electrical bill,477.50
+496,2026-06-11,Bereket Fırını,EKMEK,15.50,Bread/Water,31.80
+496,2026-06-11,Bereket Fırını,EKMEK,16.30,Bread/Water,31.80
+497,2026-06-11,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,3642.30
+497,2026-06-11,Güneş Süpermarket,DOMATES,147.60,Fruit and Vegs,3642.30
+497,2026-06-11,Güneş Süpermarket,MEYVE SUYU,98.60,Groceries,3642.30
+497,2026-06-11,Güneş Süpermarket,PİRİNÇ,738.60,Groceries,3642.30
+497,2026-06-11,Güneş Süpermarket,SALATALIK,136.80,Fruit and Vegs,3642.30
+497,2026-06-11,Güneş Süpermarket,GAZOZ,125.40,Groceries,3642.30
+497,2026-06-11,Güneş Süpermarket,YOĞURT,232.90,Groceries,3642.30
+497,2026-06-11,Güneş Süpermarket,KUZU ETİ,1444.60,Meat/Chicken/Fish,3642.30
+497,2026-06-11,Güneş Süpermarket,ZEYTİNYAĞI,716.80,Groceries,3642.30
+498,2026-06-11,Kasap Usta,TAVUK GÖĞÜS 1KG,166.30,Meat/Chicken/Fish,327.00
+498,2026-06-11,Kasap Usta,SUCUK 250G,160.70,Meat/Chicken/Fish,327.00
+499,2026-06-11,Papatya Market,BULAŞIK SÜNGERİ,27.60,Groceries,195.50
+499,2026-06-11,Papatya Market,SÜT 1L,32.20,Groceries,195.50
+499,2026-06-11,Papatya Market,BİSKÜVİ,23.20,Groceries,195.50
+499,2026-06-11,Papatya Market,EKMEK,13.60,Bread/Water,195.50
+499,2026-06-11,Papatya Market,KAŞAR PEYNİR 250G,98.90,Groceries,195.50
+500,2026-06-12,Bahçe Manav,NAR,213.20,Fruit and Vegs,2086.10
+500,2026-06-12,Bahçe Manav,BAKLAVA,1592.60,Groceries,2086.10
+500,2026-06-12,Bahçe Manav,ÜZÜM,157.40,Fruit and Vegs,2086.10
+500,2026-06-12,Bahçe Manav,MANDALİNA,122.90,Fruit and Vegs,2086.10
+501,2026-06-12,Bereket Fırını,EKMEK,16.90,Bread/Water,33.10
+501,2026-06-12,Bereket Fırını,EKMEK,16.20,Bread/Water,33.10
+502,2026-06-12,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,416.40,Entertainment/Restaurant,416.40
+503,2026-06-12,Şehir Su,SU FATURASI,245.70,Water bill,245.70
+504,2026-06-13,Bereket Fırını,EKMEK,15.50,Bread/Water,89.30
+504,2026-06-13,Bereket Fırını,EKMEK,15.40,Bread/Water,89.30
+504,2026-06-13,Bereket Fırını,EKMEK,16.70,Bread/Water,89.30
+504,2026-06-13,Bereket Fırını,POĞAÇA,41.70,Bread/Water,89.30
+505,2026-06-13,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1464.60
+505,2026-06-13,Güneş Süpermarket,BEYAZ PEYNİR 500G,184.10,Groceries,1464.60
+505,2026-06-13,Güneş Süpermarket,SOĞAN 2KG,45.70,Fruit and Vegs,1464.60
+505,2026-06-13,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,173.10,Groceries,1464.60
+505,2026-06-13,Güneş Süpermarket,PATATES 2KG,56.20,Fruit and Vegs,1464.60
+505,2026-06-13,Güneş Süpermarket,MAKARNA 500G,24.20,Groceries,1464.60
+505,2026-06-13,Güneş Süpermarket,ZEYTİN 500G,136.80,Groceries,1464.60
+505,2026-06-13,Güneş Süpermarket,ELMA 1KG,44.00,Fruit and Vegs,1464.60
+505,2026-06-13,Güneş Süpermarket,YOĞURT 1.5KG,93.30,Groceries,1464.60
+505,2026-06-13,Güneş Süpermarket,DANA KIYMA 500G,286.70,Meat/Chicken/Fish,1464.60
+505,2026-06-13,Güneş Süpermarket,SALATALIK 1KG,34.30,Fruit and Vegs,1464.60
+505,2026-06-13,Güneş Süpermarket,DOMATES 1KG,38.60,Fruit and Vegs,1464.60
+505,2026-06-13,Güneş Süpermarket,SU 5L,34.00,Bread/Water,1464.60
+505,2026-06-13,Güneş Süpermarket,ÇAY 1KG,234.70,Groceries,1464.60
+505,2026-06-13,Güneş Süpermarket,PİRİNÇ 1KG,77.80,Groceries,1464.60
+506,2026-06-13,Lale Çiçekçilik,ÇİÇEK BUKETİ,405.40,Additional expenses,405.40
+507,2026-06-14,Bereket Fırını,EKMEK,17.00,Bread/Water,93.10
+507,2026-06-14,Bereket Fırını,EKMEK,15.80,Bread/Water,93.10
+507,2026-06-14,Bereket Fırını,EKMEK,16.90,Bread/Water,93.10
+507,2026-06-14,Bereket Fırını,POĞAÇA,43.40,Bread/Water,93.10
+508,2026-06-15,Bereket Fırını,EKMEK,16.90,Bread/Water,33.10
+508,2026-06-15,Bereket Fırını,EKMEK,16.20,Bread/Water,33.10
+509,2026-06-15,Kent Doğalgaz,DOĞALGAZ FATURASI,507.20,Gas bill,507.20
+510,2026-06-15,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,216.00,Transport,216.00
+511,2026-06-15,Papatya Market,MAKARNA 500G,26.80,Groceries,215.00
+511,2026-06-15,Papatya Market,MEYVE SUYU 1L,52.30,Groceries,215.00
+511,2026-06-15,Papatya Market,YUMURTA 10'LU,82.20,Groceries,215.00
+511,2026-06-15,Papatya Market,EKMEK,18.70,Bread/Water,215.00
+511,2026-06-15,Papatya Market,BULAŞIK SÜNGERİ,35.00,Groceries,215.00
+512,2026-06-16,Bereket Fırını,EKMEK,15.50,Bread/Water,32.20
+512,2026-06-16,Bereket Fırını,EKMEK,16.70,Bread/Water,32.20
+513,2026-06-16,Damla Su,DAMACANA SU 19L,121.40,Bread/Water,121.40
+514,2026-06-16,Yol Akaryakıt,BENZİN,758.20,Transport,758.20
+515,2026-06-17,Bahçe Manav,ISPANAK 1KG,81.00,Fruit and Vegs,334.50
+515,2026-06-17,Bahçe Manav,MUZ 1KG,136.30,Fruit and Vegs,334.50
+515,2026-06-17,Bahçe Manav,LİMON 1KG,60.70,Fruit and Vegs,334.50
+515,2026-06-17,Bahçe Manav,PORTAKAL 1KG,56.50,Fruit and Vegs,334.50
+516,2026-06-17,Bereket Fırını,EKMEK,15.80,Bread/Water,31.70
+516,2026-06-17,Bereket Fırını,EKMEK,15.90,Bread/Water,31.70
+517,2026-06-18,Bereket Fırını,EKMEK,16.70,Bread/Water,32.90
+517,2026-06-18,Bereket Fırını,EKMEK,16.20,Bread/Water,32.90
+518,2026-06-18,Kasap Usta,SUCUK 250G,89.70,Meat/Chicken/Fish,303.00
+518,2026-06-18,Kasap Usta,DANA KUŞBAŞI 500G,213.30,Meat/Chicken/Fish,303.00
+519,2026-06-18,Papatya Market,EKMEK,47.50,Bread/Water,204.10
+519,2026-06-18,Papatya Market,BİSKÜVİ,84.40,Groceries,204.10
+519,2026-06-18,Papatya Market,MAKARNA 500G,72.20,Groceries,204.10
+520,2026-06-19,Bereket Fırını,EKMEK,16.60,Bread/Water,33.30
+520,2026-06-19,Bereket Fırını,EKMEK,16.70,Bread/Water,33.30
+521,2026-06-19,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,451.60,Entertainment/Restaurant,451.60
+522,2026-06-20,Bereket Fırını,EKMEK,16.90,Bread/Water,92.50
+522,2026-06-20,Bereket Fırını,EKMEK,16.50,Bread/Water,92.50
+522,2026-06-20,Bereket Fırını,EKMEK,16.30,Bread/Water,92.50
+522,2026-06-20,Bereket Fırını,POĞAÇA,42.80,Bread/Water,92.50
+523,2026-06-20,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,1431.40
+523,2026-06-20,Güneş Süpermarket,DANA KIYMA 500G,283.10,Meat/Chicken/Fish,1431.40
+523,2026-06-20,Güneş Süpermarket,BEYAZ PEYNİR 500G,164.80,Groceries,1431.40
+523,2026-06-20,Güneş Süpermarket,PİRİNÇ 1KG,74.10,Groceries,1431.40
+523,2026-06-20,Güneş Süpermarket,SU 5L,33.20,Bread/Water,1431.40
+523,2026-06-20,Güneş Süpermarket,SALATALIK 1KG,33.10,Fruit and Vegs,1431.40
+523,2026-06-20,Güneş Süpermarket,DETERJAN 4KG,262.20,Groceries,1431.40
+523,2026-06-20,Güneş Süpermarket,YUMURTA 15'Lİ,102.90,Groceries,1431.40
+523,2026-06-20,Güneş Süpermarket,DOMATES 1KG,38.50,Fruit and Vegs,1431.40
+523,2026-06-20,Güneş Süpermarket,ZEYTİN 500G,122.90,Groceries,1431.40
+523,2026-06-20,Güneş Süpermarket,ÇAY 1KG,229.60,Groceries,1431.40
+523,2026-06-20,Güneş Süpermarket,SÜT 1L,41.60,Groceries,1431.40
+523,2026-06-20,Güneş Süpermarket,SOĞAN 2KG,44.40,Fruit and Vegs,1431.40
+524,2026-06-20,HızlıNet,MOBİL HAT FATURASI,393.30,Internet/Phone,393.30
+525,2026-06-21,Bereket Fırını,EKMEK,15.50,Bread/Water,91.80
+525,2026-06-21,Bereket Fırını,EKMEK,16.30,Bread/Water,91.80
+525,2026-06-21,Bereket Fırını,EKMEK,16.20,Bread/Water,91.80
+525,2026-06-21,Bereket Fırını,POĞAÇA,43.80,Bread/Water,91.80
+526,2026-06-22,Bereket Fırını,EKMEK,15.90,Bread/Water,31.70
+526,2026-06-22,Bereket Fırını,EKMEK,15.80,Bread/Water,31.70
+527,2026-06-22,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,216.60,Transport,216.60
+528,2026-06-22,Papatya Market,BULAŞIK SÜNGERİ,64.80,Groceries,207.70
+528,2026-06-22,Papatya Market,MAKARNA 500G,46.80,Groceries,207.70
+528,2026-06-22,Papatya Market,MEYVE SUYU 1L,96.10,Groceries,207.70
+529,2026-06-23,Bereket Fırını,EKMEK,17.00,Bread/Water,33.00
+529,2026-06-23,Bereket Fırını,EKMEK,16.00,Bread/Water,33.00
+530,2026-06-23,Damla Su,DAMACANA SU 19L,114.00,Bread/Water,114.00
+531,2026-06-24,Bahçe Manav,BİBER 1KG,61.60,Fruit and Vegs,309.10
+531,2026-06-24,Bahçe Manav,ISPANAK 1KG,54.90,Fruit and Vegs,309.10
+531,2026-06-24,Bahçe Manav,MANDALİNA 1KG,49.00,Fruit and Vegs,309.10
+531,2026-06-24,Bahçe Manav,DOMATES 1KG,49.30,Fruit and Vegs,309.10
+531,2026-06-24,Bahçe Manav,MUZ 1KG,94.30,Fruit and Vegs,309.10
+532,2026-06-24,Bereket Fırını,EKMEK,15.60,Bread/Water,31.30
+532,2026-06-24,Bereket Fırını,EKMEK,15.70,Bread/Water,31.30
+533,2026-06-24,Şifa Eczanesi,ECZANE,301.30,Additional expenses,301.30
+534,2026-06-25,Bereket Fırını,EKMEK,16.50,Bread/Water,33.10
+534,2026-06-25,Bereket Fırını,EKMEK,16.60,Bread/Water,33.10
+535,2026-06-25,Kasap Usta,TAVUK GÖĞÜS 1KG,183.70,Meat/Chicken/Fish,351.60
+535,2026-06-25,Kasap Usta,SUCUK 250G,167.90,Meat/Chicken/Fish,351.60
+536,2026-06-25,Papatya Market,YUMURTA 10'LU,66.00,Groceries,242.70
+536,2026-06-25,Papatya Market,MEYVE SUYU 1L,46.90,Groceries,242.70
+536,2026-06-25,Papatya Market,EKMEK,15.50,Bread/Water,242.70
+536,2026-06-25,Papatya Market,KAŞAR PEYNİR 250G,114.30,Groceries,242.70
+537,2026-06-26,Bereket Fırını,EKMEK,15.70,Bread/Water,32.60
+537,2026-06-26,Bereket Fırını,EKMEK,16.90,Bread/Water,32.60
+538,2026-06-26,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,431.30,Entertainment/Restaurant,431.30
+539,2026-06-27,Bereket Fırını,EKMEK,15.50,Bread/Water,91.80
+539,2026-06-27,Bereket Fırını,EKMEK,15.90,Bread/Water,91.80
+539,2026-06-27,Bereket Fırını,EKMEK,16.90,Bread/Water,91.80
+539,2026-06-27,Bereket Fırını,POĞAÇA,43.50,Bread/Water,91.80
+540,2026-06-27,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1600.70
+540,2026-06-27,Güneş Süpermarket,YUMURTA 15'Lİ,121.50,Groceries,1600.70
+540,2026-06-27,Güneş Süpermarket,SU 5L,39.80,Bread/Water,1600.70
+540,2026-06-27,Güneş Süpermarket,SÜT 1L,49.70,Groceries,1600.70
+540,2026-06-27,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,248.00,Groceries,1600.70
+540,2026-06-27,Güneş Süpermarket,TAVUK BUT 1KG,170.80,Meat/Chicken/Fish,1600.70
+540,2026-06-27,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,185.80,Groceries,1600.70
+540,2026-06-27,Güneş Süpermarket,BEYAZ PEYNİR 500G,208.50,Groceries,1600.70
+540,2026-06-27,Güneş Süpermarket,DETERJAN 4KG,312.00,Groceries,1600.70
+540,2026-06-27,Güneş Süpermarket,ZEYTİN 500G,152.70,Groceries,1600.70
+540,2026-06-27,Güneş Süpermarket,YOĞURT 1.5KG,110.80,Groceries,1600.70
+541,2026-06-28,Bereket Fırını,EKMEK,16.60,Bread/Water,90.80
+541,2026-06-28,Bereket Fırını,EKMEK,15.80,Bread/Water,90.80
+541,2026-06-28,Bereket Fırını,EKMEK,15.70,Bread/Water,90.80
+541,2026-06-28,Bereket Fırını,POĞAÇA,42.70,Bread/Water,90.80
+542,2026-06-29,Bereket Fırını,EKMEK,16.60,Bread/Water,33.10
+542,2026-06-29,Bereket Fırını,EKMEK,16.50,Bread/Water,33.10
+543,2026-06-29,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,217.20,Transport,217.20
+544,2026-06-29,Papatya Market,BİSKÜVİ,38.60,Groceries,218.40
+544,2026-06-29,Papatya Market,BULAŞIK SÜNGERİ,48.30,Groceries,218.40
+544,2026-06-29,Papatya Market,YUMURTA 10'LU,106.50,Groceries,218.40
+544,2026-06-29,Papatya Market,EKMEK,25.00,Bread/Water,218.40
+545,2026-06-30,Bereket Fırını,EKMEK,17.00,Bread/Water,33.80
+545,2026-06-30,Bereket Fırını,EKMEK,16.80,Bread/Water,33.80
+546,2026-06-30,Damla Su,DAMACANA SU 19L,116.10,Bread/Water,116.10
+547,2026-07-01,Bahçe Manav,BİBER 1KG,91.20,Fruit and Vegs,359.60
+547,2026-07-01,Bahçe Manav,MUZ 1KG,142.20,Fruit and Vegs,359.60
+547,2026-07-01,Bahçe Manav,LİMON 1KG,61.10,Fruit and Vegs,359.60
+547,2026-07-01,Bahçe Manav,DOMATES 1KG,65.10,Fruit and Vegs,359.60
+548,2026-07-01,Bereket Fırını,EKMEK,15.70,Bread/Water,31.60
+548,2026-07-01,Bereket Fırını,EKMEK,15.90,Bread/Water,31.60
+549,2026-07-01,Yol Akaryakıt,BENZİN,781.10,Transport,781.10
+550,2026-07-02,Bereket Fırını,EKMEK,15.80,Bread/Water,32.20
+550,2026-07-02,Bereket Fırını,EKMEK,16.40,Bread/Water,32.20
+551,2026-07-02,Kasap Usta,TAVUK GÖĞÜS 1KG,171.10,Meat/Chicken/Fish,323.60
+551,2026-07-02,Kasap Usta,SUCUK 250G,152.50,Meat/Chicken/Fish,323.60
+552,2026-07-02,Papatya Market,BULAŞIK SÜNGERİ,29.20,Groceries,223.50
+552,2026-07-02,Papatya Market,YUMURTA 10'LU,68.50,Groceries,223.50
+552,2026-07-02,Papatya Market,EKMEK,14.50,Bread/Water,223.50
+552,2026-07-02,Papatya Market,KAŞAR PEYNİR 250G,111.30,Groceries,223.50
+553,2026-07-03,Bereket Fırını,EKMEK,16.10,Bread/Water,32.50
+553,2026-07-03,Bereket Fırını,EKMEK,16.40,Bread/Water,32.50
+554,2026-07-03,Lale Sitesi Yönetimi,AİDAT,603.10,Dues,603.10
+555,2026-07-03,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,429.00,Entertainment/Restaurant,429.00
+556,2026-07-04,Bereket Fırını,EKMEK,16.00,Bread/Water,92.20
+556,2026-07-04,Bereket Fırını,EKMEK,16.50,Bread/Water,92.20
+556,2026-07-04,Bereket Fırını,EKMEK,16.80,Bread/Water,92.20
+556,2026-07-04,Bereket Fırını,POĞAÇA,42.90,Bread/Water,92.20
+557,2026-07-04,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.00,Additional expenses,1397.00
+557,2026-07-04,Güneş Süpermarket,DETERJAN 4KG,203.00,Groceries,1397.00
+557,2026-07-04,Güneş Süpermarket,DANA KIYMA 500G,219.50,Meat/Chicken/Fish,1397.00
+557,2026-07-04,Güneş Süpermarket,TAVUK BUT 1KG,117.60,Meat/Chicken/Fish,1397.00
+557,2026-07-04,Güneş Süpermarket,ZEYTİN 500G,110.80,Groceries,1397.00
+557,2026-07-04,Güneş Süpermarket,SU 5L,26.80,Bread/Water,1397.00
+557,2026-07-04,Güneş Süpermarket,SALATALIK 1KG,25.90,Fruit and Vegs,1397.00
+557,2026-07-04,Güneş Süpermarket,YOĞURT 1.5KG,77.20,Groceries,1397.00
+557,2026-07-04,Güneş Süpermarket,SOĞAN 2KG,35.70,Fruit and Vegs,1397.00
+557,2026-07-04,Güneş Süpermarket,ELMA 1KG,34.50,Fruit and Vegs,1397.00
+557,2026-07-04,Güneş Süpermarket,SÜT 1L,35.20,Groceries,1397.00
+557,2026-07-04,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,172.20,Groceries,1397.00
+557,2026-07-04,Güneş Süpermarket,BEYAZ PEYNİR 500G,144.70,Groceries,1397.00
+557,2026-07-04,Güneş Süpermarket,ÇAY 1KG,192.90,Groceries,1397.00
+558,2026-07-05,Bereket Fırını,EKMEK,16.50,Bread/Water,94.00
+558,2026-07-05,Bereket Fırını,EKMEK,16.80,Bread/Water,94.00
+558,2026-07-05,Bereket Fırını,EKMEK,16.60,Bread/Water,94.00
+558,2026-07-05,Bereket Fırını,POĞAÇA,44.10,Bread/Water,94.00
+559,2026-07-05,HızlıNet,İNTERNET FATURASI,503.40,Internet/Phone,503.40
+560,2026-07-06,Bereket Fırını,EKMEK,16.80,Bread/Water,33.10
+560,2026-07-06,Bereket Fırını,EKMEK,16.30,Bread/Water,33.10
+561,2026-07-06,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,217.80,Transport,217.80
+562,2026-07-06,Papatya Market,EKMEK,31.90,Bread/Water,232.90
+562,2026-07-06,Papatya Market,BULAŞIK SÜNGERİ,67.10,Groceries,232.90
+562,2026-07-06,Papatya Market,MAKARNA 500G,46.70,Groceries,232.90
+562,2026-07-06,Papatya Market,SÜT 1L,87.20,Groceries,232.90
+563,2026-07-07,Bereket Fırını,EKMEK,16.10,Bread/Water,32.70
+563,2026-07-07,Bereket Fırını,EKMEK,16.60,Bread/Water,32.70
+564,2026-07-07,Damla Su,DAMACANA SU 19L,115.20,Bread/Water,115.20
+565,2026-07-07,Zarif Hediyelik,HEDİYE KUTUSU,2222.50,Gifts,2222.50
+566,2026-07-08,Bahçe Manav,BİBER 1KG,75.70,Fruit and Vegs,302.80
+566,2026-07-08,Bahçe Manav,ISPANAK 1KG,66.60,Fruit and Vegs,302.80
+566,2026-07-08,Bahçe Manav,PORTAKAL 1KG,49.00,Fruit and Vegs,302.80
+566,2026-07-08,Bahçe Manav,LİMON 1KG,47.10,Fruit and Vegs,302.80
+566,2026-07-08,Bahçe Manav,PATLICAN 1KG,64.40,Fruit and Vegs,302.80
+567,2026-07-08,Bereket Fırını,EKMEK,16.90,Bread/Water,33.10
+567,2026-07-08,Bereket Fırını,EKMEK,16.20,Bread/Water,33.10
+568,2026-07-08,Tatlı Köşe Pastanesi,DOĞUM GÜNÜ PASTASI,1029.60,Gifts,1029.60
+569,2026-07-09,Bereket Fırını,EKMEK,16.20,Bread/Water,33.30
+569,2026-07-09,Bereket Fırını,EKMEK,17.10,Bread/Water,33.30
+570,2026-07-09,Kasap Usta,DANA KUŞBAŞI 500G,229.60,Meat/Chicken/Fish,332.50
+570,2026-07-09,Kasap Usta,SUCUK 250G,102.90,Meat/Chicken/Fish,332.50
+571,2026-07-09,Papatya Market,YUMURTA 10'LU,115.80,Groceries,233.40
+571,2026-07-09,Papatya Market,MEYVE SUYU 1L,78.40,Groceries,233.40
+571,2026-07-09,Papatya Market,MAKARNA 500G,39.20,Groceries,233.40
+572,2026-07-10,Bereket Fırını,EKMEK,16.20,Bread/Water,32.70
+572,2026-07-10,Bereket Fırını,EKMEK,16.50,Bread/Water,32.70
+573,2026-07-10,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,427.70,Entertainment/Restaurant,427.70
+574,2026-07-10,Şehir Elektrik,ELEKTRİK FATURASI,481.20,Electrical bill,481.20
+575,2026-07-11,Bereket Fırını,EKMEK,16.60,Bread/Water,92.20
+575,2026-07-11,Bereket Fırını,EKMEK,16.10,Bread/Water,92.20
+575,2026-07-11,Bereket Fırını,EKMEK,15.60,Bread/Water,92.20
+575,2026-07-11,Bereket Fırını,POĞAÇA,43.90,Bread/Water,92.20
+576,2026-07-11,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1486.20
+576,2026-07-11,Güneş Süpermarket,SU 5L,40.30,Bread/Water,1486.20
+576,2026-07-11,Güneş Süpermarket,SOĞAN 2KG,55.20,Fruit and Vegs,1486.20
+576,2026-07-11,Güneş Süpermarket,MAKARNA 500G,29.10,Groceries,1486.20
+576,2026-07-11,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,210.30,Groceries,1486.20
+576,2026-07-11,Güneş Süpermarket,PATATES 2KG,67.80,Fruit and Vegs,1486.20
+576,2026-07-11,Güneş Süpermarket,DANA KIYMA 500G,353.70,Meat/Chicken/Fish,1486.20
+576,2026-07-11,Güneş Süpermarket,YUMURTA 15'Lİ,136.70,Groceries,1486.20
+576,2026-07-11,Güneş Süpermarket,BEYAZ PEYNİR 500G,230.90,Groceries,1486.20
+576,2026-07-11,Güneş Süpermarket,ÇAY 1KG,303.10,Groceries,1486.20
+576,2026-07-11,Güneş Süpermarket,ELMA 1KG,58.00,Fruit and Vegs,1486.20
+577,2026-07-12,Bereket Fırını,EKMEK,16.00,Bread/Water,92.10
+577,2026-07-12,Bereket Fırını,EKMEK,17.00,Bread/Water,92.10
+577,2026-07-12,Bereket Fırını,EKMEK,15.60,Bread/Water,92.10
+577,2026-07-12,Bereket Fırını,POĞAÇA,43.50,Bread/Water,92.10
+578,2026-07-12,Şehir Su,SU FATURASI,236.70,Water bill,236.70
+579,2026-07-13,Bereket Fırını,EKMEK,17.00,Bread/Water,33.00
+579,2026-07-13,Bereket Fırını,EKMEK,16.00,Bread/Water,33.00
+580,2026-07-13,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,218.30,Transport,218.30
+581,2026-07-13,Papatya Market,EKMEK,13.80,Bread/Water,220.00
+581,2026-07-13,Papatya Market,MAKARNA 500G,21.40,Groceries,220.00
+581,2026-07-13,Papatya Market,BİSKÜVİ,24.10,Groceries,220.00
+581,2026-07-13,Papatya Market,YUMURTA 10'LU,60.10,Groceries,220.00
+581,2026-07-13,Papatya Market,KAŞAR PEYNİR 250G,100.60,Groceries,220.00
+582,2026-07-14,Bereket Fırını,EKMEK,16.80,Bread/Water,33.90
+582,2026-07-14,Bereket Fırını,EKMEK,17.10,Bread/Water,33.90
+583,2026-07-14,Damla Su,DAMACANA SU 19L,118.00,Bread/Water,118.00
+584,2026-07-15,Bahçe Manav,DOMATES 1KG,52.80,Fruit and Vegs,347.80
+584,2026-07-15,Bahçe Manav,ISPANAK 1KG,63.10,Fruit and Vegs,347.80
+584,2026-07-15,Bahçe Manav,PORTAKAL 1KG,46.60,Fruit and Vegs,347.80
+584,2026-07-15,Bahçe Manav,LİMON 1KG,48.90,Fruit and Vegs,347.80
+584,2026-07-15,Bahçe Manav,BİBER 1KG,72.70,Fruit and Vegs,347.80
+584,2026-07-15,Bahçe Manav,PATLICAN 1KG,63.70,Fruit and Vegs,347.80
+585,2026-07-15,Bereket Fırını,EKMEK,16.60,Bread/Water,32.80
+585,2026-07-15,Bereket Fırını,EKMEK,16.20,Bread/Water,32.80
+586,2026-07-15,Kent Doğalgaz,DOĞALGAZ FATURASI,506.70,Gas bill,506.70
+587,2026-07-16,Bereket Fırını,EKMEK,15.70,Bread/Water,31.80
+587,2026-07-16,Bereket Fırını,EKMEK,16.10,Bread/Water,31.80
+588,2026-07-16,Kasap Usta,SUCUK 250G,95.40,Meat/Chicken/Fish,312.60
+588,2026-07-16,Kasap Usta,DANA KUŞBAŞI 500G,217.20,Meat/Chicken/Fish,312.60
+589,2026-07-16,Papatya Market,BİSKÜVİ,18.00,Groceries,199.80
+589,2026-07-16,Papatya Market,KAŞAR PEYNİR 250G,83.90,Groceries,199.80
+589,2026-07-16,Papatya Market,MAKARNA 500G,16.80,Groceries,199.80
+589,2026-07-16,Papatya Market,YUMURTA 10'LU,47.20,Groceries,199.80
+589,2026-07-16,Papatya Market,MEYVE SUYU 1L,33.90,Groceries,199.80
+590,2026-07-16,Yol Akaryakıt,BENZİN,734.60,Transport,734.60
+591,2026-07-17,Bereket Fırını,EKMEK,16.40,Bread/Water,33.20
+591,2026-07-17,Bereket Fırını,EKMEK,16.80,Bread/Water,33.20
+592,2026-07-17,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,473.30,Entertainment/Restaurant,473.30
+593,2026-07-18,Bereket Fırını,EKMEK,15.90,Bread/Water,94.50
+593,2026-07-18,Bereket Fırını,EKMEK,15.70,Bread/Water,94.50
+593,2026-07-18,Bereket Fırını,EKMEK,17.10,Bread/Water,94.50
+593,2026-07-18,Bereket Fırını,POĞAÇA,45.80,Bread/Water,94.50
+594,2026-07-18,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1604.20
+594,2026-07-18,Güneş Süpermarket,ZEYTİN 500G,136.60,Groceries,1604.20
+594,2026-07-18,Güneş Süpermarket,ÇAY 1KG,234.90,Groceries,1604.20
+594,2026-07-18,Güneş Süpermarket,PİRİNÇ 1KG,79.10,Groceries,1604.20
+594,2026-07-18,Güneş Süpermarket,YUMURTA 15'Lİ,111.70,Groceries,1604.20
+594,2026-07-18,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,170.80,Groceries,1604.20
+594,2026-07-18,Güneş Süpermarket,YOĞURT 1.5KG,93.10,Groceries,1604.20
+594,2026-07-18,Güneş Süpermarket,MAKARNA 500G,25.80,Groceries,1604.20
+594,2026-07-18,Güneş Süpermarket,BEYAZ PEYNİR 500G,191.70,Groceries,1604.20
+594,2026-07-18,Güneş Süpermarket,TAVUK BUT 1KG,151.70,Meat/Chicken/Fish,1604.20
+594,2026-07-18,Güneş Süpermarket,SALATALIK 1KG,34.60,Fruit and Vegs,1604.20
+594,2026-07-18,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,228.40,Groceries,1604.20
+594,2026-07-18,Güneş Süpermarket,SÜT 1L,42.20,Groceries,1604.20
+594,2026-07-18,Güneş Süpermarket,PATATES 2KG,57.60,Fruit and Vegs,1604.20
+594,2026-07-18,Güneş Süpermarket,SOĞAN 2KG,44.90,Fruit and Vegs,1604.20
+595,2026-07-19,Bereket Fırını,EKMEK,16.60,Bread/Water,94.10
+595,2026-07-19,Bereket Fırını,EKMEK,17.00,Bread/Water,94.10
+595,2026-07-19,Bereket Fırını,EKMEK,17.00,Bread/Water,94.10
+595,2026-07-19,Bereket Fırını,POĞAÇA,43.50,Bread/Water,94.10
+596,2026-07-20,Bereket Fırını,EKMEK,16.00,Bread/Water,31.80
+596,2026-07-20,Bereket Fırını,EKMEK,15.80,Bread/Water,31.80
+597,2026-07-20,HızlıNet,MOBİL HAT FATURASI,393.40,Internet/Phone,393.40
+598,2026-07-20,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,218.90,Transport,218.90
+599,2026-07-20,Papatya Market,MEYVE SUYU 1L,70.80,Groceries,234.50
+599,2026-07-20,Papatya Market,BULAŞIK SÜNGERİ,47.70,Groceries,234.50
+599,2026-07-20,Papatya Market,EKMEK,22.90,Bread/Water,234.50
+599,2026-07-20,Papatya Market,MAKARNA 500G,33.90,Groceries,234.50
+599,2026-07-20,Papatya Market,SÜT 1L,59.20,Groceries,234.50
+600,2026-07-21,Bereket Fırını,EKMEK,16.80,Bread/Water,33.30
+600,2026-07-21,Bereket Fırını,EKMEK,16.50,Bread/Water,33.30
+601,2026-07-21,Damla Su,DAMACANA SU 19L,115.40,Bread/Water,115.40
+602,2026-07-22,Bahçe Manav,MUZ 1KG,120.50,Fruit and Vegs,350.00
+602,2026-07-22,Bahçe Manav,DOMATES 1KG,58.80,Fruit and Vegs,350.00
+602,2026-07-22,Bahçe Manav,LİMON 1KG,50.40,Fruit and Vegs,350.00
+602,2026-07-22,Bahçe Manav,PORTAKAL 1KG,51.30,Fruit and Vegs,350.00
+602,2026-07-22,Bahçe Manav,PATLICAN 1KG,69.00,Fruit and Vegs,350.00
+603,2026-07-22,Bereket Fırını,EKMEK,16.50,Bread/Water,33.60
+603,2026-07-22,Bereket Fırını,EKMEK,17.10,Bread/Water,33.60
+604,2026-07-23,Bereket Fırını,EKMEK,17.00,Bread/Water,33.90
+604,2026-07-23,Bereket Fırını,EKMEK,16.90,Bread/Water,33.90
+605,2026-07-23,Kasap Usta,SUCUK 250G,95.60,Meat/Chicken/Fish,322.60
+605,2026-07-23,Kasap Usta,DANA KUŞBAŞI 500G,227.00,Meat/Chicken/Fish,322.60
+606,2026-07-23,Papatya Market,MAKARNA 500G,63.80,Groceries,238.70
+606,2026-07-23,Papatya Market,SÜT 1L,106.50,Groceries,238.70
+606,2026-07-23,Papatya Market,BİSKÜVİ,68.40,Groceries,238.70
+607,2026-07-24,Bereket Fırını,EKMEK,16.30,Bread/Water,31.90
+607,2026-07-24,Bereket Fırını,EKMEK,15.60,Bread/Water,31.90
+608,2026-07-24,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,435.50,Entertainment/Restaurant,435.50
+609,2026-07-24,Şifa Eczanesi,ECZANE,369.40,Additional expenses,369.40
+610,2026-07-25,Bereket Fırını,EKMEK,17.10,Bread/Water,94.80
+610,2026-07-25,Bereket Fırını,EKMEK,16.90,Bread/Water,94.80
+610,2026-07-25,Bereket Fırını,EKMEK,15.70,Bread/Water,94.80
+610,2026-07-25,Bereket Fırını,POĞAÇA,45.10,Bread/Water,94.80
+611,2026-07-25,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1657.80
+611,2026-07-25,Güneş Süpermarket,SALATALIK 1KG,32.40,Fruit and Vegs,1657.80
+611,2026-07-25,Güneş Süpermarket,SÜT 1L,38.60,Groceries,1657.80
+611,2026-07-25,Güneş Süpermarket,YOĞURT 1.5KG,87.10,Groceries,1657.80
+611,2026-07-25,Güneş Süpermarket,TAVUK BUT 1KG,137.40,Meat/Chicken/Fish,1657.80
+611,2026-07-25,Güneş Süpermarket,PİRİNÇ 1KG,72.00,Groceries,1657.80
+611,2026-07-25,Güneş Süpermarket,ZEYTİN 500G,121.20,Groceries,1657.80
+611,2026-07-25,Güneş Süpermarket,DANA KIYMA 500G,276.70,Meat/Chicken/Fish,1657.80
+611,2026-07-25,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,203.00,Groceries,1657.80
+611,2026-07-25,Güneş Süpermarket,ÇAY 1KG,224.10,Groceries,1657.80
+611,2026-07-25,Güneş Süpermarket,ELMA 1KG,41.40,Fruit and Vegs,1657.80
+611,2026-07-25,Güneş Süpermarket,BEYAZ PEYNİR 500G,165.00,Groceries,1657.80
+611,2026-07-25,Güneş Süpermarket,DETERJAN 4KG,257.80,Groceries,1657.80
+612,2026-07-26,Bereket Fırını,EKMEK,17.00,Bread/Water,93.00
+612,2026-07-26,Bereket Fırını,EKMEK,17.30,Bread/Water,93.00
+612,2026-07-26,Bereket Fırını,EKMEK,16.30,Bread/Water,93.00
+612,2026-07-26,Bereket Fırını,POĞAÇA,42.40,Bread/Water,93.00
+613,2026-07-27,Bereket Fırını,EKMEK,16.60,Bread/Water,32.60
+613,2026-07-27,Bereket Fırını,EKMEK,16.00,Bread/Water,32.60
+614,2026-07-27,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,219.60,Transport,219.60
+615,2026-07-27,Papatya Market,MAKARNA 500G,27.10,Groceries,219.50
+615,2026-07-27,Papatya Market,MEYVE SUYU 1L,60.50,Groceries,219.50
+615,2026-07-27,Papatya Market,EKMEK,19.70,Bread/Water,219.50
+615,2026-07-27,Papatya Market,BİSKÜVİ,31.60,Groceries,219.50
+615,2026-07-27,Papatya Market,YUMURTA 10'LU,80.60,Groceries,219.50
+616,2026-07-28,Bereket Fırını,EKMEK,17.10,Bread/Water,33.80
+616,2026-07-28,Bereket Fırını,EKMEK,16.70,Bread/Water,33.80
+617,2026-07-28,Damla Su,DAMACANA SU 19L,115.90,Bread/Water,115.90
+618,2026-07-29,Bahçe Manav,BİBER 1KG,56.40,Fruit and Vegs,319.30
+618,2026-07-29,Bahçe Manav,PATLICAN 1KG,47.90,Fruit and Vegs,319.30
+618,2026-07-29,Bahçe Manav,DOMATES 1KG,41.00,Fruit and Vegs,319.30
+618,2026-07-29,Bahçe Manav,ISPANAK 1KG,48.30,Fruit and Vegs,319.30
+618,2026-07-29,Bahçe Manav,LİMON 1KG,38.30,Fruit and Vegs,319.30
+618,2026-07-29,Bahçe Manav,MUZ 1KG,87.40,Fruit and Vegs,319.30
+619,2026-07-29,Bereket Fırını,EKMEK,15.70,Bread/Water,32.40
+619,2026-07-29,Bereket Fırını,EKMEK,16.70,Bread/Water,32.40
+620,2026-07-30,Bereket Fırını,EKMEK,16.40,Bread/Water,32.60
+620,2026-07-30,Bereket Fırını,EKMEK,16.20,Bread/Water,32.60
+621,2026-07-30,Kasap Usta,SUCUK 250G,94.40,Meat/Chicken/Fish,320.30
+621,2026-07-30,Kasap Usta,DANA KUŞBAŞI 500G,225.90,Meat/Chicken/Fish,320.30
+622,2026-07-30,Papatya Market,YUMURTA 10'LU,58.80,Groceries,231.30
+622,2026-07-30,Papatya Market,MAKARNA 500G,19.90,Groceries,231.30
+622,2026-07-30,Papatya Market,KAŞAR PEYNİR 250G,97.60,Groceries,231.30
+622,2026-07-30,Papatya Market,EKMEK,13.40,Bread/Water,231.30
+622,2026-07-30,Papatya Market,MEYVE SUYU 1L,41.60,Groceries,231.30
+623,2026-07-31,Bereket Fırını,EKMEK,16.40,Bread/Water,32.50
+623,2026-07-31,Bereket Fırını,EKMEK,16.10,Bread/Water,32.50
+624,2026-07-31,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,419.10,Entertainment/Restaurant,419.10
+625,2026-08-01,Bereket Fırını,EKMEK,16.80,Bread/Water,94.90
+625,2026-08-01,Bereket Fırını,EKMEK,16.10,Bread/Water,94.90
+625,2026-08-01,Bereket Fırını,EKMEK,17.10,Bread/Water,94.90
+625,2026-08-01,Bereket Fırını,POĞAÇA,44.90,Bread/Water,94.90
+626,2026-08-01,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1554.50
+626,2026-08-01,Güneş Süpermarket,YOĞURT 1.5KG,84.10,Groceries,1554.50
+626,2026-08-01,Güneş Süpermarket,MAKARNA 500G,22.10,Groceries,1554.50
+626,2026-08-01,Güneş Süpermarket,BEYAZ PEYNİR 500G,170.00,Groceries,1554.50
+626,2026-08-01,Güneş Süpermarket,DANA KIYMA 500G,264.50,Meat/Chicken/Fish,1554.50
+626,2026-08-01,Güneş Süpermarket,ZEYTİN 500G,123.10,Groceries,1554.50
+626,2026-08-01,Güneş Süpermarket,ÇAY 1KG,207.90,Groceries,1554.50
+626,2026-08-01,Güneş Süpermarket,DETERJAN 4KG,255.80,Groceries,1554.50
+626,2026-08-01,Güneş Süpermarket,YUMURTA 15'Lİ,94.40,Groceries,1554.50
+626,2026-08-01,Güneş Süpermarket,SÜT 1L,38.10,Groceries,1554.50
+626,2026-08-01,Güneş Süpermarket,DOMATES 1KG,34.60,Fruit and Vegs,1554.50
+626,2026-08-01,Güneş Süpermarket,SOĞAN 2KG,38.80,Fruit and Vegs,1554.50
+626,2026-08-01,Güneş Süpermarket,SU 5L,32.10,Bread/Water,1554.50
+626,2026-08-01,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,157.30,Groceries,1554.50
+626,2026-08-01,Güneş Süpermarket,SALATALIK 1KG,30.60,Fruit and Vegs,1554.50
+627,2026-08-01,Yol Akaryakıt,BENZİN,783.90,Transport,783.90
+628,2026-08-02,Bereket Fırını,EKMEK,16.40,Bread/Water,94.40
+628,2026-08-02,Bereket Fırını,EKMEK,16.30,Bread/Water,94.40
+628,2026-08-02,Bereket Fırını,EKMEK,16.60,Bread/Water,94.40
+628,2026-08-02,Bereket Fırını,POĞAÇA,45.10,Bread/Water,94.40
+629,2026-08-03,Bereket Fırını,EKMEK,17.30,Bread/Water,34.10
+629,2026-08-03,Bereket Fırını,EKMEK,16.80,Bread/Water,34.10
+630,2026-08-03,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,220.20,Transport,220.20
+631,2026-08-03,Lale Sitesi Yönetimi,AİDAT,686.60,Dues,686.60
+632,2026-08-03,Papatya Market,MEYVE SUYU 1L,82.70,Groceries,203.10
+632,2026-08-03,Papatya Market,BİSKÜVİ,48.20,Groceries,203.10
+632,2026-08-03,Papatya Market,SÜT 1L,72.20,Groceries,203.10
+633,2026-08-04,Bereket Fırını,EKMEK,17.30,Bread/Water,33.30
+633,2026-08-04,Bereket Fırını,EKMEK,16.00,Bread/Water,33.30
+634,2026-08-04,Damla Su,DAMACANA SU 19L,118.60,Bread/Water,118.60
+635,2026-08-05,Bahçe Manav,ISPANAK 1KG,102.00,Fruit and Vegs,331.50
+635,2026-08-05,Bahçe Manav,MANDALİNA 1KG,83.20,Fruit and Vegs,331.50
+635,2026-08-05,Bahçe Manav,LİMON 1KG,70.50,Fruit and Vegs,331.50
+635,2026-08-05,Bahçe Manav,PORTAKAL 1KG,75.80,Fruit and Vegs,331.50
+636,2026-08-05,Bereket Fırını,EKMEK,17.30,Bread/Water,34.30
+636,2026-08-05,Bereket Fırını,EKMEK,17.00,Bread/Water,34.30
+637,2026-08-05,HızlıNet,İNTERNET FATURASI,490.90,Internet/Phone,490.90
+638,2026-08-06,Bereket Fırını,EKMEK,17.10,Bread/Water,33.50
+638,2026-08-06,Bereket Fırını,EKMEK,16.40,Bread/Water,33.50
+639,2026-08-06,Kasap Usta,SUCUK 250G,103.20,Meat/Chicken/Fish,349.30
+639,2026-08-06,Kasap Usta,DANA KUŞBAŞI 500G,246.10,Meat/Chicken/Fish,349.30
+640,2026-08-06,Papatya Market,KAŞAR PEYNİR 250G,102.70,Groceries,209.20
+640,2026-08-06,Papatya Market,EKMEK,14.70,Bread/Water,209.20
+640,2026-08-06,Papatya Market,BULAŞIK SÜNGERİ,30.70,Groceries,209.20
+640,2026-08-06,Papatya Market,YUMURTA 10'LU,61.10,Groceries,209.20
+641,2026-08-07,Bereket Fırını,EKMEK,16.80,Bread/Water,33.50
+641,2026-08-07,Bereket Fırını,EKMEK,16.70,Bread/Water,33.50
+642,2026-08-07,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,423.00,Entertainment/Restaurant,423.00
+643,2026-08-07,Tatlı Köşe Pastanesi,BAKLAVA 1KG,1477.70,Gifts,1477.70
+644,2026-08-08,Bereket Fırını,EKMEK,16.10,Bread/Water,93.40
+644,2026-08-08,Bereket Fırını,EKMEK,15.90,Bread/Water,93.40
+644,2026-08-08,Bereket Fırını,EKMEK,16.70,Bread/Water,93.40
+644,2026-08-08,Bereket Fırını,POĞAÇA,44.70,Bread/Water,93.40
+645,2026-08-08,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1584.70
+645,2026-08-08,Güneş Süpermarket,ZEYTİN 500G,272.10,Groceries,1584.70
+645,2026-08-08,Güneş Süpermarket,SU 5L,67.10,Bread/Water,1584.70
+645,2026-08-08,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,350.60,Groceries,1584.70
+645,2026-08-08,Güneş Süpermarket,SOĞAN 2KG,91.70,Fruit and Vegs,1584.70
+645,2026-08-08,Güneş Süpermarket,TAVUK BUT 1KG,293.90,Meat/Chicken/Fish,1584.70
+645,2026-08-08,Güneş Süpermarket,SALATALIK 1KG,66.70,Fruit and Vegs,1584.70
+645,2026-08-08,Güneş Süpermarket,YOĞURT 1.5KG,183.30,Groceries,1584.70
+645,2026-08-08,Güneş Süpermarket,ELMA 1KG,89.40,Fruit and Vegs,1584.70
+645,2026-08-08,Güneş Süpermarket,MAKARNA 500G,51.30,Groceries,1584.70
+645,2026-08-08,Güneş Süpermarket,PATATES 2KG,117.50,Fruit and Vegs,1584.70
+646,2026-08-09,Bereket Fırını,EKMEK,17.10,Bread/Water,93.70
+646,2026-08-09,Bereket Fırını,EKMEK,16.10,Bread/Water,93.70
+646,2026-08-09,Bereket Fırını,EKMEK,15.90,Bread/Water,93.70
+646,2026-08-09,Bereket Fırını,POĞAÇA,44.60,Bread/Water,93.70
+647,2026-08-10,Bereket Fırını,EKMEK,16.30,Bread/Water,33.00
+647,2026-08-10,Bereket Fırını,EKMEK,16.70,Bread/Water,33.00
+648,2026-08-10,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,220.80,Transport,220.80
+649,2026-08-10,Papatya Market,BULAŞIK SÜNGERİ,38.60,Groceries,217.90
+649,2026-08-10,Papatya Market,KAŞAR PEYNİR 250G,145.60,Groceries,217.90
+649,2026-08-10,Papatya Market,BİSKÜVİ,33.70,Groceries,217.90
+650,2026-08-10,Şehir Elektrik,ELEKTRİK FATURASI,495.70,Electrical bill,495.70
+651,2026-08-11,Bereket Fırını,EKMEK,17.10,Bread/Water,34.10
+651,2026-08-11,Bereket Fırını,EKMEK,17.00,Bread/Water,34.10
+652,2026-08-11,Damla Su,DAMACANA SU 19L,126.30,Bread/Water,126.30
+653,2026-08-12,Bahçe Manav,LİMON 1KG,38.90,Fruit and Vegs,354.00
+653,2026-08-12,Bahçe Manav,ISPANAK 1KG,56.70,Fruit and Vegs,354.00
+653,2026-08-12,Bahçe Manav,MANDALİNA 1KG,47.20,Fruit and Vegs,354.00
+653,2026-08-12,Bahçe Manav,PATLICAN 1KG,52.50,Fruit and Vegs,354.00
+653,2026-08-12,Bahçe Manav,MUZ 1KG,95.90,Fruit and Vegs,354.00
+653,2026-08-12,Bahçe Manav,BİBER 1KG,62.80,Fruit and Vegs,354.00
+654,2026-08-12,Bereket Fırını,EKMEK,17.10,Bread/Water,33.10
+654,2026-08-12,Bereket Fırını,EKMEK,16.00,Bread/Water,33.10
+655,2026-08-12,Şehir Su,SU FATURASI,248.10,Water bill,248.10
+656,2026-08-13,Bereket Fırını,EKMEK,16.20,Bread/Water,32.20
+656,2026-08-13,Bereket Fırını,EKMEK,16.00,Bread/Water,32.20
+657,2026-08-13,Kasap Usta,DANA KUŞBAŞI 500G,251.40,Meat/Chicken/Fish,359.50
+657,2026-08-13,Kasap Usta,SUCUK 250G,108.10,Meat/Chicken/Fish,359.50
+658,2026-08-13,Papatya Market,KAŞAR PEYNİR 250G,112.20,Groceries,230.00
+658,2026-08-13,Papatya Market,MAKARNA 500G,21.10,Groceries,230.00
+658,2026-08-13,Papatya Market,SÜT 1L,37.50,Groceries,230.00
+658,2026-08-13,Papatya Market,MEYVE SUYU 1L,44.30,Groceries,230.00
+658,2026-08-13,Papatya Market,EKMEK,14.90,Bread/Water,230.00
+659,2026-08-14,Bereket Fırını,EKMEK,16.20,Bread/Water,32.00
+659,2026-08-14,Bereket Fırını,EKMEK,15.80,Bread/Water,32.00
+660,2026-08-14,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,434.40,Entertainment/Restaurant,434.40
+661,2026-08-15,Bereket Fırını,EKMEK,17.30,Bread/Water,93.50
+661,2026-08-15,Bereket Fırını,EKMEK,16.90,Bread/Water,93.50
+661,2026-08-15,Bereket Fırını,EKMEK,16.40,Bread/Water,93.50
+661,2026-08-15,Bereket Fırını,POĞAÇA,42.90,Bread/Water,93.50
+662,2026-08-15,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1643.30
+662,2026-08-15,Güneş Süpermarket,ELMA 1KG,53.00,Fruit and Vegs,1643.30
+662,2026-08-15,Güneş Süpermarket,TAVUK BUT 1KG,172.70,Meat/Chicken/Fish,1643.30
+662,2026-08-15,Güneş Süpermarket,DETERJAN 4KG,306.50,Groceries,1643.30
+662,2026-08-15,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,197.90,Groceries,1643.30
+662,2026-08-15,Güneş Süpermarket,YUMURTA 15'Lİ,118.90,Groceries,1643.30
+662,2026-08-15,Güneş Süpermarket,ÇAY 1KG,261.60,Groceries,1643.30
+662,2026-08-15,Güneş Süpermarket,SOĞAN 2KG,50.90,Fruit and Vegs,1643.30
+662,2026-08-15,Güneş Süpermarket,SALATALIK 1KG,40.10,Fruit and Vegs,1643.30
+662,2026-08-15,Güneş Süpermarket,DANA KIYMA 500G,346.60,Meat/Chicken/Fish,1643.30
+662,2026-08-15,Güneş Süpermarket,DOMATES 1KG,46.30,Fruit and Vegs,1643.30
+662,2026-08-15,Güneş Süpermarket,SÜT 1L,47.70,Groceries,1643.30
+663,2026-08-15,Kent Doğalgaz,DOĞALGAZ FATURASI,510.20,Gas bill,510.20
+664,2026-08-16,Bereket Fırını,EKMEK,16.30,Bread/Water,95.70
+664,2026-08-16,Bereket Fırını,EKMEK,17.20,Bread/Water,95.70
+664,2026-08-16,Bereket Fırını,EKMEK,16.90,Bread/Water,95.70
+664,2026-08-16,Bereket Fırını,POĞAÇA,45.30,Bread/Water,95.70
+665,2026-08-16,Yol Akaryakıt,BENZİN,815.10,Transport,815.10
+666,2026-08-17,Bereket Fırını,EKMEK,16.00,Bread/Water,32.50
+666,2026-08-17,Bereket Fırını,EKMEK,16.50,Bread/Water,32.50
+667,2026-08-17,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,221.40,Transport,221.40
+668,2026-08-17,Papatya Market,BULAŞIK SÜNGERİ,44.10,Groceries,229.90
+668,2026-08-17,Papatya Market,EKMEK,22.10,Bread/Water,229.90
+668,2026-08-17,Papatya Market,YUMURTA 10'LU,94.70,Groceries,229.90
+668,2026-08-17,Papatya Market,BİSKÜVİ,35.50,Groceries,229.90
+668,2026-08-17,Papatya Market,MAKARNA 500G,33.50,Groceries,229.90
+669,2026-08-18,Bereket Fırını,EKMEK,16.10,Bread/Water,32.90
+669,2026-08-18,Bereket Fırını,EKMEK,16.80,Bread/Water,32.90
+670,2026-08-18,Damla Su,DAMACANA SU 19L,119.80,Bread/Water,119.80
+671,2026-08-18,Zarif Hediyelik,HEDİYE KUTUSU,2293.90,Gifts,2293.90
+672,2026-08-19,Bahçe Manav,BİBER 1KG,92.70,Fruit and Vegs,305.10
+672,2026-08-19,Bahçe Manav,PATLICAN 1KG,77.70,Fruit and Vegs,305.10
+672,2026-08-19,Bahçe Manav,PORTAKAL 1KG,58.40,Fruit and Vegs,305.10
+672,2026-08-19,Bahçe Manav,ISPANAK 1KG,76.30,Fruit and Vegs,305.10
+673,2026-08-19,Bereket Fırını,EKMEK,16.90,Bread/Water,34.30
+673,2026-08-19,Bereket Fırını,EKMEK,17.40,Bread/Water,34.30
+674,2026-08-19,Tatlı Köşe Pastanesi,DOĞUM GÜNÜ PASTASI,1082.20,Gifts,1082.20
+675,2026-08-20,Bereket Fırını,EKMEK,16.50,Bread/Water,33.90
+675,2026-08-20,Bereket Fırını,EKMEK,17.40,Bread/Water,33.90
+676,2026-08-20,HızlıNet,MOBİL HAT FATURASI,414.40,Internet/Phone,414.40
+677,2026-08-20,Kasap Usta,DANA KUŞBAŞI 500G,209.00,Meat/Chicken/Fish,304.10
+677,2026-08-20,Kasap Usta,TAVUK GÖĞÜS 1KG,95.10,Meat/Chicken/Fish,304.10
+678,2026-08-20,Papatya Market,KAŞAR PEYNİR 250G,115.60,Groceries,205.40
+678,2026-08-20,Papatya Market,EKMEK,17.00,Bread/Water,205.40
+678,2026-08-20,Papatya Market,YUMURTA 10'LU,72.80,Groceries,205.40
+679,2026-08-21,Bereket Fırını,EKMEK,17.10,Bread/Water,33.70
+679,2026-08-21,Bereket Fırını,EKMEK,16.60,Bread/Water,33.70
+680,2026-08-21,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,472.20,Entertainment/Restaurant,472.20
+681,2026-08-22,Bereket Fırını,EKMEK,17.10,Bread/Water,94.20
+681,2026-08-22,Bereket Fırını,EKMEK,17.40,Bread/Water,94.20
+681,2026-08-22,Bereket Fırını,EKMEK,16.40,Bread/Water,94.20
+681,2026-08-22,Bereket Fırını,POĞAÇA,43.30,Bread/Water,94.20
+682,2026-08-22,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1579.60
+682,2026-08-22,Güneş Süpermarket,YUMURTA 15'Lİ,99.90,Groceries,1579.60
+682,2026-08-22,Güneş Süpermarket,MAKARNA 500G,22.60,Groceries,1579.60
+682,2026-08-22,Güneş Süpermarket,DANA KIYMA 500G,277.60,Meat/Chicken/Fish,1579.60
+682,2026-08-22,Güneş Süpermarket,ZEYTİN 500G,128.70,Groceries,1579.60
+682,2026-08-22,Güneş Süpermarket,DOMATES 1KG,36.40,Fruit and Vegs,1579.60
+682,2026-08-22,Güneş Süpermarket,SU 5L,32.40,Bread/Water,1579.60
+682,2026-08-22,Güneş Süpermarket,DETERJAN 4KG,251.40,Groceries,1579.60
+682,2026-08-22,Güneş Süpermarket,ÇAY 1KG,231.30,Groceries,1579.60
+682,2026-08-22,Güneş Süpermarket,TAVUK BUT 1KG,136.10,Meat/Chicken/Fish,1579.60
+682,2026-08-22,Güneş Süpermarket,PİRİNÇ 1KG,75.00,Groceries,1579.60
+682,2026-08-22,Güneş Süpermarket,YOĞURT 1.5KG,93.70,Groceries,1579.60
+682,2026-08-22,Güneş Süpermarket,ELMA 1KG,41.50,Fruit and Vegs,1579.60
+682,2026-08-22,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,151.90,Groceries,1579.60
+683,2026-08-23,Bereket Fırını,EKMEK,17.40,Bread/Water,92.20
+683,2026-08-23,Bereket Fırını,EKMEK,16.00,Bread/Water,92.20
+683,2026-08-23,Bereket Fırını,EKMEK,16.30,Bread/Water,92.20
+683,2026-08-23,Bereket Fırını,POĞAÇA,42.50,Bread/Water,92.20
+684,2026-08-24,Bereket Fırını,EKMEK,17.10,Bread/Water,33.00
+684,2026-08-24,Bereket Fırını,EKMEK,15.90,Bread/Water,33.00
+685,2026-08-24,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,222.00,Transport,222.00
+686,2026-08-24,Papatya Market,MAKARNA 500G,28.70,Groceries,227.70
+686,2026-08-24,Papatya Market,MEYVE SUYU 1L,60.10,Groceries,227.70
+686,2026-08-24,Papatya Market,KAŞAR PEYNİR 250G,138.90,Groceries,227.70
+687,2026-08-24,Şifa Eczanesi,ECZANE,245.80,Additional expenses,245.80
+688,2026-08-25,Bereket Fırını,EKMEK,16.80,Bread/Water,33.40
+688,2026-08-25,Bereket Fırını,EKMEK,16.60,Bread/Water,33.40
+689,2026-08-25,Damla Su,DAMACANA SU 19L,116.20,Bread/Water,116.20
+690,2026-08-26,Bahçe Manav,DOMATES 1KG,49.40,Fruit and Vegs,302.00
+690,2026-08-26,Bahçe Manav,PATLICAN 1KG,52.70,Fruit and Vegs,302.00
+690,2026-08-26,Bahçe Manav,ISPANAK 1KG,56.30,Fruit and Vegs,302.00
+690,2026-08-26,Bahçe Manav,BİBER 1KG,60.00,Fruit and Vegs,302.00
+690,2026-08-26,Bahçe Manav,PORTAKAL 1KG,41.80,Fruit and Vegs,302.00
+690,2026-08-26,Bahçe Manav,LİMON 1KG,41.80,Fruit and Vegs,302.00
+691,2026-08-26,Bereket Fırını,EKMEK,17.50,Bread/Water,33.80
+691,2026-08-26,Bereket Fırını,EKMEK,16.30,Bread/Water,33.80
+692,2026-08-27,Bereket Fırını,EKMEK,16.70,Bread/Water,33.00
+692,2026-08-27,Bereket Fırını,EKMEK,16.30,Bread/Water,33.00
+693,2026-08-27,Kasap Usta,TAVUK GÖĞÜS 1KG,118.00,Meat/Chicken/Fish,359.20
+693,2026-08-27,Kasap Usta,DANA KUŞBAŞI 500G,241.20,Meat/Chicken/Fish,359.20
+694,2026-08-27,Papatya Market,BİSKÜVİ,70.40,Groceries,229.00
+694,2026-08-27,Papatya Market,MEYVE SUYU 1L,118.90,Groceries,229.00
+694,2026-08-27,Papatya Market,EKMEK,39.70,Bread/Water,229.00
+695,2026-08-28,Bereket Fırını,EKMEK,17.10,Bread/Water,34.60
+695,2026-08-28,Bereket Fırını,EKMEK,17.50,Bread/Water,34.60
+696,2026-08-28,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,410.90,Entertainment/Restaurant,410.90
+697,2026-08-29,Bereket Fırını,EKMEK,16.10,Bread/Water,92.30
+697,2026-08-29,Bereket Fırını,EKMEK,15.90,Bread/Water,92.30
+697,2026-08-29,Bereket Fırını,EKMEK,16.90,Bread/Water,92.30
+697,2026-08-29,Bereket Fırını,POĞAÇA,43.40,Bread/Water,92.30
+698,2026-08-29,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1419.40
+698,2026-08-29,Güneş Süpermarket,PATATES 2KG,53.30,Fruit and Vegs,1419.40
+698,2026-08-29,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,211.20,Groceries,1419.40
+698,2026-08-29,Güneş Süpermarket,SU 5L,31.30,Bread/Water,1419.40
+698,2026-08-29,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,155.80,Groceries,1419.40
+698,2026-08-29,Güneş Süpermarket,YUMURTA 15'Lİ,106.90,Groceries,1419.40
+698,2026-08-29,Güneş Süpermarket,DANA KIYMA 500G,271.50,Meat/Chicken/Fish,1419.40
+698,2026-08-29,Güneş Süpermarket,DOMATES 1KG,36.00,Fruit and Vegs,1419.40
+698,2026-08-29,Güneş Süpermarket,DETERJAN 4KG,251.10,Groceries,1419.40
+698,2026-08-29,Güneş Süpermarket,BEYAZ PEYNİR 500G,175.60,Groceries,1419.40
+698,2026-08-29,Güneş Süpermarket,ZEYTİN 500G,125.60,Groceries,1419.40
+699,2026-08-30,Bereket Fırını,EKMEK,17.50,Bread/Water,94.30
+699,2026-08-30,Bereket Fırını,EKMEK,16.20,Bread/Water,94.30
+699,2026-08-30,Bereket Fırını,EKMEK,16.70,Bread/Water,94.30
+699,2026-08-30,Bereket Fırını,POĞAÇA,43.90,Bread/Water,94.30
+700,2026-08-31,Bereket Fırını,EKMEK,16.30,Bread/Water,33.70
+700,2026-08-31,Bereket Fırını,EKMEK,17.40,Bread/Water,33.70
+701,2026-08-31,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,222.60,Transport,222.60
+702,2026-08-31,Papatya Market,EKMEK,44.40,Bread/Water,246.90
+702,2026-08-31,Papatya Market,BİSKÜVİ,72.80,Groceries,246.90
+702,2026-08-31,Papatya Market,MEYVE SUYU 1L,129.70,Groceries,246.90
+703,2026-09-01,Bereket Fırını,EKMEK,16.00,Bread/Water,33.30
+703,2026-09-01,Bereket Fırını,EKMEK,17.30,Bread/Water,33.30
+704,2026-09-01,Damla Su,DAMACANA SU 19L,122.40,Bread/Water,122.40
+705,2026-09-01,Yol Akaryakıt,BENZİN,837.00,Transport,837.00
+706,2026-09-02,Bahçe Manav,MUZ 1KG,112.50,Fruit and Vegs,360.50
+706,2026-09-02,Bahçe Manav,DOMATES 1KG,58.30,Fruit and Vegs,360.50
+706,2026-09-02,Bahçe Manav,MANDALİNA 1KG,59.50,Fruit and Vegs,360.50
+706,2026-09-02,Bahçe Manav,ISPANAK 1KG,63.30,Fruit and Vegs,360.50
+706,2026-09-02,Bahçe Manav,PATLICAN 1KG,66.90,Fruit and Vegs,360.50
+707,2026-09-02,Bereket Fırını,EKMEK,17.30,Bread/Water,33.90
+707,2026-09-02,Bereket Fırını,EKMEK,16.60,Bread/Water,33.90
+708,2026-09-03,Bereket Fırını,EKMEK,16.10,Bread/Water,33.10
+708,2026-09-03,Bereket Fırını,EKMEK,17.00,Bread/Water,33.10
+709,2026-09-03,Kasap Usta,TAVUK GÖĞÜS 1KG,186.70,Meat/Chicken/Fish,357.60
+709,2026-09-03,Kasap Usta,SUCUK 250G,170.90,Meat/Chicken/Fish,357.60
+710,2026-09-03,Lale Sitesi Yönetimi,AİDAT,679.90,Dues,679.90
+711,2026-09-03,Papatya Market,BİSKÜVİ,67.10,Groceries,240.60
+711,2026-09-03,Papatya Market,MAKARNA 500G,60.00,Groceries,240.60
+711,2026-09-03,Papatya Market,MEYVE SUYU 1L,113.50,Groceries,240.60
+712,2026-09-04,Bereket Fırını,EKMEK,16.90,Bread/Water,33.10
+712,2026-09-04,Bereket Fırını,EKMEK,16.20,Bread/Water,33.10
+713,2026-09-04,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,413.60,Entertainment/Restaurant,413.60
+714,2026-09-05,Bereket Fırını,EKMEK,17.30,Bread/Water,93.60
+714,2026-09-05,Bereket Fırını,EKMEK,15.90,Bread/Water,93.60
+714,2026-09-05,Bereket Fırını,EKMEK,15.90,Bread/Water,93.60
+714,2026-09-05,Bereket Fırını,POĞAÇA,44.50,Bread/Water,93.60
+715,2026-09-05,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1393.50
+715,2026-09-05,Güneş Süpermarket,BEYAZ PEYNİR 500G,197.20,Groceries,1393.50
+715,2026-09-05,Güneş Süpermarket,SOĞAN 2KG,48.60,Fruit and Vegs,1393.50
+715,2026-09-05,Güneş Süpermarket,MAKARNA 500G,26.40,Groceries,1393.50
+715,2026-09-05,Güneş Süpermarket,DANA KIYMA 500G,333.10,Meat/Chicken/Fish,1393.50
+715,2026-09-05,Güneş Süpermarket,SALATALIK 1KG,37.10,Fruit and Vegs,1393.50
+715,2026-09-05,Güneş Süpermarket,SU 5L,37.40,Bread/Water,1393.50
+715,2026-09-05,Güneş Süpermarket,YOĞURT 1.5KG,103.10,Groceries,1393.50
+715,2026-09-05,Güneş Süpermarket,PATATES 2KG,61.60,Fruit and Vegs,1393.50
+715,2026-09-05,Güneş Süpermarket,ELMA 1KG,50.80,Fruit and Vegs,1393.50
+715,2026-09-05,Güneş Süpermarket,DETERJAN 4KG,308.50,Groceries,1393.50
+715,2026-09-05,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,188.60,Groceries,1393.50
+716,2026-09-05,HızlıNet,İNTERNET FATURASI,519.20,Internet/Phone,519.20
+717,2026-09-06,Bereket Fırını,EKMEK,16.10,Bread/Water,97.20
+717,2026-09-06,Bereket Fırını,EKMEK,17.40,Bread/Water,97.20
+717,2026-09-06,Bereket Fırını,EKMEK,17.20,Bread/Water,97.20
+717,2026-09-06,Bereket Fırını,POĞAÇA,46.50,Bread/Water,97.20
+718,2026-09-07,Bereket Fırını,EKMEK,16.40,Bread/Water,33.20
+718,2026-09-07,Bereket Fırını,EKMEK,16.80,Bread/Water,33.20
+719,2026-09-07,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,223.20,Transport,223.20
+720,2026-09-07,Papatya Market,BİSKÜVİ,33.40,Groceries,234.30
+720,2026-09-07,Papatya Market,SÜT 1L,51.50,Groceries,234.30
+720,2026-09-07,Papatya Market,KAŞAR PEYNİR 250G,149.40,Groceries,234.30
+721,2026-09-08,Bereket Fırını,EKMEK,16.60,Bread/Water,33.60
+721,2026-09-08,Bereket Fırını,EKMEK,17.00,Bread/Water,33.60
+722,2026-09-08,Damla Su,DAMACANA SU 19L,122.50,Bread/Water,122.50
+723,2026-09-09,Bahçe Manav,PATLICAN 1KG,62.80,Fruit and Vegs,328.90
+723,2026-09-09,Bahçe Manav,MANDALİNA 1KG,53.10,Fruit and Vegs,328.90
+723,2026-09-09,Bahçe Manav,LİMON 1KG,46.50,Fruit and Vegs,328.90
+723,2026-09-09,Bahçe Manav,BİBER 1KG,67.90,Fruit and Vegs,328.90
+723,2026-09-09,Bahçe Manav,DOMATES 1KG,52.00,Fruit and Vegs,328.90
+723,2026-09-09,Bahçe Manav,PORTAKAL 1KG,46.60,Fruit and Vegs,328.90
+724,2026-09-09,Bereket Fırını,EKMEK,17.50,Bread/Water,34.60
+724,2026-09-09,Bereket Fırını,EKMEK,17.10,Bread/Water,34.60
+725,2026-09-10,Bereket Fırını,EKMEK,16.50,Bread/Water,33.80
+725,2026-09-10,Bereket Fırını,EKMEK,17.30,Bread/Water,33.80
+726,2026-09-10,Kasap Usta,SUCUK 250G,97.30,Meat/Chicken/Fish,327.70
+726,2026-09-10,Kasap Usta,DANA KUŞBAŞI 500G,230.40,Meat/Chicken/Fish,327.70
+727,2026-09-10,Papatya Market,MAKARNA 500G,37.40,Groceries,233.10
+727,2026-09-10,Papatya Market,BULAŞIK SÜNGERİ,51.50,Groceries,233.10
+727,2026-09-10,Papatya Market,EKMEK,27.60,Bread/Water,233.10
+727,2026-09-10,Papatya Market,YUMURTA 10'LU,116.60,Groceries,233.10
+728,2026-09-10,Şehir Elektrik,ELEKTRİK FATURASI,449.80,Electrical bill,449.80
+729,2026-09-11,Bereket Fırını,EKMEK,17.10,Bread/Water,34.10
+729,2026-09-11,Bereket Fırını,EKMEK,17.00,Bread/Water,34.10
+730,2026-09-11,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,475.60,Entertainment/Restaurant,475.60
+731,2026-09-12,Bereket Fırını,EKMEK,16.70,Bread/Water,94.30
+731,2026-09-12,Bereket Fırını,EKMEK,16.20,Bread/Water,94.30
+731,2026-09-12,Bereket Fırını,EKMEK,16.20,Bread/Water,94.30
+731,2026-09-12,Bereket Fırını,POĞAÇA,45.20,Bread/Water,94.30
+732,2026-09-12,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.20,Additional expenses,1530.60
+732,2026-09-12,Güneş Süpermarket,ÇAY 1KG,299.50,Groceries,1530.60
+732,2026-09-12,Güneş Süpermarket,YUMURTA 15'Lİ,134.10,Groceries,1530.60
+732,2026-09-12,Güneş Süpermarket,SÜT 1L,55.30,Groceries,1530.60
+732,2026-09-12,Güneş Süpermarket,PİRİNÇ 1KG,98.40,Groceries,1530.60
+732,2026-09-12,Güneş Süpermarket,SALATALIK 1KG,41.00,Fruit and Vegs,1530.60
+732,2026-09-12,Güneş Süpermarket,SU 5L,41.70,Bread/Water,1530.60
+732,2026-09-12,Güneş Süpermarket,DOMATES 1KG,50.20,Fruit and Vegs,1530.60
+732,2026-09-12,Güneş Süpermarket,SOĞAN 2KG,58.00,Fruit and Vegs,1530.60
+732,2026-09-12,Güneş Süpermarket,MAKARNA 500G,31.30,Groceries,1530.60
+732,2026-09-12,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,271.70,Groceries,1530.60
+732,2026-09-12,Güneş Süpermarket,BEYAZ PEYNİR 500G,234.10,Groceries,1530.60
+732,2026-09-12,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,214.10,Groceries,1530.60
+733,2026-09-12,Şehir Su,SU FATURASI,246.30,Water bill,246.30
+734,2026-09-13,Bereket Fırını,EKMEK,17.10,Bread/Water,97.30
+734,2026-09-13,Bereket Fırını,EKMEK,16.50,Bread/Water,97.30
+734,2026-09-13,Bereket Fırını,EKMEK,17.10,Bread/Water,97.30
+734,2026-09-13,Bereket Fırını,POĞAÇA,46.60,Bread/Water,97.30
+735,2026-09-14,Bereket Fırını,EKMEK,17.00,Bread/Water,33.40
+735,2026-09-14,Bereket Fırını,EKMEK,16.40,Bread/Water,33.40
+736,2026-09-14,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,223.80,Transport,223.80
+737,2026-09-14,Papatya Market,EKMEK,17.40,Bread/Water,231.40
+737,2026-09-14,Papatya Market,BULAŞIK SÜNGERİ,37.80,Groceries,231.40
+737,2026-09-14,Papatya Market,YUMURTA 10'LU,75.60,Groceries,231.40
+737,2026-09-14,Papatya Market,SÜT 1L,46.60,Groceries,231.40
+737,2026-09-14,Papatya Market,MEYVE SUYU 1L,54.00,Groceries,231.40
+738,2026-09-15,Bereket Fırını,EKMEK,16.00,Bread/Water,32.50
+738,2026-09-15,Bereket Fırını,EKMEK,16.50,Bread/Water,32.50
+739,2026-09-15,Damla Su,DAMACANA SU 19L,125.40,Bread/Water,125.40
+740,2026-09-15,Kent Doğalgaz,DOĞALGAZ FATURASI,492.90,Gas bill,492.90
+741,2026-09-16,Bahçe Manav,DOMATES 1KG,74.10,Fruit and Vegs,308.40
+741,2026-09-16,Bahçe Manav,PATLICAN 1KG,89.40,Fruit and Vegs,308.40
+741,2026-09-16,Bahçe Manav,MANDALİNA 1KG,79.60,Fruit and Vegs,308.40
+741,2026-09-16,Bahçe Manav,LİMON 1KG,65.30,Fruit and Vegs,308.40
+742,2026-09-16,Bereket Fırını,EKMEK,17.60,Bread/Water,34.70
+742,2026-09-16,Bereket Fırını,EKMEK,17.10,Bread/Water,34.70
+743,2026-09-16,Yol Akaryakıt,BENZİN,724.90,Transport,724.90
+744,2026-09-17,Bereket Fırını,EKMEK,16.40,Bread/Water,32.80
+744,2026-09-17,Bereket Fırını,EKMEK,16.40,Bread/Water,32.80
+745,2026-09-17,Kasap Usta,SUCUK 250G,181.60,Meat/Chicken/Fish,362.10
+745,2026-09-17,Kasap Usta,TAVUK GÖĞÜS 1KG,180.50,Meat/Chicken/Fish,362.10
+746,2026-09-17,Papatya Market,YUMURTA 10'LU,66.00,Groceries,233.30
+746,2026-09-17,Papatya Market,MAKARNA 500G,20.70,Groceries,233.30
+746,2026-09-17,Papatya Market,EKMEK,13.90,Bread/Water,233.30
+746,2026-09-17,Papatya Market,KAŞAR PEYNİR 250G,108.00,Groceries,233.30
+746,2026-09-17,Papatya Market,BİSKÜVİ,24.70,Groceries,233.30
+747,2026-09-18,Bereket Fırını,EKMEK,16.80,Bread/Water,33.60
+747,2026-09-18,Bereket Fırını,EKMEK,16.80,Bread/Water,33.60
+748,2026-09-18,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,461.90,Entertainment/Restaurant,461.90
+749,2026-09-19,Bereket Fırını,EKMEK,16.90,Bread/Water,95.00
+749,2026-09-19,Bereket Fırını,EKMEK,17.20,Bread/Water,95.00
+749,2026-09-19,Bereket Fırını,EKMEK,17.60,Bread/Water,95.00
+749,2026-09-19,Bereket Fırını,POĞAÇA,43.30,Bread/Water,95.00
+750,2026-09-19,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1434.20
+750,2026-09-19,Güneş Süpermarket,PİRİNÇ 1KG,99.00,Groceries,1434.20
+750,2026-09-19,Güneş Süpermarket,ÇAY 1KG,286.10,Groceries,1434.20
+750,2026-09-19,Güneş Süpermarket,PATATES 2KG,67.00,Fruit and Vegs,1434.20
+750,2026-09-19,Güneş Süpermarket,SOĞAN 2KG,56.30,Fruit and Vegs,1434.20
+750,2026-09-19,Güneş Süpermarket,MAKARNA 500G,30.30,Groceries,1434.20
+750,2026-09-19,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,193.70,Groceries,1434.20
+750,2026-09-19,Güneş Süpermarket,BEYAZ PEYNİR 500G,214.90,Groceries,1434.20
+750,2026-09-19,Güneş Süpermarket,TAVUK BUT 1KG,177.30,Meat/Chicken/Fish,1434.20
+750,2026-09-19,Güneş Süpermarket,SÜT 1L,51.50,Groceries,1434.20
+750,2026-09-19,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,257.00,Groceries,1434.20
+751,2026-09-20,Bereket Fırını,EKMEK,16.20,Bread/Water,96.40
+751,2026-09-20,Bereket Fırını,EKMEK,17.50,Bread/Water,96.40
+751,2026-09-20,Bereket Fırını,EKMEK,17.30,Bread/Water,96.40
+751,2026-09-20,Bereket Fırını,POĞAÇA,45.40,Bread/Water,96.40
+752,2026-09-20,HızlıNet,MOBİL HAT FATURASI,372.50,Internet/Phone,372.50
+753,2026-09-21,Bereket Fırını,EKMEK,16.10,Bread/Water,33.10
+753,2026-09-21,Bereket Fırını,EKMEK,17.00,Bread/Water,33.10
+754,2026-09-21,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,224.40,Transport,224.40
+755,2026-09-21,Papatya Market,BİSKÜVİ,77.20,Groceries,241.50
+755,2026-09-21,Papatya Market,EKMEK,47.00,Bread/Water,241.50
+755,2026-09-21,Papatya Market,SÜT 1L,117.30,Groceries,241.50
+756,2026-09-22,Bereket Fırını,EKMEK,17.40,Bread/Water,33.90
+756,2026-09-22,Bereket Fırını,EKMEK,16.50,Bread/Water,33.90
+757,2026-09-22,Damla Su,DAMACANA SU 19L,122.00,Bread/Water,122.00
+758,2026-09-23,Bahçe Manav,PATLICAN 1KG,58.00,Fruit and Vegs,324.50
+758,2026-09-23,Bahçe Manav,MANDALİNA 1KG,51.40,Fruit and Vegs,324.50
+758,2026-09-23,Bahçe Manav,MUZ 1KG,103.30,Fruit and Vegs,324.50
+758,2026-09-23,Bahçe Manav,PORTAKAL 1KG,46.10,Fruit and Vegs,324.50
+758,2026-09-23,Bahçe Manav,BİBER 1KG,65.70,Fruit and Vegs,324.50
+759,2026-09-23,Bereket Fırını,EKMEK,17.50,Bread/Water,34.80
+759,2026-09-23,Bereket Fırını,EKMEK,17.30,Bread/Water,34.80
+760,2026-09-24,Bereket Fırını,EKMEK,17.50,Bread/Water,34.90
+760,2026-09-24,Bereket Fırını,EKMEK,17.40,Bread/Water,34.90
+761,2026-09-24,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,3721.60
+761,2026-09-24,Güneş Süpermarket,GAZOZ,161.60,Groceries,3721.60
+761,2026-09-24,Güneş Süpermarket,ZEYTİNYAĞI,989.70,Groceries,3721.60
+761,2026-09-24,Güneş Süpermarket,MEYVE SUYU,144.00,Groceries,3721.60
+761,2026-09-24,Güneş Süpermarket,SU,90.40,Bread/Water,3721.60
+761,2026-09-24,Güneş Süpermarket,SALATALIK,179.50,Fruit and Vegs,3721.60
+761,2026-09-24,Güneş Süpermarket,TAVUK BUT,797.90,Meat/Chicken/Fish,3721.60
+761,2026-09-24,Güneş Süpermarket,YOĞURT,353.30,Groceries,3721.60
+761,2026-09-24,Güneş Süpermarket,PİRİNÇ,1004.10,Groceries,3721.60
+762,2026-09-24,Kasap Usta,DANA KUŞBAŞI 500G,221.20,Meat/Chicken/Fish,319.90
+762,2026-09-24,Kasap Usta,TAVUK GÖĞÜS 1KG,98.70,Meat/Chicken/Fish,319.90
+763,2026-09-24,Papatya Market,BULAŞIK SÜNGERİ,43.10,Groceries,244.90
+763,2026-09-24,Papatya Market,EKMEK,20.50,Bread/Water,244.90
+763,2026-09-24,Papatya Market,BİSKÜVİ,35.60,Groceries,244.90
+763,2026-09-24,Papatya Market,YUMURTA 10'LU,86.90,Groceries,244.90
+763,2026-09-24,Papatya Market,MEYVE SUYU 1L,58.80,Groceries,244.90
+764,2026-09-24,Şifa Eczanesi,ECZANE,263.20,Additional expenses,263.20
+765,2026-09-25,Bahçe Manav,NAR,195.30,Fruit and Vegs,1882.80
+765,2026-09-25,Bahçe Manav,BAKLAVA,1445.30,Groceries,1882.80
+765,2026-09-25,Bahçe Manav,ÜZÜM,135.00,Fruit and Vegs,1882.80
+765,2026-09-25,Bahçe Manav,MANDALİNA,107.20,Fruit and Vegs,1882.80
+766,2026-09-25,Bereket Fırını,EKMEK,17.00,Bread/Water,33.60
+766,2026-09-25,Bereket Fırını,EKMEK,16.60,Bread/Water,33.60
+767,2026-09-25,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,449.50,Entertainment/Restaurant,449.50
+768,2026-09-26,Bereket Fırını,EKMEK,16.50,Bread/Water,97.30
+768,2026-09-26,Bereket Fırını,EKMEK,16.40,Bread/Water,97.30
+768,2026-09-26,Bereket Fırını,EKMEK,17.20,Bread/Water,97.30
+768,2026-09-26,Bereket Fırını,POĞAÇA,47.20,Bread/Water,97.30
+769,2026-09-26,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1610.60
+769,2026-09-26,Güneş Süpermarket,DANA KIYMA 500G,357.50,Meat/Chicken/Fish,1610.60
+769,2026-09-26,Güneş Süpermarket,DOMATES 1KG,45.30,Fruit and Vegs,1610.60
+769,2026-09-26,Güneş Süpermarket,TAVUK BUT 1KG,167.50,Meat/Chicken/Fish,1610.60
+769,2026-09-26,Güneş Süpermarket,SOĞAN 2KG,54.60,Fruit and Vegs,1610.60
+769,2026-09-26,Güneş Süpermarket,SÜT 1L,51.50,Groceries,1610.60
+769,2026-09-26,Güneş Süpermarket,PİRİNÇ 1KG,96.20,Groceries,1610.60
+769,2026-09-26,Güneş Süpermarket,YUMURTA 15'Lİ,124.20,Groceries,1610.60
+769,2026-09-26,Güneş Süpermarket,ELMA 1KG,52.90,Fruit and Vegs,1610.60
+769,2026-09-26,Güneş Süpermarket,SALATALIK 1KG,39.70,Fruit and Vegs,1610.60
+769,2026-09-26,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,262.40,Groceries,1610.60
+769,2026-09-26,Güneş Süpermarket,MAKARNA 500G,28.50,Groceries,1610.60
+769,2026-09-26,Güneş Süpermarket,DETERJAN 4KG,329.20,Groceries,1610.60
+770,2026-09-26,Lale Çiçekçilik,ÇİÇEK BUKETİ,420.60,Additional expenses,420.60
+771,2026-09-27,Bereket Fırını,EKMEK,17.70,Bread/Water,93.80
+771,2026-09-27,Bereket Fırını,EKMEK,16.80,Bread/Water,93.80
+771,2026-09-27,Bereket Fırını,EKMEK,16.20,Bread/Water,93.80
+771,2026-09-27,Bereket Fırını,POĞAÇA,43.10,Bread/Water,93.80
+772,2026-09-28,Bereket Fırını,EKMEK,16.40,Bread/Water,32.50
+772,2026-09-28,Bereket Fırını,EKMEK,16.10,Bread/Water,32.50
+773,2026-09-28,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,225.00,Transport,225.00
+774,2026-09-28,Papatya Market,KAŞAR PEYNİR 250G,170.60,Groceries,235.40
+774,2026-09-28,Papatya Market,BİSKÜVİ,40.70,Groceries,235.40
+774,2026-09-28,Papatya Market,EKMEK,24.10,Bread/Water,235.40
+775,2026-09-29,Bereket Fırını,EKMEK,16.20,Bread/Water,32.40
+775,2026-09-29,Bereket Fırını,EKMEK,16.20,Bread/Water,32.40
+776,2026-09-29,Damla Su,DAMACANA SU 19L,129.70,Bread/Water,129.70
+777,2026-09-30,Bahçe Manav,DOMATES 1KG,48.50,Fruit and Vegs,328.20
+777,2026-09-30,Bahçe Manav,PORTAKAL 1KG,43.00,Fruit and Vegs,328.20
+777,2026-09-30,Bahçe Manav,PATLICAN 1KG,54.60,Fruit and Vegs,328.20
+777,2026-09-30,Bahçe Manav,MUZ 1KG,93.70,Fruit and Vegs,328.20
+777,2026-09-30,Bahçe Manav,MANDALİNA 1KG,48.10,Fruit and Vegs,328.20
+777,2026-09-30,Bahçe Manav,LİMON 1KG,40.30,Fruit and Vegs,328.20
+778,2026-09-30,Bereket Fırını,EKMEK,16.30,Bread/Water,32.40
+778,2026-09-30,Bereket Fırını,EKMEK,16.10,Bread/Water,32.40
+779,2026-10-01,Bereket Fırını,EKMEK,17.30,Bread/Water,34.70
+779,2026-10-01,Bereket Fırını,EKMEK,17.40,Bread/Water,34.70
+780,2026-10-01,Kasap Usta,DANA KUŞBAŞI 500G,225.90,Meat/Chicken/Fish,320.80
+780,2026-10-01,Kasap Usta,SUCUK 250G,94.90,Meat/Chicken/Fish,320.80
+781,2026-10-01,Papatya Market,EKMEK,13.10,Bread/Water,226.10
+781,2026-10-01,Papatya Market,SÜT 1L,33.60,Groceries,226.10
+781,2026-10-01,Papatya Market,KAŞAR PEYNİR 250G,100.10,Groceries,226.10
+781,2026-10-01,Papatya Market,YUMURTA 10'LU,60.10,Groceries,226.10
+781,2026-10-01,Papatya Market,MAKARNA 500G,19.20,Groceries,226.10
+782,2026-10-01,Yol Akaryakıt,BENZİN,807.80,Transport,807.80
+783,2026-10-02,Bereket Fırını,EKMEK,17.00,Bread/Water,34.40
+783,2026-10-02,Bereket Fırını,EKMEK,17.40,Bread/Water,34.40
+784,2026-10-02,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,431.50,Entertainment/Restaurant,431.50
+785,2026-10-03,Bereket Fırını,EKMEK,17.70,Bread/Water,96.00
+785,2026-10-03,Bereket Fırını,EKMEK,17.60,Bread/Water,96.00
+785,2026-10-03,Bereket Fırını,EKMEK,16.90,Bread/Water,96.00
+785,2026-10-03,Bereket Fırını,POĞAÇA,43.80,Bread/Water,96.00
+786,2026-10-03,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1562.70
+786,2026-10-03,Güneş Süpermarket,YOĞURT 1.5KG,90.30,Groceries,1562.70
+786,2026-10-03,Güneş Süpermarket,ÇAY 1KG,231.90,Groceries,1562.70
+786,2026-10-03,Güneş Süpermarket,DETERJAN 4KG,264.70,Groceries,1562.70
+786,2026-10-03,Güneş Süpermarket,YUMURTA 15'Lİ,104.30,Groceries,1562.70
+786,2026-10-03,Güneş Süpermarket,SÜT 1L,40.20,Groceries,1562.70
+786,2026-10-03,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,170.90,Groceries,1562.70
+786,2026-10-03,Güneş Süpermarket,DANA KIYMA 500G,296.80,Meat/Chicken/Fish,1562.70
+786,2026-10-03,Güneş Süpermarket,BEYAZ PEYNİR 500G,173.60,Groceries,1562.70
+786,2026-10-03,Güneş Süpermarket,PATATES 2KG,52.70,Fruit and Vegs,1562.70
+786,2026-10-03,Güneş Süpermarket,TAVUK BUT 1KG,136.20,Meat/Chicken/Fish,1562.70
+787,2026-10-03,Lale Sitesi Yönetimi,AİDAT,687.60,Dues,687.60
+788,2026-10-04,Bereket Fırını,EKMEK,17.00,Bread/Water,95.40
+788,2026-10-04,Bereket Fırını,EKMEK,17.10,Bread/Water,95.40
+788,2026-10-04,Bereket Fırını,EKMEK,17.50,Bread/Water,95.40
+788,2026-10-04,Bereket Fırını,POĞAÇA,43.80,Bread/Water,95.40
+789,2026-10-05,Bereket Fırını,EKMEK,17.10,Bread/Water,34.70
+789,2026-10-05,Bereket Fırını,EKMEK,17.60,Bread/Water,34.70
+790,2026-10-05,HızlıNet,İNTERNET FATURASI,512.50,Internet/Phone,512.50
+791,2026-10-05,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,225.70,Transport,225.70
+792,2026-10-05,Papatya Market,KAŞAR PEYNİR 250G,107.60,Groceries,234.60
+792,2026-10-05,Papatya Market,BULAŞIK SÜNGERİ,29.40,Groceries,234.60
+792,2026-10-05,Papatya Market,MAKARNA 500G,21.00,Groceries,234.60
+792,2026-10-05,Papatya Market,YUMURTA 10'LU,61.70,Groceries,234.60
+792,2026-10-05,Papatya Market,EKMEK,14.90,Bread/Water,234.60
+793,2026-10-06,Bereket Fırını,EKMEK,17.50,Bread/Water,34.30
+793,2026-10-06,Bereket Fırını,EKMEK,16.80,Bread/Water,34.30
+794,2026-10-06,Damla Su,DAMACANA SU 19L,119.60,Bread/Water,119.60
+795,2026-10-07,Bahçe Manav,ISPANAK 1KG,57.80,Fruit and Vegs,308.80
+795,2026-10-07,Bahçe Manav,MUZ 1KG,99.50,Fruit and Vegs,308.80
+795,2026-10-07,Bahçe Manav,PORTAKAL 1KG,43.30,Fruit and Vegs,308.80
+795,2026-10-07,Bahçe Manav,BİBER 1KG,66.60,Fruit and Vegs,308.80
+795,2026-10-07,Bahçe Manav,LİMON 1KG,41.60,Fruit and Vegs,308.80
+796,2026-10-07,Bereket Fırını,EKMEK,17.40,Bread/Water,34.90
+796,2026-10-07,Bereket Fırını,EKMEK,17.50,Bread/Water,34.90
+797,2026-10-08,Bereket Fırını,EKMEK,17.20,Bread/Water,33.80
+797,2026-10-08,Bereket Fırını,EKMEK,16.60,Bread/Water,33.80
+798,2026-10-08,Kasap Usta,DANA KUŞBAŞI 500G,225.00,Meat/Chicken/Fish,321.50
+798,2026-10-08,Kasap Usta,SUCUK 250G,96.50,Meat/Chicken/Fish,321.50
+799,2026-10-08,Papatya Market,SÜT 1L,114.20,Groceries,240.70
+799,2026-10-08,Papatya Market,EKMEK,42.40,Bread/Water,240.70
+799,2026-10-08,Papatya Market,BULAŞIK SÜNGERİ,84.10,Groceries,240.70
+800,2026-10-09,Bereket Fırını,EKMEK,17.50,Bread/Water,35.10
+800,2026-10-09,Bereket Fırını,EKMEK,17.60,Bread/Water,35.10
+801,2026-10-09,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,490.20,Entertainment/Restaurant,490.20
+802,2026-10-10,Bereket Fırını,EKMEK,16.30,Bread/Water,96.00
+802,2026-10-10,Bereket Fırını,EKMEK,16.50,Bread/Water,96.00
+802,2026-10-10,Bereket Fırını,EKMEK,16.80,Bread/Water,96.00
+802,2026-10-10,Bereket Fırını,POĞAÇA,46.40,Bread/Water,96.00
+803,2026-10-10,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.20,Additional expenses,1533.30
+803,2026-10-10,Güneş Süpermarket,BEYAZ PEYNİR 500G,184.80,Groceries,1533.30
+803,2026-10-10,Güneş Süpermarket,SU 5L,35.40,Bread/Water,1533.30
+803,2026-10-10,Güneş Süpermarket,DETERJAN 4KG,284.10,Groceries,1533.30
+803,2026-10-10,Güneş Süpermarket,PİRİNÇ 1KG,85.60,Groceries,1533.30
+803,2026-10-10,Güneş Süpermarket,SOĞAN 2KG,48.50,Fruit and Vegs,1533.30
+803,2026-10-10,Güneş Süpermarket,PATATES 2KG,59.00,Fruit and Vegs,1533.30
+803,2026-10-10,Güneş Süpermarket,SALATALIK 1KG,36.70,Fruit and Vegs,1533.30
+803,2026-10-10,Güneş Süpermarket,ÇAY 1KG,245.90,Groceries,1533.30
+803,2026-10-10,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,226.20,Groceries,1533.30
+803,2026-10-10,Güneş Süpermarket,SÜT 1L,42.80,Groceries,1533.30
+803,2026-10-10,Güneş Süpermarket,ELMA 1KG,45.10,Fruit and Vegs,1533.30
+803,2026-10-10,Güneş Süpermarket,YOĞURT 1.5KG,103.60,Groceries,1533.30
+803,2026-10-10,Güneş Süpermarket,YUMURTA 15'Lİ,109.40,Groceries,1533.30
+803,2026-10-10,Güneş Süpermarket,MAKARNA 500G,25.00,Groceries,1533.30
+804,2026-10-10,Şehir Elektrik,ELEKTRİK FATURASI,476.30,Electrical bill,476.30
+805,2026-10-11,Bereket Fırını,EKMEK,16.50,Bread/Water,94.70
+805,2026-10-11,Bereket Fırını,EKMEK,16.70,Bread/Water,94.70
+805,2026-10-11,Bereket Fırını,EKMEK,16.40,Bread/Water,94.70
+805,2026-10-11,Bereket Fırını,POĞAÇA,45.10,Bread/Water,94.70
+806,2026-10-12,Bereket Fırını,EKMEK,16.70,Bread/Water,33.90
+806,2026-10-12,Bereket Fırını,EKMEK,17.20,Bread/Water,33.90
+807,2026-10-12,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,226.30,Transport,226.30
+808,2026-10-12,Papatya Market,MAKARNA 500G,24.60,Groceries,211.30
+808,2026-10-12,Papatya Market,KAŞAR PEYNİR 250G,119.70,Groceries,211.30
+808,2026-10-12,Papatya Market,EKMEK,17.60,Bread/Water,211.30
+808,2026-10-12,Papatya Market,MEYVE SUYU 1L,49.40,Groceries,211.30
+809,2026-10-12,Şehir Su,SU FATURASI,232.90,Water bill,232.90
+810,2026-10-13,Bereket Fırını,EKMEK,16.50,Bread/Water,33.10
+810,2026-10-13,Bereket Fırını,EKMEK,16.60,Bread/Water,33.10
+811,2026-10-13,Damla Su,DAMACANA SU 19L,130.30,Bread/Water,130.30
+812,2026-10-14,Bahçe Manav,DOMATES 1KG,54.40,Fruit and Vegs,345.50
+812,2026-10-14,Bahçe Manav,ISPANAK 1KG,61.20,Fruit and Vegs,345.50
+812,2026-10-14,Bahçe Manav,MUZ 1KG,113.80,Fruit and Vegs,345.50
+812,2026-10-14,Bahçe Manav,BİBER 1KG,68.10,Fruit and Vegs,345.50
+812,2026-10-14,Bahçe Manav,LİMON 1KG,48.00,Fruit and Vegs,345.50
+813,2026-10-14,Bereket Fırını,EKMEK,16.70,Bread/Water,34.30
+813,2026-10-14,Bereket Fırını,EKMEK,17.60,Bread/Water,34.30
+814,2026-10-15,Bereket Fırını,EKMEK,17.00,Bread/Water,34.30
+814,2026-10-15,Bereket Fırını,EKMEK,17.30,Bread/Water,34.30
+815,2026-10-15,Kasap Usta,SUCUK 250G,101.00,Meat/Chicken/Fish,320.10
+815,2026-10-15,Kasap Usta,DANA KUŞBAŞI 500G,219.10,Meat/Chicken/Fish,320.10
+816,2026-10-15,Kent Doğalgaz,DOĞALGAZ FATURASI,499.20,Gas bill,499.20
+817,2026-10-15,Papatya Market,YUMURTA 10'LU,51.00,Groceries,204.90
+817,2026-10-15,Papatya Market,BULAŞIK SÜNGERİ,22.10,Groceries,204.90
+817,2026-10-15,Papatya Market,KAŞAR PEYNİR 250G,84.20,Groceries,204.90
+817,2026-10-15,Papatya Market,SÜT 1L,29.90,Groceries,204.90
+817,2026-10-15,Papatya Market,MAKARNA 500G,17.70,Groceries,204.90
+818,2026-10-16,Bereket Fırını,EKMEK,16.40,Bread/Water,32.60
+818,2026-10-16,Bereket Fırını,EKMEK,16.20,Bread/Water,32.60
+819,2026-10-16,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,448.70,Entertainment/Restaurant,448.70
+820,2026-10-16,Yol Akaryakıt,BENZİN,778.10,Transport,778.10
+821,2026-10-17,Bereket Fırını,EKMEK,16.70,Bread/Water,94.60
+821,2026-10-17,Bereket Fırını,EKMEK,16.50,Bread/Water,94.60
+821,2026-10-17,Bereket Fırını,EKMEK,17.10,Bread/Water,94.60
+821,2026-10-17,Bereket Fırını,POĞAÇA,44.30,Bread/Water,94.60
+822,2026-10-17,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.20,Additional expenses,1499.90
+822,2026-10-17,Güneş Süpermarket,ZEYTİN 500G,111.80,Groceries,1499.90
+822,2026-10-17,Güneş Süpermarket,ÇAY 1KG,182.70,Groceries,1499.90
+822,2026-10-17,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,164.80,Groceries,1499.90
+822,2026-10-17,Güneş Süpermarket,ELMA 1KG,34.50,Fruit and Vegs,1499.90
+822,2026-10-17,Güneş Süpermarket,DETERJAN 4KG,214.10,Groceries,1499.90
+822,2026-10-17,Güneş Süpermarket,SALATALIK 1KG,26.70,Fruit and Vegs,1499.90
+822,2026-10-17,Güneş Süpermarket,SU 5L,25.60,Bread/Water,1499.90
+822,2026-10-17,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,132.60,Groceries,1499.90
+822,2026-10-17,Güneş Süpermarket,BEYAZ PEYNİR 500G,139.70,Groceries,1499.90
+822,2026-10-17,Güneş Süpermarket,YUMURTA 15'Lİ,81.60,Groceries,1499.90
+822,2026-10-17,Güneş Süpermarket,YOĞURT 1.5KG,73.70,Groceries,1499.90
+822,2026-10-17,Güneş Süpermarket,DANA KIYMA 500G,243.70,Meat/Chicken/Fish,1499.90
+822,2026-10-17,Güneş Süpermarket,DOMATES 1KG,31.20,Fruit and Vegs,1499.90
+822,2026-10-17,Güneş Süpermarket,SOĞAN 2KG,36.00,Fruit and Vegs,1499.90
+823,2026-10-18,Bereket Fırını,EKMEK,16.60,Bread/Water,95.50
+823,2026-10-18,Bereket Fırını,EKMEK,16.70,Bread/Water,95.50
+823,2026-10-18,Bereket Fırını,EKMEK,17.60,Bread/Water,95.50
+823,2026-10-18,Bereket Fırını,POĞAÇA,44.60,Bread/Water,95.50
+824,2026-10-19,Bereket Fırını,EKMEK,16.60,Bread/Water,33.30
+824,2026-10-19,Bereket Fırını,EKMEK,16.70,Bread/Water,33.30
+825,2026-10-19,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,226.90,Transport,226.90
+826,2026-10-19,Papatya Market,SÜT 1L,66.10,Groceries,230.70
+826,2026-10-19,Papatya Market,BİSKÜVİ,43.00,Groceries,230.70
+826,2026-10-19,Papatya Market,YUMURTA 10'LU,121.60,Groceries,230.70
+827,2026-10-20,Bereket Fırını,EKMEK,16.40,Bread/Water,33.10
+827,2026-10-20,Bereket Fırını,EKMEK,16.70,Bread/Water,33.10
+828,2026-10-20,Damla Su,DAMACANA SU 19L,123.60,Bread/Water,123.60
+829,2026-10-20,HızlıNet,MOBİL HAT FATURASI,422.30,Internet/Phone,422.30
+830,2026-10-20,Zarif Hediyelik,HEDİYE KUTUSU,2324.00,Gifts,2324.00
+831,2026-10-21,Bahçe Manav,DOMATES 1KG,54.60,Fruit and Vegs,336.60
+831,2026-10-21,Bahçe Manav,ISPANAK 1KG,58.40,Fruit and Vegs,336.60
+831,2026-10-21,Bahçe Manav,BİBER 1KG,72.20,Fruit and Vegs,336.60
+831,2026-10-21,Bahçe Manav,LİMON 1KG,45.10,Fruit and Vegs,336.60
+831,2026-10-21,Bahçe Manav,MUZ 1KG,106.30,Fruit and Vegs,336.60
+832,2026-10-21,Bereket Fırını,EKMEK,17.20,Bread/Water,34.90
+832,2026-10-21,Bereket Fırını,EKMEK,17.70,Bread/Water,34.90
+833,2026-10-21,Tatlı Köşe Pastanesi,DOĞUM GÜNÜ PASTASI,1113.50,Gifts,1113.50
+834,2026-10-22,Bereket Fırını,EKMEK,17.50,Bread/Water,34.50
+834,2026-10-22,Bereket Fırını,EKMEK,17.00,Bread/Water,34.50
+835,2026-10-22,Kasap Usta,DANA KUŞBAŞI 500G,241.60,Meat/Chicken/Fish,352.60
+835,2026-10-22,Kasap Usta,TAVUK GÖĞÜS 1KG,111.00,Meat/Chicken/Fish,352.60
+836,2026-10-22,Papatya Market,MAKARNA 500G,48.10,Groceries,233.50
+836,2026-10-22,Papatya Market,SÜT 1L,87.20,Groceries,233.50
+836,2026-10-22,Papatya Market,MEYVE SUYU 1L,98.20,Groceries,233.50
+837,2026-10-23,Bereket Fırını,EKMEK,17.70,Bread/Water,34.50
+837,2026-10-23,Bereket Fırını,EKMEK,16.80,Bread/Water,34.50
+838,2026-10-23,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,486.20,Entertainment/Restaurant,486.20
+839,2026-10-24,Bereket Fırını,EKMEK,16.90,Bread/Water,94.90
+839,2026-10-24,Bereket Fırını,EKMEK,16.40,Bread/Water,94.90
+839,2026-10-24,Bereket Fırını,EKMEK,16.20,Bread/Water,94.90
+839,2026-10-24,Bereket Fırını,POĞAÇA,45.40,Bread/Water,94.90
+840,2026-10-24,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.20,Additional expenses,1648.10
+840,2026-10-24,Güneş Süpermarket,DANA KIYMA 500G,291.30,Meat/Chicken/Fish,1648.10
+840,2026-10-24,Güneş Süpermarket,TAVUK BUT 1KG,139.90,Meat/Chicken/Fish,1648.10
+840,2026-10-24,Güneş Süpermarket,ÇAY 1KG,240.00,Groceries,1648.10
+840,2026-10-24,Güneş Süpermarket,SÜT 1L,40.30,Groceries,1648.10
+840,2026-10-24,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,166.50,Groceries,1648.10
+840,2026-10-24,Güneş Süpermarket,DOMATES 1KG,37.10,Fruit and Vegs,1648.10
+840,2026-10-24,Güneş Süpermarket,YUMURTA 15'Lİ,99.60,Groceries,1648.10
+840,2026-10-24,Güneş Süpermarket,SOĞAN 2KG,42.80,Fruit and Vegs,1648.10
+840,2026-10-24,Güneş Süpermarket,PİRİNÇ 1KG,75.30,Groceries,1648.10
+840,2026-10-24,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,198.20,Groceries,1648.10
+840,2026-10-24,Güneş Süpermarket,YOĞURT 1.5KG,89.00,Groceries,1648.10
+840,2026-10-24,Güneş Süpermarket,ELMA 1KG,42.10,Fruit and Vegs,1648.10
+840,2026-10-24,Güneş Süpermarket,PATATES 2KG,54.10,Fruit and Vegs,1648.10
+840,2026-10-24,Güneş Süpermarket,ZEYTİN 500G,130.70,Groceries,1648.10
+841,2026-10-24,Şifa Eczanesi,ECZANE,253.90,Additional expenses,253.90
+842,2026-10-25,Bereket Fırını,EKMEK,17.30,Bread/Water,94.50
+842,2026-10-25,Bereket Fırını,EKMEK,16.30,Bread/Water,94.50
+842,2026-10-25,Bereket Fırını,EKMEK,16.70,Bread/Water,94.50
+842,2026-10-25,Bereket Fırını,POĞAÇA,44.20,Bread/Water,94.50
+843,2026-10-26,Bereket Fırını,EKMEK,17.20,Bread/Water,34.20
+843,2026-10-26,Bereket Fırını,EKMEK,17.00,Bread/Water,34.20
+844,2026-10-26,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,227.50,Transport,227.50
+845,2026-10-26,Papatya Market,YUMURTA 10'LU,88.40,Groceries,222.60
+845,2026-10-26,Papatya Market,BULAŞIK SÜNGERİ,40.60,Groceries,222.60
+845,2026-10-26,Papatya Market,MAKARNA 500G,29.80,Groceries,222.60
+845,2026-10-26,Papatya Market,MEYVE SUYU 1L,63.80,Groceries,222.60
+846,2026-10-27,Bereket Fırını,EKMEK,17.70,Bread/Water,35.60
+846,2026-10-27,Bereket Fırını,EKMEK,17.90,Bread/Water,35.60
+847,2026-10-27,Damla Su,DAMACANA SU 19L,123.10,Bread/Water,123.10
+848,2026-10-28,Bahçe Manav,PATLICAN 1KG,46.60,Fruit and Vegs,312.70
+848,2026-10-28,Bahçe Manav,PORTAKAL 1KG,34.10,Fruit and Vegs,312.70
+848,2026-10-28,Bahçe Manav,ISPANAK 1KG,48.50,Fruit and Vegs,312.70
+848,2026-10-28,Bahçe Manav,MANDALİNA 1KG,41.00,Fruit and Vegs,312.70
+848,2026-10-28,Bahçe Manav,MUZ 1KG,86.80,Fruit and Vegs,312.70
+848,2026-10-28,Bahçe Manav,BİBER 1KG,55.70,Fruit and Vegs,312.70
+849,2026-10-28,Bereket Fırını,EKMEK,16.30,Bread/Water,32.60
+849,2026-10-28,Bereket Fırını,EKMEK,16.30,Bread/Water,32.60
+850,2026-10-29,Bereket Fırını,EKMEK,17.90,Bread/Water,34.80
+850,2026-10-29,Bereket Fırını,EKMEK,16.90,Bread/Water,34.80
+851,2026-10-29,Kasap Usta,SUCUK 250G,98.90,Meat/Chicken/Fish,325.80
+851,2026-10-29,Kasap Usta,DANA KUŞBAŞI 500G,226.90,Meat/Chicken/Fish,325.80
+852,2026-10-29,Papatya Market,KAŞAR PEYNİR 250G,102.80,Groceries,208.40
+852,2026-10-29,Papatya Market,BULAŞIK SÜNGERİ,27.80,Groceries,208.40
+852,2026-10-29,Papatya Market,MAKARNA 500G,20.30,Groceries,208.40
+852,2026-10-29,Papatya Market,YUMURTA 10'LU,57.50,Groceries,208.40
+853,2026-10-30,Bereket Fırını,EKMEK,16.30,Bread/Water,33.00
+853,2026-10-30,Bereket Fırını,EKMEK,16.70,Bread/Water,33.00
+854,2026-10-30,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,468.40,Entertainment/Restaurant,468.40
+855,2026-10-31,Bereket Fırını,EKMEK,16.70,Bread/Water,95.40
+855,2026-10-31,Bereket Fırını,EKMEK,17.60,Bread/Water,95.40
+855,2026-10-31,Bereket Fırını,EKMEK,17.60,Bread/Water,95.40
+855,2026-10-31,Bereket Fırını,POĞAÇA,43.50,Bread/Water,95.40
+856,2026-10-31,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1637.00
+856,2026-10-31,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,278.40,Groceries,1637.00
+856,2026-10-31,Güneş Süpermarket,SÜT 1L,68.40,Groceries,1637.00
+856,2026-10-31,Güneş Süpermarket,TAVUK BUT 1KG,250.10,Meat/Chicken/Fish,1637.00
+856,2026-10-31,Güneş Süpermarket,ZEYTİN 500G,222.50,Groceries,1637.00
+856,2026-10-31,Güneş Süpermarket,SU 5L,52.70,Bread/Water,1637.00
+856,2026-10-31,Güneş Süpermarket,MAKARNA 500G,40.50,Groceries,1637.00
+856,2026-10-31,Güneş Süpermarket,SOĞAN 2KG,70.90,Fruit and Vegs,1637.00
+856,2026-10-31,Güneş Süpermarket,YOĞURT 1.5KG,151.50,Groceries,1637.00
+856,2026-10-31,Güneş Süpermarket,DOMATES 1KG,64.70,Fruit and Vegs,1637.00
+856,2026-10-31,Güneş Süpermarket,ÇAY 1KG,379.50,Groceries,1637.00
+856,2026-10-31,Güneş Süpermarket,SALATALIK 1KG,56.70,Fruit and Vegs,1637.00
+857,2026-11-01,Bereket Fırını,EKMEK,17.00,Bread/Water,96.20
+857,2026-11-01,Bereket Fırını,EKMEK,17.80,Bread/Water,96.20
+857,2026-11-01,Bereket Fırını,EKMEK,17.30,Bread/Water,96.20
+857,2026-11-01,Bereket Fırını,POĞAÇA,44.10,Bread/Water,96.20
+858,2026-11-01,Yol Akaryakıt,BENZİN,792.10,Transport,792.10
+859,2026-11-02,Bereket Fırını,EKMEK,17.40,Bread/Water,34.10
+859,2026-11-02,Bereket Fırını,EKMEK,16.70,Bread/Water,34.10
+860,2026-11-02,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,228.10,Transport,228.10
+861,2026-11-02,Papatya Market,KAŞAR PEYNİR 250G,125.00,Groceries,248.20
+861,2026-11-02,Papatya Market,YUMURTA 10'LU,78.40,Groceries,248.20
+861,2026-11-02,Papatya Market,EKMEK,16.50,Bread/Water,248.20
+861,2026-11-02,Papatya Market,BİSKÜVİ,28.30,Groceries,248.20
+862,2026-11-03,Bereket Fırını,EKMEK,16.80,Bread/Water,33.60
+862,2026-11-03,Bereket Fırını,EKMEK,16.80,Bread/Water,33.60
+863,2026-11-03,Damla Su,DAMACANA SU 19L,131.20,Bread/Water,131.20
+864,2026-11-03,Lale Sitesi Yönetimi,AİDAT,653.10,Dues,653.10
+865,2026-11-04,Bahçe Manav,DOMATES 1KG,49.50,Fruit and Vegs,298.70
+865,2026-11-04,Bahçe Manav,MUZ 1KG,95.60,Fruit and Vegs,298.70
+865,2026-11-04,Bahçe Manav,BİBER 1KG,61.40,Fruit and Vegs,298.70
+865,2026-11-04,Bahçe Manav,PORTAKAL 1KG,41.30,Fruit and Vegs,298.70
+865,2026-11-04,Bahçe Manav,MANDALİNA 1KG,50.90,Fruit and Vegs,298.70
+866,2026-11-04,Bereket Fırını,EKMEK,16.60,Bread/Water,34.30
+866,2026-11-04,Bereket Fırını,EKMEK,17.70,Bread/Water,34.30
+867,2026-11-05,Bereket Fırını,EKMEK,16.30,Bread/Water,33.30
+867,2026-11-05,Bereket Fırını,EKMEK,17.00,Bread/Water,33.30
+868,2026-11-05,HızlıNet,İNTERNET FATURASI,544.50,Internet/Phone,544.50
+869,2026-11-05,Kasap Usta,SUCUK 250G,178.70,Meat/Chicken/Fish,366.40
+869,2026-11-05,Kasap Usta,TAVUK GÖĞÜS 1KG,187.70,Meat/Chicken/Fish,366.40
+870,2026-11-05,Papatya Market,BİSKÜVİ,98.60,Groceries,238.30
+870,2026-11-05,Papatya Market,MAKARNA 500G,82.10,Groceries,238.30
+870,2026-11-05,Papatya Market,EKMEK,57.60,Bread/Water,238.30
+871,2026-11-06,Bereket Fırını,EKMEK,17.80,Bread/Water,35.70
+871,2026-11-06,Bereket Fırını,EKMEK,17.90,Bread/Water,35.70
+872,2026-11-06,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,466.40,Entertainment/Restaurant,466.40
+873,2026-11-07,Bereket Fırını,EKMEK,17.40,Bread/Water,99.30
+873,2026-11-07,Bereket Fırını,EKMEK,17.00,Bread/Water,99.30
+873,2026-11-07,Bereket Fırını,EKMEK,17.20,Bread/Water,99.30
+873,2026-11-07,Bereket Fırını,POĞAÇA,47.70,Bread/Water,99.30
+874,2026-11-07,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1607.30
+874,2026-11-07,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,230.10,Groceries,1607.30
+874,2026-11-07,Güneş Süpermarket,DETERJAN 4KG,291.90,Groceries,1607.30
+874,2026-11-07,Güneş Süpermarket,SALATALIK 1KG,35.90,Fruit and Vegs,1607.30
+874,2026-11-07,Güneş Süpermarket,SU 5L,35.10,Bread/Water,1607.30
+874,2026-11-07,Güneş Süpermarket,MAKARNA 500G,27.60,Groceries,1607.30
+874,2026-11-07,Güneş Süpermarket,ZEYTİN 500G,144.90,Groceries,1607.30
+874,2026-11-07,Güneş Süpermarket,SOĞAN 2KG,50.00,Fruit and Vegs,1607.30
+874,2026-11-07,Güneş Süpermarket,ÇAY 1KG,245.30,Groceries,1607.30
+874,2026-11-07,Güneş Süpermarket,DOMATES 1KG,43.60,Fruit and Vegs,1607.30
+874,2026-11-07,Güneş Süpermarket,TAVUK BUT 1KG,154.20,Meat/Chicken/Fish,1607.30
+874,2026-11-07,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,191.40,Groceries,1607.30
+874,2026-11-07,Güneş Süpermarket,ELMA 1KG,48.20,Fruit and Vegs,1607.30
+874,2026-11-07,Güneş Süpermarket,YOĞURT 1.5KG,108.00,Groceries,1607.30
+875,2026-11-08,Bereket Fırını,EKMEK,17.90,Bread/Water,97.10
+875,2026-11-08,Bereket Fırını,EKMEK,17.00,Bread/Water,97.10
+875,2026-11-08,Bereket Fırını,EKMEK,17.80,Bread/Water,97.10
+875,2026-11-08,Bereket Fırını,POĞAÇA,44.40,Bread/Water,97.10
+876,2026-11-09,Bereket Fırını,EKMEK,17.00,Bread/Water,33.50
+876,2026-11-09,Bereket Fırını,EKMEK,16.50,Bread/Water,33.50
+877,2026-11-09,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,228.80,Transport,228.80
+878,2026-11-09,Papatya Market,BULAŞIK SÜNGERİ,69.30,Groceries,238.60
+878,2026-11-09,Papatya Market,MAKARNA 500G,49.10,Groceries,238.60
+878,2026-11-09,Papatya Market,EKMEK,33.40,Bread/Water,238.60
+878,2026-11-09,Papatya Market,SÜT 1L,86.80,Groceries,238.60
+879,2026-11-10,Bereket Fırını,EKMEK,17.40,Bread/Water,34.90
+879,2026-11-10,Bereket Fırını,EKMEK,17.50,Bread/Water,34.90
+880,2026-11-10,Damla Su,DAMACANA SU 19L,122.00,Bread/Water,122.00
+881,2026-11-10,Şehir Elektrik,ELEKTRİK FATURASI,486.70,Electrical bill,486.70
+882,2026-11-11,Bahçe Manav,BİBER 1KG,63.70,Fruit and Vegs,343.40
+882,2026-11-11,Bahçe Manav,PATLICAN 1KG,54.90,Fruit and Vegs,343.40
+882,2026-11-11,Bahçe Manav,LİMON 1KG,41.40,Fruit and Vegs,343.40
+882,2026-11-11,Bahçe Manav,PORTAKAL 1KG,39.50,Fruit and Vegs,343.40
+882,2026-11-11,Bahçe Manav,MUZ 1KG,96.80,Fruit and Vegs,343.40
+882,2026-11-11,Bahçe Manav,DOMATES 1KG,47.10,Fruit and Vegs,343.40
+883,2026-11-11,Bereket Fırını,EKMEK,17.50,Bread/Water,34.30
+883,2026-11-11,Bereket Fırını,EKMEK,16.80,Bread/Water,34.30
+884,2026-11-12,Bereket Fırını,EKMEK,17.50,Bread/Water,34.30
+884,2026-11-12,Bereket Fırını,EKMEK,16.80,Bread/Water,34.30
+885,2026-11-12,Kasap Usta,TAVUK GÖĞÜS 1KG,101.10,Meat/Chicken/Fish,324.50
+885,2026-11-12,Kasap Usta,DANA KUŞBAŞI 500G,223.40,Meat/Chicken/Fish,324.50
+886,2026-11-12,Papatya Market,BİSKÜVİ,44.30,Groceries,221.80
+886,2026-11-12,Papatya Market,MAKARNA 500G,38.40,Groceries,221.80
+886,2026-11-12,Papatya Market,EKMEK,25.90,Bread/Water,221.80
+886,2026-11-12,Papatya Market,YUMURTA 10'LU,113.20,Groceries,221.80
+887,2026-11-12,Şehir Su,SU FATURASI,253.70,Water bill,253.70
+888,2026-11-13,Bereket Fırını,EKMEK,17.50,Bread/Water,34.80
+888,2026-11-13,Bereket Fırını,EKMEK,17.30,Bread/Water,34.80
+889,2026-11-13,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,500.70,Entertainment/Restaurant,500.70
+890,2026-11-14,Bereket Fırını,EKMEK,16.80,Bread/Water,94.60
+890,2026-11-14,Bereket Fırını,EKMEK,17.10,Bread/Water,94.60
+890,2026-11-14,Bereket Fırını,EKMEK,16.70,Bread/Water,94.60
+890,2026-11-14,Bereket Fırını,POĞAÇA,44.00,Bread/Water,94.60
+891,2026-11-14,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.20,Additional expenses,1474.40
+891,2026-11-14,Güneş Süpermarket,YOĞURT 1.5KG,111.80,Groceries,1474.40
+891,2026-11-14,Güneş Süpermarket,AYÇİÇEK YAĞI 2L,209.10,Groceries,1474.40
+891,2026-11-14,Güneş Süpermarket,PATATES 2KG,65.70,Fruit and Vegs,1474.40
+891,2026-11-14,Güneş Süpermarket,SÜT 1L,50.00,Groceries,1474.40
+891,2026-11-14,Güneş Süpermarket,DOMATES 1KG,47.50,Fruit and Vegs,1474.40
+891,2026-11-14,Güneş Süpermarket,DANA KIYMA 500G,328.40,Meat/Chicken/Fish,1474.40
+891,2026-11-14,Güneş Süpermarket,SALATALIK 1KG,39.20,Fruit and Vegs,1474.40
+891,2026-11-14,Güneş Süpermarket,PİRİNÇ 1KG,93.10,Groceries,1474.40
+891,2026-11-14,Güneş Süpermarket,BEYAZ PEYNİR 500G,219.60,Groceries,1474.40
+891,2026-11-14,Güneş Süpermarket,ÇAY 1KG,269.40,Groceries,1474.40
+891,2026-11-14,Güneş Süpermarket,SU 5L,39.40,Bread/Water,1474.40
+892,2026-11-15,Bereket Fırını,EKMEK,17.40,Bread/Water,98.80
+892,2026-11-15,Bereket Fırını,EKMEK,17.20,Bread/Water,98.80
+892,2026-11-15,Bereket Fırını,EKMEK,16.80,Bread/Water,98.80
+892,2026-11-15,Bereket Fırını,POĞAÇA,47.40,Bread/Water,98.80
+893,2026-11-15,Kent Doğalgaz,DOĞALGAZ FATURASI,521.30,Gas bill,521.30
+894,2026-11-16,Bereket Fırını,EKMEK,17.10,Bread/Water,34.50
+894,2026-11-16,Bereket Fırını,EKMEK,17.40,Bread/Water,34.50
+895,2026-11-16,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,229.40,Transport,229.40
+896,2026-11-16,Papatya Market,EKMEK,62.90,Bread/Water,252.50
+896,2026-11-16,Papatya Market,MAKARNA 500G,91.00,Groceries,252.50
+896,2026-11-16,Papatya Market,BİSKÜVİ,98.60,Groceries,252.50
+897,2026-11-16,Yol Akaryakıt,BENZİN,785.00,Transport,785.00
+898,2026-11-16,Zarif Hediyelik,HEDİYE KUTUSU,2300.00,Gifts,2300.00
+899,2026-11-17,Bereket Fırını,EKMEK,17.10,Bread/Water,34.90
+899,2026-11-17,Bereket Fırını,EKMEK,17.80,Bread/Water,34.90
+900,2026-11-17,Damla Su,DAMACANA SU 19L,126.30,Bread/Water,126.30
+901,2026-11-17,Tatlı Köşe Pastanesi,DOĞUM GÜNÜ PASTASI,1038.60,Gifts,1038.60
+902,2026-11-18,Bahçe Manav,BİBER 1KG,65.60,Fruit and Vegs,340.10
+902,2026-11-18,Bahçe Manav,DOMATES 1KG,51.30,Fruit and Vegs,340.10
+902,2026-11-18,Bahçe Manav,MANDALİNA 1KG,55.10,Fruit and Vegs,340.10
+902,2026-11-18,Bahçe Manav,MUZ 1KG,104.20,Fruit and Vegs,340.10
+902,2026-11-18,Bahçe Manav,PATLICAN 1KG,63.90,Fruit and Vegs,340.10
+903,2026-11-18,Bereket Fırını,EKMEK,16.50,Bread/Water,34.60
+903,2026-11-18,Bereket Fırını,EKMEK,18.10,Bread/Water,34.60
+904,2026-11-19,Bereket Fırını,EKMEK,17.10,Bread/Water,34.70
+904,2026-11-19,Bereket Fırını,EKMEK,17.60,Bread/Water,34.70
+905,2026-11-19,Kasap Usta,TAVUK GÖĞÜS 1KG,175.80,Meat/Chicken/Fish,336.10
+905,2026-11-19,Kasap Usta,SUCUK 250G,160.30,Meat/Chicken/Fish,336.10
+906,2026-11-19,Papatya Market,KAŞAR PEYNİR 250G,92.40,Groceries,216.80
+906,2026-11-19,Papatya Market,BİSKÜVİ,22.30,Groceries,216.80
+906,2026-11-19,Papatya Market,EKMEK,12.80,Bread/Water,216.80
+906,2026-11-19,Papatya Market,YUMURTA 10'LU,55.90,Groceries,216.80
+906,2026-11-19,Papatya Market,SÜT 1L,33.40,Groceries,216.80
+907,2026-11-20,Bereket Fırını,EKMEK,16.90,Bread/Water,34.60
+907,2026-11-20,Bereket Fırını,EKMEK,17.70,Bread/Water,34.60
+908,2026-11-20,HızlıNet,MOBİL HAT FATURASI,384.60,Internet/Phone,384.60
+909,2026-11-20,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,425.60,Entertainment/Restaurant,425.60
+910,2026-11-21,Bereket Fırını,EKMEK,16.60,Bread/Water,94.60
+910,2026-11-21,Bereket Fırını,EKMEK,17.10,Bread/Water,94.60
+910,2026-11-21,Bereket Fırını,EKMEK,16.40,Bread/Water,94.60
+910,2026-11-21,Bereket Fırını,POĞAÇA,44.50,Bread/Water,94.60
+911,2026-11-21,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1511.80
+911,2026-11-21,Güneş Süpermarket,DETERJAN 4KG,335.60,Groceries,1511.80
+911,2026-11-21,Güneş Süpermarket,BEYAZ PEYNİR 500G,235.90,Groceries,1511.80
+911,2026-11-21,Güneş Süpermarket,SOĞAN 2KG,61.50,Fruit and Vegs,1511.80
+911,2026-11-21,Güneş Süpermarket,PİRİNÇ 1KG,98.10,Groceries,1511.80
+911,2026-11-21,Güneş Süpermarket,MAKARNA 500G,31.80,Groceries,1511.80
+911,2026-11-21,Güneş Süpermarket,YUMURTA 15'Lİ,139.90,Groceries,1511.80
+911,2026-11-21,Güneş Süpermarket,SU 5L,44.00,Bread/Water,1511.80
+911,2026-11-21,Güneş Süpermarket,YOĞURT 1.5KG,123.30,Groceries,1511.80
+911,2026-11-21,Güneş Süpermarket,PATATES 2KG,69.90,Fruit and Vegs,1511.80
+911,2026-11-21,Güneş Süpermarket,DOMATES 1KG,53.90,Fruit and Vegs,1511.80
+911,2026-11-21,Güneş Süpermarket,SALATALIK 1KG,42.40,Fruit and Vegs,1511.80
+911,2026-11-21,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,274.40,Groceries,1511.80
+912,2026-11-22,Bereket Fırını,EKMEK,17.20,Bread/Water,98.50
+912,2026-11-22,Bereket Fırını,EKMEK,17.50,Bread/Water,98.50
+912,2026-11-22,Bereket Fırını,EKMEK,16.80,Bread/Water,98.50
+912,2026-11-22,Bereket Fırını,POĞAÇA,47.00,Bread/Water,98.50
+913,2026-11-23,Bereket Fırını,EKMEK,16.70,Bread/Water,33.10
+913,2026-11-23,Bereket Fırını,EKMEK,16.40,Bread/Water,33.10
+914,2026-11-23,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,230.00,Transport,230.00
+915,2026-11-23,Papatya Market,BİSKÜVİ,36.10,Groceries,239.90
+915,2026-11-23,Papatya Market,YUMURTA 10'LU,96.70,Groceries,239.90
+915,2026-11-23,Papatya Market,EKMEK,21.80,Bread/Water,239.90
+915,2026-11-23,Papatya Market,SÜT 1L,53.00,Groceries,239.90
+915,2026-11-23,Papatya Market,MAKARNA 500G,32.30,Groceries,239.90
+916,2026-11-24,Bereket Fırını,EKMEK,16.60,Bread/Water,33.30
+916,2026-11-24,Bereket Fırını,EKMEK,16.70,Bread/Water,33.30
+917,2026-11-24,Damla Su,DAMACANA SU 19L,122.60,Bread/Water,122.60
+918,2026-11-24,Şifa Eczanesi,ECZANE,265.60,Additional expenses,265.60
+919,2026-11-25,Bahçe Manav,DOMATES 1KG,71.00,Fruit and Vegs,341.40
+919,2026-11-25,Bahçe Manav,LİMON 1KG,58.10,Fruit and Vegs,341.40
+919,2026-11-25,Bahçe Manav,ISPANAK 1KG,76.40,Fruit and Vegs,341.40
+919,2026-11-25,Bahçe Manav,MUZ 1KG,135.90,Fruit and Vegs,341.40
+920,2026-11-25,Bereket Fırını,EKMEK,16.60,Bread/Water,33.10
+920,2026-11-25,Bereket Fırını,EKMEK,16.50,Bread/Water,33.10
+921,2026-11-26,Bereket Fırını,EKMEK,17.90,Bread/Water,36.00
+921,2026-11-26,Bereket Fırını,EKMEK,18.10,Bread/Water,36.00
+922,2026-11-26,Kasap Usta,TAVUK GÖĞÜS 1KG,110.00,Meat/Chicken/Fish,346.70
+922,2026-11-26,Kasap Usta,DANA KUŞBAŞI 500G,236.70,Meat/Chicken/Fish,346.70
+923,2026-11-26,Papatya Market,BULAŞIK SÜNGERİ,52.90,Groceries,216.60
+923,2026-11-26,Papatya Market,MEYVE SUYU 1L,78.10,Groceries,216.60
+923,2026-11-26,Papatya Market,MAKARNA 500G,41.10,Groceries,216.60
+923,2026-11-26,Papatya Market,BİSKÜVİ,44.50,Groceries,216.60
+924,2026-11-27,Bereket Fırını,EKMEK,16.50,Bread/Water,34.10
+924,2026-11-27,Bereket Fırını,EKMEK,17.60,Bread/Water,34.10
+925,2026-11-27,Lezzet Ocakbaşı,AKŞAM YEMEĞİ,421.70,Entertainment/Restaurant,421.70
+926,2026-11-28,Bereket Fırını,EKMEK,17.60,Bread/Water,97.00
+926,2026-11-28,Bereket Fırını,EKMEK,17.80,Bread/Water,97.00
+926,2026-11-28,Bereket Fırını,EKMEK,16.70,Bread/Water,97.00
+926,2026-11-28,Bereket Fırını,POĞAÇA,44.90,Bread/Water,97.00
+927,2026-11-28,Güneş Süpermarket,ALIŞVERİŞ POŞETİ,1.10,Additional expenses,1538.20
+927,2026-11-28,Güneş Süpermarket,DOMATES 1KG,40.70,Fruit and Vegs,1538.20
+927,2026-11-28,Güneş Süpermarket,YOĞURT 1.5KG,98.30,Groceries,1538.20
+927,2026-11-28,Güneş Süpermarket,TAVUK BUT 1KG,144.80,Meat/Chicken/Fish,1538.20
+927,2026-11-28,Güneş Süpermarket,DANA KIYMA 500G,308.40,Meat/Chicken/Fish,1538.20
+927,2026-11-28,Güneş Süpermarket,BEYAZ PEYNİR 500G,187.40,Groceries,1538.20
+927,2026-11-28,Güneş Süpermarket,PİRİNÇ 1KG,80.90,Groceries,1538.20
+927,2026-11-28,Güneş Süpermarket,YUMURTA 15'Lİ,104.70,Groceries,1538.20
+927,2026-11-28,Güneş Süpermarket,SU 5L,34.00,Bread/Water,1538.20
+927,2026-11-28,Güneş Süpermarket,DETERJAN 4KG,284.70,Groceries,1538.20
+927,2026-11-28,Güneş Süpermarket,TUVALET KAĞIDI 16'LI,211.80,Groceries,1538.20
+927,2026-11-28,Güneş Süpermarket,SÜT 1L,41.40,Groceries,1538.20
+928,2026-11-29,Bereket Fırını,EKMEK,17.80,Bread/Water,100.60
+928,2026-11-29,Bereket Fırını,EKMEK,17.40,Bread/Water,100.60
+928,2026-11-29,Bereket Fırını,EKMEK,18.00,Bread/Water,100.60
+928,2026-11-29,Bereket Fırını,POĞAÇA,47.40,Bread/Water,100.60
+929,2026-11-30,Bereket Fırını,EKMEK,16.50,Bread/Water,34.60
+929,2026-11-30,Bereket Fırını,EKMEK,18.10,Bread/Water,34.60
+930,2026-11-30,Kent Kart Dolum,TOPLU TAŞIMA DOLUM,230.70,Transport,230.70
+931,2026-11-30,Papatya Market,EKMEK,25.30,Bread/Water,234.00
+931,2026-11-30,Papatya Market,YUMURTA 10'LU,104.10,Groceries,234.00
+931,2026-11-30,Papatya Market,MAKARNA 500G,34.40,Groceries,234.00
+931,2026-11-30,Papatya Market,MEYVE SUYU 1L,70.20,Groceries,234.00
