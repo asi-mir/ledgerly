@@ -340,3 +340,22 @@ def test_two_questions_at_once_share_one_tabpfn_call(household):
         fc._predict = real
     assert fake.calls == 1
     assert first.wall_day == date(2026, 12, 31)
+
+
+def test_a_failed_tabpfn_call_is_not_cached(household):
+    calls = {"n": 0}
+
+    def flaky(X_train, y_train, X_future):
+        calls["n"] += 1
+        if calls["n"] == 1:
+            raise RuntimeError("TabPFN is down")
+        return None, [1000.0] * len(X_future), None
+
+    fc._predict, real = flaky, fc._predict
+    try:
+        first = run(household)
+        second = run(household)
+    finally:
+        fc._predict = real
+    assert first.note == fc.NOTE_FAILED and first.method == "average"
+    assert second.method == "tabpfn-median" and calls["n"] == 2

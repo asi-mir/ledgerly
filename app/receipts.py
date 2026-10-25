@@ -36,6 +36,7 @@ MAX_ITEM_LINES = 8
 
 GOT_IT = "Got it 🦥 Reading your receipt…"
 DUPLICATE = "You already sent me this one 🦥"
+NOT_COUNTED = "I keep it aside: it does not count until it adds up. A sharper photo usually fixes it."
 UNREADABLE = "Sorry, I could not read this receipt 🦥 Please send a sharper photo."
 DATE_QUESTION = 'What date is this? Reply "yesterday" or "28.11".'
 
@@ -159,8 +160,7 @@ _DAY_MONTH = re.compile(r"^(\d{1,2})(?:st|nd|rd|th)? ([a-z]{3,9})\.?,? ?(\d{4})?
 def _make(year: int | None, month: int, day: int, today: date) -> date | None:
     try:
         if year is None:
-            found = date(today.year, month, day)
-            return found if found <= today else date(today.year - 1, month, day)
+            return date(today.year, month, day)  # after today -> "That date is in the future"
         if year < 100:
             year += 2000
         return date(year, month, day)
@@ -226,6 +226,7 @@ def _summary(merchant: str, day: date | None, items: list[tuple[str, int]], tota
             f"Total: {format_cents(total_cents, currency)} ⚠️ needs check: "
             f"the items add up to {format_cents(items_cents, currency)} ({off} off)"
         )
+        lines.append(NOT_COUNTED)
     return lines
 
 
@@ -237,8 +238,14 @@ def _is_duplicate(ctx: Ctx, column, value: str) -> bool:
         return conn.execute(select(db.receipts.c.id).where(column == value).limit(1)).first() is not None
 
 
-def _file_receipt(ctx: Ctx, photo: dict, sha: str, read: ReceiptRead, day: date | None, status: str) -> int:
+def _file_receipt(ctx: Ctx, photo: dict, sha: str, read: ReceiptRead, day: date | None, status: str) -> int | None:
+    """Store the receipt. None if the same photo was filed meanwhile (two copies sent at once)."""
     with tracing.tool_span("file_receipt") as span, ctx.engine.begin() as conn:
+        same = db.receipts.c.sha256 == sha
+        if photo.get("file_unique_id"):
+            same = same | (db.receipts.c.file_unique_id == photo["file_unique_id"])
+        if conn.execute(select(db.receipts.c.id).where(same).limit(1)).first() is not None:
+            return None
         receipt_id = conn.execute(
             insert(db.receipts).values(
                 chat_id=ctx.chat_id,
@@ -267,6 +274,22 @@ def _file_receipt(ctx: Ctx, photo: dict, sha: str, read: ReceiptRead, day: date 
     return receipt_id
 
 
+def _next_asking(ctx: Ctx, done_id: int) -> str:
+    """If another receipt of this chat still waits for a date, make it the pending one and ask."""
+    with ctx.engine.begin() as conn:
+        row = conn.execute(
+            select(db.receipts.c.id, db.receipts.c.merchant, db.receipts.c.total_cents)
+            .where(db.receipts.c.chat_id == ctx.chat_id, db.receipts.c.status == "asking", db.receipts.c.id != done_id)
+            .order_by(db.receipts.c.id.desc())
+            .limit(1)
+        ).first()
+        if row is None:
+            return ""
+        conn.execute(delete(db.pending).where(db.pending.c.chat_id == ctx.chat_id))
+        conn.execute(insert(db.pending).values(chat_id=ctx.chat_id, kind="date", receipt_id=row.id))
+    return f"\n\nOne more: 🧾 {row.merchant or 'Receipt'}, {format_cents(row.total_cents, ctx.cfg.currency)}. {DATE_QUESTION}"
+
+
 # ---------- handlers ----------
 
 
@@ -290,7 +313,8 @@ async def handle_photo(ctx: Ctx, message: dict) -> list[str]:
     if not read.adds_up:
         tracing.capture_message("Receipt does not add up")
     status = "asking" if day is None else ("filed" if read.adds_up else "needs_check")
-    _file_receipt(ctx, photo, sha, read, day, status)
+    if _file_receipt(ctx, photo, sha, read, day, status) is None:
+        return [DUPLICATE]
 
     items = [(i.name, to_cents(i.amount)) for i in read.items]
     lines = _summary(read.merchant, day, items, to_cents(read.total), ctx.cfg.currency)
@@ -330,6 +354,7 @@ async def handle_date_reply(ctx: Ctx, text: str) -> list[str] | None:
         conn.execute(
             update(db.receipts).where(db.receipts.c.id == waiting["receipt_id"]).values(date=day, status=status)
         )
+    nxt = _next_asking(ctx, waiting["receipt_id"])
     if status == "filed":
-        return [f"Thanks. Filed under {show_date(day)} ✅"]
-    return [f"Thanks. Filed under {show_date(day)}. ⚠️ needs check: the items are {format_cents(off_cents, ctx.cfg.currency)} off the total."]
+        return [f"Thanks. Filed under {show_date(day)} ✅" + nxt]
+    return [f"Thanks. Dated {show_date(day)}. ⚠️ needs check: the items are {format_cents(off_cents, ctx.cfg.currency)} off the total.\n{NOT_COUNTED}" + nxt]

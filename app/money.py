@@ -20,6 +20,10 @@ def parse_amount(text: str | int | float | None) -> Decimal | None:
     if isinstance(text, (int, float)):
         return Decimal(str(text)).quantize(Decimal("0.01"), ROUND_HALF_UP)
     raw = str(text).strip().lower().replace("₺", "").replace("tl", "").replace("try", "")
+    for dash in ("\u2212", "\u2013", "\u2014"):  # minus sign, en dash, em dash
+        raw = raw.replace(dash, "-")
+    if re.match(r"^\s*\d[\d.,' ]*-\s*$", raw):  # discount printed as "12,50-"
+        raw = "-" + raw.strip().rstrip("-")
     multiplier = Decimal(1)
     if re.search(r"\d\s*k\b", raw):
         multiplier = Decimal(1000)

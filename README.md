@@ -32,7 +32,7 @@ The bot sets its own Telegram webhook when it starts. It answers only the IDs in
 
 | You send | The bot |
 |---|---|
-| A receipt photo | Reads the shop, date, items and total. Files it only if the items add up: "✅ adds up". If not, it files it as "⚠️ needs check" and tells you the difference. |
+| A receipt photo | Reads the shop, date, items and total. Files it only if the items add up: "✅ adds up". If not, it keeps it aside as "⚠️ needs check" (not counted) and tells you the difference. |
 | A photo without a readable date | Asks "What date is this?". You answer "yesterday" or "28.11". It never guesses a date. |
 | The same photo twice | "You already sent me this one 🦥" |
 | "Arman's birthday is Dec 14. We're hosting Yalda for 12 people." | Saves both events and confirms them. |
@@ -50,7 +50,7 @@ Persian holidays (Yalda, Chaharshanbe Suri, Nowruz, Sizdah Bedar) are built in f
 | **Plain Python** | Checks that the items add up to the total. Stores money as integer cents. |
 | **TabPFN** (Prior Labs API) | Learns from a tiny daily table (one row per day, no training run) and predicts each remaining day of the pay period with low, likely and high values. This is where Wall Day and "can I afford it?" come from. |
 | **Render** | Runs the bot (free web service) and its database (free Postgres) from one `render.yaml`. The Deploy button gives anyone their own copy. |
-| **Sentry** (optional) | One trace per Telegram message: the Gemma call (model, seconds, tokens), the tool call and the TabPFN step. No prompts, no images and no personal data are sent. |
+| **Sentry** (optional) | One trace per Telegram message: the Gemma call (model, seconds, tokens), the tool call and the TabPFN step. No prompts, no images, no replies and no request headers are sent. |
 
 The receipt rules Gemma follows are a plain Markdown file:
 [`prompts/receipt_rules.md`](prompts/receipt_rules.md). Change it for German, Iranian or
@@ -62,7 +62,7 @@ Spanish receipts. The chat rules are in [`prompts/chat_agent.md`](prompts/chat_a
 - The free AI Studio tier may use your data to improve Google's products. For full privacy, run
   Gemma yourself: set `GEMMA_PROVIDER=ollama` (default model `gemma4:e4b`), and receipts stay on
   your machine.
-- Sentry gets timings and token counts only (`send_default_pii=False`).
+- Sentry gets timings and token counts only (`send_default_pii=False`; request headers, reply texts and the bot token are removed before sending).
 
 ## Numbers and how to get them
 
@@ -70,7 +70,7 @@ Every number below comes from a command in this repo.
 
 | What | Number |
 |---|---|
-| Tests | 145 offline tests, plus 5 live checks with real Gemma and TabPFN |
+| Tests | 158 offline tests, plus 5 live checks with real Gemma and TabPFN |
 | TabPFN error on the 14-day total, real ledger | **19.3%** (two windows: 1.3% and 37.2%) |
 | Same for "a typical day" (median day × 14) | 24.5% |
 | Same for "an average day" (mean day × 14) | 250.9% (a few very large days pull the mean up) |

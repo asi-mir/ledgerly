@@ -21,6 +21,23 @@ log = logging.getLogger("ledgerly")
 logging.getLogger("httpx").setLevel(logging.WARNING)
 logging.getLogger("httpcore").setLevel(logging.WARNING)
 
+
+class _ScrubToken(logging.Filter):
+    """Last line of defence: remove a bot token from any log line or traceback."""
+
+    def filter(self, record: logging.LogRecord) -> bool:
+        if record.exc_info and not record.exc_text:
+            record.exc_text = logging.Formatter().formatException(record.exc_info)
+        record.msg, record.args = tracing.scrub(record.getMessage()), None
+        if record.exc_text:
+            record.exc_text = tracing.scrub(record.exc_text)
+        record.exc_info = None if record.exc_text else record.exc_info
+        return True
+
+
+for _handler in logging.getLogger().handlers:
+    _handler.addFilter(_ScrubToken())
+
 WEBHOOK_PATH = "/webhook"
 ERROR_REPLY = "Sorry, something went wrong on my side 🦥 Please try again in a minute."
 
@@ -103,7 +120,7 @@ async def health() -> dict:
 async def webhook(request: Request, background: BackgroundTasks) -> Response:
     cfg = get_config()
     header = request.headers.get("X-Telegram-Bot-Api-Secret-Token", "")
-    if not cfg.webhook_secret or not hmac.compare_digest(header, cfg.webhook_secret):
+    if not cfg.webhook_secret or not hmac.compare_digest(header.encode(), cfg.webhook_secret.encode()):
         return Response(status_code=401)
     update = await request.json()
     update_id = update.get("update_id")

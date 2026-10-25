@@ -31,6 +31,7 @@ SHOP_WINDOW = 3  # people shop in the 3 days before a birthday or a dinner they 
 FAR = 30  # "days until" columns stop counting here
 NOTE_FEW = "I need a few more weeks of receipts. Until then this is a simple average."
 NOTE_FAILED = "TabPFN did not answer, so this is a simple average for now."
+TABPFN_TIMEOUT = 45.0  # seconds; then the simple average, and the next request tries TabPFN again
 
 FEATURES = [
     "day_of_week",
@@ -277,7 +278,10 @@ def clear_cache() -> None:
 def _load(engine: Engine) -> tuple:
     from app.db import daily_spend, data_fingerprint, get_settings, list_events
 
-    return get_settings(engine), daily_spend(engine), list_events(engine), data_fingerprint(engine)
+    # Fingerprint first: if a receipt lands while we read, the key is old (recomputed later),
+    # never new with old data.
+    fingerprint = data_fingerprint(engine)
+    return get_settings(engine), daily_spend(engine), list_events(engine), fingerprint
 
 
 def _average(series: dict[date, float], first_day: date | None, today: date) -> float:
@@ -307,7 +311,9 @@ async def _compute(settings: dict, series: dict[date, float], events: list[dict]
         try:
             with tracing.tabpfn_span(len(X_train), len(FEATURES), len(X_future)) as span:
                 started = time.perf_counter()
-                low, mid, high = await asyncio.to_thread(_predict, X_train, y_train, X_future)
+                low, mid, high = await asyncio.wait_for(
+                    asyncio.to_thread(_predict, X_train, y_train, X_future), timeout=TABPFN_TIMEOUT
+                )
                 seconds = round(time.perf_counter() - started, 2)
                 span.set_data("tabpfn.seconds", seconds)
             log.info("tabpfn fit+predict %.2fs train_rows=%d predict_rows=%d", seconds, len(X_train), len(X_future))
@@ -443,6 +449,8 @@ async def _base(engine: Engine, today: date) -> _Base:
     finally:
         if task.done():
             _inflight.pop(key, None)
+    if base.note == NOTE_FAILED:
+        return base  # not cached: the next request asks TabPFN again
     if len(_cache) >= _CACHE_SIZE:
         _cache.pop(next(iter(_cache)))
     _cache[key] = base

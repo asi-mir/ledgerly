@@ -140,7 +140,7 @@ def test_still_off_after_retry_is_needs_check(ctx, fake, monkeypatch):
     wrong = {**GOOD, "total": 1850}
     fake.replies = [json.dumps(wrong), json.dumps(wrong)]
     replies = run(receipts.handle_photo(ctx, photo_message()))
-    assert replies[0].endswith("Total: ₺1,850 ⚠️ needs check: the items add up to ₺1,800 (₺50 off)")
+    assert replies[0].endswith("Total: ₺1,850 ⚠️ needs check: the items add up to ₺1,800 (₺50 off)\n" + receipts.NOT_COUNTED)
     assert rows(ctx.engine, db.receipts)[0]["status"] == "needs_check"
     assert captured == ["Receipt does not add up"]
 
@@ -243,7 +243,7 @@ def test_date_reply_on_receipt_that_does_not_add_up(ctx, fake):
     fake.replies = [json.dumps(wrong), json.dumps(wrong)]
     run(receipts.handle_photo(ctx, photo_message()))
     reply = run(receipts.handle_date_reply(ctx, "28.11"))
-    assert reply == ["Thanks. Filed under 28 Nov 2026. ⚠️ needs check: the items are ₺50 off the total."]
+    assert reply == ["Thanks. Dated 28 Nov 2026. ⚠️ needs check: the items are ₺50 off the total.\n" + receipts.NOT_COUNTED]
     assert rows(ctx.engine, db.receipts)[0]["status"] == "needs_check"
 
 
@@ -272,3 +272,60 @@ def test_live_gemma_reads_sample_market_receipt():
     assert read is not None and read.adds_up
     assert str(read.total) == "1800.00"
     assert read.date == "2026-11-28"
+
+
+def test_two_undated_receipts_are_both_asked_about(ctx, fake):
+    undated = {**GOOD, "date": None}
+    fake.replies = [json.dumps(undated)]
+    run(receipts.handle_photo(ctx, photo_message(unique="a", file_id="fa")))
+    fake.image = b"jpeg-bytes-2"
+    fake.replies = [json.dumps({**undated, "merchant": "Örnek Manav"})]
+    run(receipts.handle_photo(ctx, photo_message(unique="b", file_id="fb")))
+    first = run(receipts.handle_date_reply(ctx, "yesterday"))[0]
+    assert first.startswith("Thanks. Filed under 30 Nov 2026 ✅")
+    assert "One more: 🧾 Örnek Market" in first and "What date is this?" in first
+    second = run(receipts.handle_date_reply(ctx, "28.11"))[0]
+    assert second == "Thanks. Filed under 28 Nov 2026 ✅"
+
+
+def test_a_yearless_date_after_today_is_asked_again(ctx, fake):
+    fake.replies = [json.dumps({**GOOD, "date": None})]
+    run(receipts.handle_photo(ctx, photo_message()))
+    assert run(receipts.handle_date_reply(ctx, "2.12"))[0].startswith("That date is in the future.")
+
+
+def test_needs_check_is_not_counted(ctx, fake):
+    from app.db import daily_spend
+
+    wrong = {**GOOD, "total": 1850}
+    fake.replies = [json.dumps(wrong), json.dumps(wrong)]
+    run(receipts.handle_photo(ctx, photo_message()))
+    assert daily_spend(ctx.engine) == {}
+
+
+def test_download_error_never_shows_the_token(monkeypatch):
+    import httpx
+
+    from app import telegram
+
+    async def fake_call(method, **payload):
+        return {"ok": True, "result": {"file_path": "photos/x.jpg"}}
+
+    class FakeClient:
+        def __init__(self, *a, **k):
+            pass
+
+        async def __aenter__(self):
+            return self
+
+        async def __aexit__(self, *a):
+            return False
+
+        async def get(self, url):
+            return httpx.Response(404, request=httpx.Request("GET", url))
+
+    monkeypatch.setattr(telegram, "call", fake_call)
+    monkeypatch.setattr(telegram.httpx, "AsyncClient", FakeClient)
+    with pytest.raises(RuntimeError) as err:
+        run(telegram.get_file_bytes("f1"))
+    assert "test-token" not in str(err.value) and "404" in str(err.value)

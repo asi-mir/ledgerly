@@ -50,8 +50,10 @@ async def get_file_bytes(file_id: str) -> bytes:
     path = info["result"]["file_path"]
     async with httpx.AsyncClient(timeout=TIMEOUT) as client:
         r = await client.get(f"{API}/file/bot{get_config().telegram_bot_token}/{path}")
-        r.raise_for_status()
-        return r.content
+    if r.status_code != 200:
+        # Never raise httpx's own error here: its text holds the URL, and the URL holds the token.
+        raise RuntimeError(f"Telegram file download failed: HTTP {r.status_code}")
+    return r.content
 
 
 async def set_webhook(url: str, secret: str) -> dict:

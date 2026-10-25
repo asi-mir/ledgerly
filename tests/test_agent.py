@@ -9,6 +9,8 @@ from datetime import date
 import pytest
 
 from app import agent, forecast, holidays
+from sqlalchemy import select
+
 from app.db import events, list_events, update_settings
 from app.gemma import GemmaReply
 from tests.helpers import live
@@ -296,3 +298,13 @@ def test_thing_from_text_for_the_afford_reply():
     assert agent.thing_from_text("can i afford 2000 TL flowers") == "flowers"
     assert agent.thing_from_text("Can I afford a 5k cake?") == "cake"
     assert agent.thing_from_text("is it ok to spend money") is None
+
+
+def test_telling_a_birthday_again_never_moves_last_years_event(ctx, gemma):
+    with ctx.engine.begin() as conn:
+        conn.execute(events.insert().values(date=date(2025, 12, 14), title="Arman's birthday", kind="birthday", source="demo"))
+    agent.save_event(ctx, "Arman's birthday", "birthday", date(2026, 12, 14), 0, False)
+    agent.save_event(ctx, "Arman's birthday", "birthday", date(2026, 12, 14), 0, False)
+    with ctx.engine.connect() as conn:
+        rows = conn.execute(select(events.c.date, events.c.source).order_by(events.c.date)).all()
+    assert [tuple(r) for r in rows] == [(date(2025, 12, 14), "demo"), (date(2026, 12, 14), "chat")]

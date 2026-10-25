@@ -44,8 +44,9 @@ def init_sentry(dsn: str, environment: str) -> bool:
             # Our own gen_ai.chat span records model, seconds and tokens; the automatic one
             # would count every Gemma call twice.
             disabled_integrations=[GoogleGenAIIntegration()],
-            before_send=lambda event, _hint: scrub(event),
-            before_breadcrumb=lambda crumb, _hint: scrub(crumb),
+            before_send=lambda event, _hint: _clean(event),
+            before_breadcrumb=_breadcrumb,
+            trace_propagation_targets=[],  # no Sentry headers to Telegram, Google or Prior Labs
             environment=environment,
             traces_sample_rate=1.0,
             send_default_pii=False,
@@ -59,6 +60,22 @@ def init_sentry(dsn: str, environment: str) -> bool:
         log.exception("sentry init failed")
         _enabled = False
     return _enabled
+
+
+def _clean(event: dict) -> dict:
+    """No request headers (the webhook secret is one), no cookies or body; no bot token anywhere."""
+    request = event.get("request")
+    if isinstance(request, dict):
+        for key in ("headers", "cookies", "data", "query_string", "env"):
+            request.pop(key, None)
+    return scrub(event)
+
+
+def _breadcrumb(crumb: dict, _hint: dict) -> dict | None:
+    """Bot replies hold receipt lines and family names: they never become breadcrumbs."""
+    if crumb.get("category") == "ledgerly.telegram" or str(crumb.get("message", "")).startswith("reply "):
+        return None
+    return scrub(crumb)
 
 
 def _seconds(item: dict) -> float:
@@ -78,7 +95,7 @@ def _log_transaction(event: dict, _hint: dict) -> dict | None:
     """Drop health checks, scrub tokens, and log the trace id and step timings (no content)."""
     if not str(event.get("transaction", "")).startswith("telegram"):
         return None  # health checks, bare HTTP requests, 404s: not a message, not a trace
-    event = scrub(event)
+    event = _clean(event)
     try:
         total = _seconds(event)
         steps = []

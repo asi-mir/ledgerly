@@ -86,7 +86,8 @@ pending = Table(
     Column("created_at", DateTime(timezone=True), nullable=False, default=lambda: datetime.now(timezone.utc)),
 )
 
-COUNTED_STATUSES = ("filed", "needs_check")
+# Only receipts whose items add up count (AGENTS.md rule 2). "needs_check" and "asking" are kept aside.
+COUNTED_STATUSES = ("filed",)
 
 _engines: dict[str, Engine] = {}
 

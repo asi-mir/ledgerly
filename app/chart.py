@@ -69,7 +69,10 @@ def render_chart(f: Forecast) -> bytes:
     # Title
     title = f"{days[0].day:%b %-d} to {days[-1].day:%b %-d}: likely spending vs budget"
     d.text((LEFT, 36), title, fill=INK, font=_font(34))
-    d.text((LEFT, 80), f"Made-up demo household. Today is {f.today:%b %-d}.", fill=MUTED, font=_font(22))
+    from app.config import get_config
+
+    demo = "Made-up demo household. " if get_config().demo_today else ""
+    d.text((LEFT, 80), f"{demo}Today is {f.today:%b %-d}.", fill=MUTED, font=_font(22))
 
     # Grid and y labels
     step = max(5000, round_to(top_value / 5, 5000))

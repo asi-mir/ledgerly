@@ -25,3 +25,9 @@ def test_cents_and_format():
     assert format_money(30000) == "₺30,000"
     assert format_money(Decimal("1234.50")) == "₺1,234.50"
     assert round_to(38412) == 38400
+
+
+def test_discount_signs():
+    assert parse_amount("12,50-") == Decimal("-12.50")
+    assert parse_amount("−12,50") == Decimal("-12.50")
+    assert parse_amount("-12,50") == Decimal("-12.50")

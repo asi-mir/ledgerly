@@ -180,17 +180,23 @@ def resolve_event(ev: EventIn, today: date) -> tuple[str, date | None, str]:
     return title, day, emoji
 
 
+SAME_EVENT_DAYS = 60  # the same title told again within this many days is the same event
+
+
 def save_event(ctx: Ctx, title: str, kind: str, day: date, guests: int, hosted: bool) -> None:
-    """Insert, or update the same event (same kind and date, or same title) told again."""
-    values = {"title": title, "kind": kind, "date": day, "guests": guests, "hosted": hosted, "source": "chat"}
+    """Insert, or update the same UPCOMING event told again (same kind and date, or same title
+    within 60 days). Past events are history for the forecast and are never changed."""
+    values = {"title": title, "kind": kind, "date": day, "guests": guests, "hosted": hosted}
+    near = (events.c.date >= day - dt.timedelta(days=SAME_EVENT_DAYS)) & (events.c.date <= day + dt.timedelta(days=SAME_EVENT_DAYS))
     with ctx.engine.begin() as conn:
         row = conn.execute(
             select(events.c.id)
-            .where(((events.c.kind == kind) & (events.c.date == day)) | (func.lower(events.c.title) == title.lower()))
+            .where(events.c.date >= ctx.today)
+            .where(((events.c.kind == kind) & (events.c.date == day)) | ((func.lower(events.c.title) == title.lower()) & near))
             .order_by(events.c.id)
         ).first()
         if row is None:
-            conn.execute(events.insert().values(**values))
+            conn.execute(events.insert().values(**values, source="chat"))
         else:
             conn.execute(events.update().where(events.c.id == row[0]).values(**values))
 
@@ -264,7 +270,7 @@ async def afford(ctx: Ctx, intent: Intent, known: list[dict], text: str = "") ->
         example = format_money(5000, ctx.cfg.currency)
         return [f"How much is it? Ask me with the amount, like: Can I afford a {example} gift?"]
     event = link_event(intent.about, known)
-    on = event["date"] if event else (intent.spend_date or ctx.today)
+    on = intent.spend_date or (event["date"] if event else ctx.today)
     if on < ctx.today:
         on = ctx.today
     # Wording only: the user's own phrase ("gift for Arman"), else the model's word for the thing.
