@@ -1,0 +1,38 @@
+# Secrets — keep .env.example
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Personal agent settings. The shared .claude/settings.json is committed.
+.claude/settings.local.json
+.claude/logs/
+.claude/worktrees/
+CLAUDE.local.md
+
+# Personal data: real receipts and ledgers never go in git (samples are synthetic)
+receipts/
+data/private/
+*.jpg
+*.jpeg
+*.heic
+!samples/**/*.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local artifacts
+*.mp4
+*.mov
+eval/runs/
