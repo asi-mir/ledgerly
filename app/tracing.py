@@ -1,0 +1,141 @@
+"""Sentry agent tracing. One transaction per Telegram update; spans for Gemma, tools and TabPFN.
+
+No prompts, no images and no personal data go to Sentry. Empty SENTRY_DSN = tracing off,
+and every helper below becomes a no-op. A Sentry problem must never break the bot.
+"""
+
+from __future__ import annotations
+
+import logging
+from contextlib import contextmanager
+
+log = logging.getLogger("ledgerly.tracing")
+
+_enabled = False
+
+
+def init_sentry(dsn: str, environment: str) -> bool:
+    global _enabled
+    if not dsn:
+        return False
+    try:
+        import sentry_sdk
+
+        sentry_sdk.init(
+            dsn=dsn,
+            environment=environment,
+            traces_sample_rate=1.0,
+            send_default_pii=False,
+            include_local_variables=False,
+            max_breadcrumbs=20,
+            shutdown_timeout=2,
+        )
+        _enabled = True
+    except Exception:  # pragma: no cover - never let Sentry stop the bot
+        log.exception("sentry init failed")
+        _enabled = False
+    return _enabled
+
+
+class _NoSpan:
+    def set_data(self, *_args, **_kwargs) -> None:
+        pass
+
+    def set_tag(self, *_args, **_kwargs) -> None:
+        pass
+
+    def set_status(self, *_args, **_kwargs) -> None:
+        pass
+
+
+@contextmanager
+def _span(op: str, name: str, data: dict | None = None, transaction: bool = False):
+    if not _enabled:
+        yield _NoSpan()
+        return
+    import sentry_sdk
+
+    starter = sentry_sdk.start_transaction if transaction else sentry_sdk.start_span
+    with starter(op=op, name=name) as span:
+        for key, value in (data or {}).items():
+            span.set_data(key, value)
+        yield span
+
+
+def update_transaction(kind: str):
+    """One trace per Telegram update. kind: photo | text | command name."""
+    return _span("telegram.update", f"telegram {kind}", {"telegram.update_kind": kind}, transaction=True)
+
+
+def agent_span(agent: str = "ledgerly"):
+    return _span(
+        "gen_ai.invoke_agent",
+        f"invoke_agent {agent}",
+        {"gen_ai.operation.name": "invoke_agent", "gen_ai.agent.name": agent, "gen_ai.system": "gemma"},
+    )
+
+
+def gemma_span(model: str, purpose: str):
+    """Wrap one Gemma call. Afterwards call set_gemma_usage(span, reply)."""
+    return _span(
+        "gen_ai.chat",
+        f"chat {model}",
+        {
+            "gen_ai.operation.name": "chat",
+            "gen_ai.system": "gemma",
+            "gen_ai.request.model": model,
+            "ledgerly.purpose": purpose,
+        },
+    )
+
+
+def set_gemma_usage(span, input_tokens: int | None, output_tokens: int | None, model: str | None = None) -> None:
+    if input_tokens is not None:
+        span.set_data("gen_ai.usage.input_tokens", input_tokens)
+    if output_tokens is not None:
+        span.set_data("gen_ai.usage.output_tokens", output_tokens)
+    if input_tokens is not None and output_tokens is not None:
+        span.set_data("gen_ai.usage.total_tokens", input_tokens + output_tokens)
+    if model:
+        span.set_data("gen_ai.response.model", model)
+
+
+def tool_span(tool: str):
+    return _span(
+        "gen_ai.execute_tool",
+        f"execute_tool {tool}",
+        {"gen_ai.operation.name": "execute_tool", "gen_ai.tool.name": tool},
+    )
+
+
+def tabpfn_span(rows: int, columns: int, predict_rows: int):
+    return _span(
+        "tabpfn.predict",
+        "TabPFN fit + predict",
+        {"tabpfn.train_rows": rows, "tabpfn.columns": columns, "tabpfn.predict_rows": predict_rows},
+    )
+
+
+def capture_message(message: str, level: str = "warning", **tags) -> None:
+    if not _enabled:
+        return
+    try:
+        import sentry_sdk
+
+        with sentry_sdk.new_scope() as scope:
+            for key, value in tags.items():
+                scope.set_tag(key, value)
+            sentry_sdk.capture_message(message, level=level)
+    except Exception:  # pragma: no cover
+        log.exception("sentry capture failed")
+
+
+def capture_exception(exc: BaseException) -> None:
+    if not _enabled:
+        return
+    try:
+        import sentry_sdk
+
+        sentry_sdk.capture_exception(exc)
+    except Exception:  # pragma: no cover
+        log.exception("sentry capture failed")
