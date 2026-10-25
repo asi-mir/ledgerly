@@ -28,7 +28,7 @@ services:
       - key: GEMMA_PROVIDER
         value: aistudio
       - key: GEMMA_MODEL
-        value: gemma-4-31b-it
+        value: gemma-4-26b-a4b-it
       - key: CURRENCY
         value: ₺
       - key: TIMEZONE

@@ -12,7 +12,7 @@
 CLAUDE.local.md
 
 # Personal data: real receipts and ledgers never go in git (samples are synthetic)
-receipts/
+/receipts/
 data/private/
 *.jpg
 *.jpeg

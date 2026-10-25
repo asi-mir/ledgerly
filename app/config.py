@@ -45,7 +45,7 @@ def get_config() -> Config:
         timezone=env("TIMEZONE", "Europe/Istanbul") or "Europe/Istanbul",
         gemma_provider=(env("GEMMA_PROVIDER", "aistudio") or "aistudio").lower(),
         gemini_api_key=env("GEMINI_API_KEY", ""),
-        gemma_model=env("GEMMA_MODEL", "gemma-4-31b-it") or "gemma-4-31b-it",
+        gemma_model=env("GEMMA_MODEL", "gemma-4-26b-a4b-it") or "gemma-4-26b-a4b-it",
         ollama_base_url=env("OLLAMA_BASE_URL", "http://localhost:11434"),
         ollama_model=env("OLLAMA_MODEL", "gemma4:e4b") or "gemma4:e4b",
         tabpfn_token=env("TABPFN_TOKEN", ""),
