@@ -9,6 +9,10 @@ budget runs out, while you can still change it.
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/asi-mir/ledgerly)
 
+<img src="media/post/gif-3-forecast.gif" width="360" alt="Ledgerly in Telegram: two family events, /forecast with Wall Day and a chart, then a gift question">
+
+*The demo copy on Dec 1, sped up. A made-up household: every amount is made up.*
+
 ## Your own copy in 3 steps
 
 Each person runs their own bot and their own database. One bot = one household.
@@ -68,7 +72,8 @@ Spanish receipts. The chat rules are in [`prompts/chat_agent.md`](prompts/chat_a
 
 ## Numbers and how to get them
 
-Every number below comes from a command in this repo.
+Test and backtest numbers come from a command in this repo. Timings come from Sentry traces
+and Render logs of my own copy (`render` environment, free plan, Frankfurt).
 
 | What | Number |
 |---|---|
@@ -86,9 +91,16 @@ is what Wall Day needs, TabPFN is better. Two windows is a small test.
 
 ```bash
 .venv/bin/pytest -q                                   # the test suite
-LEDGER_CSV=path/to/your/ledger.csv .venv/bin/python scripts/backtest.py   # TabPFN vs "an average day"
+LEDGER_CSV=path/to/your/ledger.csv .venv/bin/python scripts/backtest.py   # TabPFN vs a typical and an average day
 LEDGERLY_LIVE=1 .venv/bin/pytest -q -m live           # real Gemma + TabPFN checks (needs keys in .env)
 ```
+
+| Timing (my copy on Render) | Number |
+|---|---|
+| "Can I afford a ₺5,000 gift?" (one Sentry trace) | 2.11 s in total; Gemma 1.59 s, 1,149 input + 37 output tokens; forecast tool 0.07 s (ready in the background) |
+| TabPFN step on Render (365 past days, 31 days ahead) | 34.0 s on the first `/forecast`, before libraries loaded at boot; about 3 s after (2.95 to 3.43 s) |
+| First answer after a nap (23 quiet minutes) | 43 s ("Sorry for the wait"); the forecast after 77 s, because the first TabPFN step after a wake-up took 29 s |
+| Blueprint check, then first create call to a live service through Render's API | `valid: true`; about 4 minutes (4 min 14 s) |
 
 ## Run it locally
 
