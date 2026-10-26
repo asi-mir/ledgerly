@@ -23,9 +23,10 @@ NEXT_STEPS = (
     "🧱 Send /forecast to see your Wall Day."
 )
 
-# The budget answer must be just an amount ("30000", "₺30,000", "30k"), so a sentence such as
-# "Arman's birthday is Dec 14" is never read as a budget of 14.
-_BUDGET = re.compile(r"^(?:₺|tl)?\s*\d[\d.,' ]*\s*(?:k)?\s*(?:₺|tl|try|lira)?[.!]?$", re.IGNORECASE)
+# The budget answer must be just an amount ("30000", "₺30,000", "$30,000", "30k", "3,000 TL",
+# "30000 EUR"), so a sentence such as "Arman's birthday is Dec 14" is never read as a budget of 14.
+_UNIT = r"(?:[₺$€£¥₹﷼]|tl|try|usd|eur|gbp|irr|irt|lira|dollars?|euros?|pounds?|toman|rials?)"
+_BUDGET = re.compile(rf"^{_UNIT}?\s*\d[\d.,' ]*\s*k?\s*{_UNIT}?[.!]?$", re.IGNORECASE)
 _DAY = re.compile(r"^(?:the\s+)?(\d{1,2})(?:st|nd|rd|th)?(?:\s+of\s+the\s+month)?[.!]?$")
 
 

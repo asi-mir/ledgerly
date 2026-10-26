@@ -70,7 +70,7 @@ Every number below comes from a command in this repo.
 
 | What | Number |
 |---|---|
-| Tests | 158 offline tests, plus 5 live checks with real Gemma and TabPFN |
+| Tests | 160 offline tests, plus 5 live checks with real Gemma and TabPFN |
 | TabPFN error on the 14-day total, real ledger | **19.3%** (two windows: 1.3% and 37.2%) |
 | Same for "a typical day" (median day × 14) | 24.5% |
 | Same for "an average day" (mean day × 14) | 250.9% (a few very large days pull the mean up) |
@@ -112,6 +112,9 @@ in this README are made up.
 - Render's free Postgres expires 30 days after it is created.
 - Leave out `plan: free` in `render.yaml` and Render picks a paid plan. It is set on both
   resources.
+- Not in Turkey? Set `CURRENCY` (default `₺`, e.g. `$` or `€`) and `TIMEZONE` in Render. The
+  receipt rules in `prompts/receipt_rules.md` are written for Turkish receipts; adapt them to
+  yours. The built-in holidays are Persian ones.
 
 ## Layout
 

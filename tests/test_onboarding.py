@@ -80,3 +80,10 @@ def test_a_sentence_is_never_a_budget(ctx):
     assert run(onboarding.handle_answer(ctx, "Arman's birthday is Dec 14.")) == [onboarding.ASK_BUDGET_AGAIN]
     for answer in ("30000", "₺30,000", "30.000", "30k", "30000 TL"):
         assert onboarding._BUDGET.match(answer), answer
+
+
+def test_budget_in_other_currencies():
+    for answer in ("$30,000", "€30.000", "30000 EUR", "30,000 USD", "£2,500", "3,000 tl", "30 000"):
+        assert onboarding._BUDGET.match(answer), answer
+    for sentence in ("Dec 14", "about 30000", "Arman's birthday is Dec 14."):
+        assert not onboarding._BUDGET.match(sentence), sentence

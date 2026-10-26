@@ -25,9 +25,16 @@ def _font(size: int):
     return ImageFont.load_default(size=size)  # same look on every machine
 
 
+_CODES = {"₺": "TL", "€": "EUR", "£": "GBP", "¥": "JPY", "₹": "INR", "﷼": "IRR"}
+
+
 def _money(value: float) -> str:
-    # Pillow's built-in font has no ₺ glyph, so the chart writes "TL".
-    return format_money(round_to(value), currency="") + " TL"
+    from app.config import get_config
+
+    currency = get_config().currency
+    if currency in _CODES:  # Pillow's built-in font has no glyph for these signs
+        return format_money(round_to(value), currency="") + " " + _CODES[currency]
+    return format_money(round_to(value), currency)
 
 
 def render_chart(f: Forecast) -> bytes:
