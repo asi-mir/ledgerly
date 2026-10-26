@@ -98,8 +98,9 @@ LEDGERLY_LIVE=1 .venv/bin/pytest -q -m live           # real Gemma + TabPFN chec
 | Timing (my copy on Render) | Number |
 |---|---|
 | "Can I afford a ₺5,000 gift?" (one Sentry trace) | 2.11 s in total; Gemma 1.59 s, 1,149 input + 37 output tokens; forecast tool 0.07 s (ready in the background) |
-| TabPFN step on Render (365 past days, 31 days ahead) | 34.0 s on the first `/forecast`, before libraries loaded at boot; about 3 s after (2.95 to 3.43 s) |
+| TabPFN step on Render (365 past days, 31 days ahead) | 34.0 s of a 37.2 s first `/forecast`, before libraries loaded at boot; after the fix, 3 to 9 s in the background |
 | First answer after a nap (23 quiet minutes) | 43 s ("Sorry for the wait"); the forecast after 77 s, because the first TabPFN step after a wake-up took 29 s |
+| Bot reply to a receipt photo (one sample receipt, "✅ adds up") | 11.3 s |
 | Blueprint check, then first create call to a live service through Render's API | `valid: true`; about 4 minutes (4 min 14 s) |
 
 ## Run it locally
@@ -121,7 +122,7 @@ in this README are made up.
 ## Good to know
 
 - Render's free web service sleeps after 15 quiet minutes. After a nap, the first answer takes
-  about a minute. Your message is not lost: Telegram sends it again, and the bot says sorry for
+  about 40 seconds, and a forecast over a minute. Your message is not lost: Telegram sends it again, and the bot says sorry for
   the wait. The webhook answers Telegram at once and works in the background, and repeated
   updates are skipped.
 - Render's free Postgres expires 30 days after it is created.
