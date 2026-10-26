@@ -3,8 +3,10 @@
 from __future__ import annotations
 
 import asyncio
+import dataclasses
 import hmac
 import logging
+import time
 from collections import OrderedDict
 from contextlib import asynccontextmanager
 
@@ -13,7 +15,7 @@ from fastapi import BackgroundTasks, FastAPI, Request, Response
 from app import telegram, tracing
 from app.config import get_config, today
 from app.context import Ctx
-from app.db import get_engine
+from app.db import get_engine, get_settings
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 log = logging.getLogger("ledgerly")
@@ -40,6 +42,9 @@ for _handler in logging.getLogger().handlers:
 
 WEBHOOK_PATH = "/webhook"
 ERROR_REPLY = "Sorry, something went wrong on my side 🦥 Please try again in a minute."
+NAP_NOTE = "Sorry for the wait 🦥 I was napping. My free server sleeps after 15 quiet minutes, and waking up takes about a minute."
+LATE_SECONDS = 30  # a message older than this when it reaches us waited for the server to wake up
+_nap_note_sent = False  # once per wake-up is enough
 
 
 class SeenUpdates:
@@ -144,10 +149,18 @@ def _kind(message: dict) -> str:
 
 
 async def process_message(message: dict) -> None:
+    global _nap_note_sent
     cfg = get_config()
     chat_id = message["chat"]["id"]
-    ctx = Ctx(chat_id=chat_id, user_id=message["from"]["id"], today=today(cfg), engine=get_engine(), cfg=cfg)
+    engine = get_engine()
+    currency = (await asyncio.to_thread(get_settings, engine)).get("currency")
+    if currency:  # learned from the budget answer in /start
+        cfg = dataclasses.replace(cfg, currency=currency)
+    ctx = Ctx(chat_id=chat_id, user_id=message["from"]["id"], today=today(cfg), engine=engine, cfg=cfg)
     kind = _kind(message)
+    if not _nap_note_sent and time.time() - message.get("date", time.time()) > LATE_SECONDS:
+        _nap_note_sent = True
+        await telegram.send_message(chat_id, NAP_NOTE)
     with tracing.update_transaction(kind) as tx:
         try:
             await telegram.send_chat_action(chat_id)  # "typing…" while Gemma and TabPFN work

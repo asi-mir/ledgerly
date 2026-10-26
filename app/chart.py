@@ -28,16 +28,13 @@ def _font(size: int):
 _CODES = {"₺": "TL", "€": "EUR", "£": "GBP", "¥": "JPY", "₹": "INR", "﷼": "IRR"}
 
 
-def _money(value: float) -> str:
-    from app.config import get_config
-
-    currency = get_config().currency
+def _money(value: float, currency: str) -> str:
     if currency in _CODES:  # Pillow's built-in font has no glyph for these signs
         return format_money(round_to(value), currency="") + " " + _CODES[currency]
     return format_money(round_to(value), currency)
 
 
-def render_chart(f: Forecast) -> bytes:
+def render_chart(f: Forecast, currency: str = "₺") -> bytes:
     from PIL import Image, ImageDraw
 
     img = Image.new("RGB", (W, H), "white")
@@ -86,7 +83,7 @@ def render_chart(f: Forecast) -> bytes:
     v = 0
     while v <= top_value:
         d.line([(LEFT, y(v)), (W - RIGHT, y(v))], fill=GRID, width=1)
-        d.text((LEFT - 12, y(v)), _money(v), fill=MUTED, font=_font(20), anchor="rm")
+        d.text((LEFT - 12, y(v)), _money(v, currency), fill=MUTED, font=_font(20), anchor="rm")
         v += step
     for i, day in enumerate(days):
         if day.day.day in (1, 7, 14, 21, 28) or i == n - 1:
@@ -103,7 +100,7 @@ def render_chart(f: Forecast) -> bytes:
 
     # Budget line
     d.line([(LEFT, y(f.budget)), (W - RIGHT, y(f.budget))], fill=BUDGET, width=3)
-    d.text((W - RIGHT, y(f.budget) - 10), f"Budget {_money(f.budget)}", fill=BUDGET, font=_font(22), anchor="rb")
+    d.text((W - RIGHT, y(f.budget) - 10), f"Budget {_money(f.budget, currency)}", fill=BUDGET, font=_font(22), anchor="rb")
 
     # Wall Day
     if f.wall_day:

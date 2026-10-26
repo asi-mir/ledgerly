@@ -23,7 +23,8 @@ Each person runs their own bot and their own database. One bot = one household.
    empty to turn tracing off). Render creates a free web service and a free Postgres database
    from [`render.yaml`](render.yaml), and makes a random webhook secret for you.
 3. **Open your bot in Telegram and send `/start`.** Answer two questions: your monthly budget
-   and your payday. Then send a receipt photo.
+   and your payday. Not using lira? Write the budget with your sign, like `$3,000` or
+   `3000 EUR`, and the bot uses that currency from then on. Then send a receipt photo.
 
 The bot sets its own Telegram webhook when it starts. It answers only the IDs in
 `ALLOWED_TELEGRAM_IDS`.
@@ -38,7 +39,7 @@ The bot sets its own Telegram webhook when it starts. It answers only the IDs in
 | "Arman's birthday is Dec 14. We're hosting Yalda for 12 people." | Saves both events and confirms them. |
 | `/forecast` | Likely spending for the rest of the pay period (low, likely, high), your budget, 🧱 Wall Day, and the biggest reason. |
 | "Can I afford a ₺5,000 gift for Arman?" | Runs the forecast again with that money on Arman's birthday and says how Wall Day moves. |
-| `/start` | Asks for budget and payday again. |
+| `/start` | Asks for budget and payday again. The currency comes from the budget answer. |
 
 Persian holidays (Yalda, Chaharshanbe Suri, Nowruz, Sizdah Bedar) are built in for 2025 to 2027.
 
@@ -70,7 +71,7 @@ Every number below comes from a command in this repo.
 
 | What | Number |
 |---|---|
-| Tests | 160 offline tests, plus 5 live checks with real Gemma and TabPFN |
+| Tests | 164 offline tests, plus 5 live checks with real Gemma and TabPFN |
 | TabPFN error on the 14-day total, real ledger | **19.3%** (two windows: 1.3% and 37.2%) |
 | Same for "a typical day" (median day × 14) | 24.5% |
 | Same for "an average day" (mean day × 14) | 250.9% (a few very large days pull the mean up) |
@@ -106,15 +107,18 @@ in this README are made up.
 
 ## Good to know
 
-- Render's free web service sleeps after 15 quiet minutes. The first message after a nap takes
-  longer. The webhook answers Telegram at once and works in the background, and repeated
+- Render's free web service sleeps after 15 quiet minutes. After a nap, the first answer takes
+  about a minute. Your message is not lost: Telegram sends it again, and the bot says sorry for
+  the wait. The webhook answers Telegram at once and works in the background, and repeated
   updates are skipped.
 - Render's free Postgres expires 30 days after it is created.
 - Leave out `plan: free` in `render.yaml` and Render picks a paid plan. It is set on both
   resources.
-- Not in Turkey? Set `CURRENCY` (default `₺`, e.g. `$` or `€`) and `TIMEZONE` in Render. The
-  receipt rules in `prompts/receipt_rules.md` are written for Turkish receipts; adapt them to
-  yours. The built-in holidays are Persian ones.
+- Not in Turkey? The currency comes from your budget answer (see step 3). The bot's clock uses
+  `Europe/Istanbul`: in Render, open your service → **Environment** → `TIMEZONE` and set yours
+  (for example `Europe/Berlin` or `America/New_York`). The receipt rules in
+  `prompts/receipt_rules.md` are written for Turkish receipts; adapt them to yours. The built-in
+  holidays are Persian ones.
 
 ## Layout
 

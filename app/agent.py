@@ -292,7 +292,7 @@ async def handle_forecast_command(ctx: Ctx) -> list[str | bytes]:
     try:
         from app.chart import render_chart
 
-        chart = render_chart(result)
+        chart = render_chart(result, ctx.cfg.currency)
         if chart:
             replies.append(chart)
     except Exception:  # the chart is a bonus; the text reply must still go out

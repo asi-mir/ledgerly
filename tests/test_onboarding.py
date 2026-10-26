@@ -87,3 +87,20 @@ def test_budget_in_other_currencies():
         assert onboarding._BUDGET.match(answer), answer
     for sentence in ("Dec 14", "about 30000", "Arman's birthday is Dec 14."):
         assert not onboarding._BUDGET.match(sentence), sentence
+
+
+def test_currency_is_learned_from_the_budget_answer(ctx):
+    run(onboarding.handle_start(ctx))
+    run(onboarding.handle_answer(ctx, "$3,000"))
+    done = run(onboarding.handle_answer(ctx, "1"))[0]
+    assert get_settings(ctx.engine)["currency"] == "$"
+    assert done.startswith("All set. Budget $3,000, payday on the 1st.")
+    assert onboarding.NAP_TIP in done
+
+
+def test_no_sign_keeps_the_default_currency(ctx):
+    run(onboarding.handle_start(ctx))
+    run(onboarding.handle_answer(ctx, "30000"))
+    run(onboarding.handle_answer(ctx, "1"))
+    assert get_settings(ctx.engine)["currency"] is None
+    assert [onboarding.currency_in(t) for t in ("3000 EUR", "£2,500", "3,000 tl", "30000")] == ["€", "£", "₺", None]

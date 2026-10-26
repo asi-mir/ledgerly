@@ -36,6 +36,7 @@ settings = Table(
     Column("budget_cents", BigInteger, nullable=True),
     Column("payday", Integer, nullable=True),  # day of month, 1-28
     Column("step", String(20), nullable=True),  # onboarding step waiting for an answer
+    Column("currency", String(8), nullable=True),  # learned from the budget answer; None = CURRENCY env
 )
 
 receipts = Table(
@@ -117,8 +118,19 @@ def get_engine(url: str | None = None) -> Engine:
         else:
             engine = create_engine(url, pool_pre_ping=True)
         metadata.create_all(engine)
+        _add_missing_columns(engine)
         _engines[url] = engine
     return _engines[url]
+
+
+def _add_missing_columns(engine: Engine) -> None:
+    """create_all never changes an existing table. Add columns that came later (no other migrations)."""
+    from sqlalchemy import inspect, text
+
+    have = {c["name"] for c in inspect(engine).get_columns("settings")}
+    if "currency" not in have:
+        with engine.begin() as conn:
+            conn.execute(text("ALTER TABLE settings ADD COLUMN currency VARCHAR(8)"))
 
 
 def get_settings(engine: Engine) -> dict:
@@ -126,7 +138,7 @@ def get_settings(engine: Engine) -> dict:
         row = conn.execute(select(settings).where(settings.c.id == 1)).mappings().first()
         if row is None:
             conn.execute(settings.insert().values(id=1))
-            return {"id": 1, "budget_cents": None, "payday": None, "step": None}
+            return {"id": 1, "budget_cents": None, "payday": None, "step": None, "currency": None}
         return dict(row)
 
 

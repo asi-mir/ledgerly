@@ -26,18 +26,9 @@ def test_chart_without_days_is_empty():
     assert render_chart(f) == b""
 
 
-def test_chart_money_label_follows_the_currency(monkeypatch):
+def test_chart_money_label_follows_the_currency():
     from app import chart
-    from app.config import get_config
 
-    monkeypatch.setenv("CURRENCY", "$")
-    get_config.cache_clear()
-    try:
-        assert chart._money(30000) == "$30,000"
-        monkeypatch.setenv("CURRENCY", "€")
-        get_config.cache_clear()
-        assert chart._money(30000) == "30,000 EUR"
-    finally:
-        monkeypatch.delenv("CURRENCY")
-        get_config.cache_clear()
-    assert chart._money(30000) == "30,000 TL"
+    assert chart._money(30000, "$") == "$30,000"
+    assert chart._money(30000, "€") == "30,000 EUR"
+    assert chart._money(30000, "₺") == "30,000 TL"
