@@ -12,8 +12,8 @@ from app.db import get_settings, update_settings
 from app.money import format_cents, parse_amount, to_cents
 
 WELCOME = "Hi, I'm Ledgerly 🦥 I file your receipts and tell you the day your budget runs out, before it happens."
-ASK_BUDGET = "What is your monthly budget? For example: 30000. Not in {currency}? Add your sign, like $3,000 or 3000 EUR."
-ASK_BUDGET_AGAIN = "I need a number above zero. What is your monthly budget? For example: 30000, or $3,000."
+ASK_BUDGET = "What is your monthly budget? For example: 3000. Not in {currency}? Add your sign, like {other} or 3000 EUR."
+ASK_BUDGET_AGAIN = "I need a number above zero. What is your monthly budget? For example: 3000, or 3000 EUR."
 ASK_PAYDAY = "Which day of the month is payday? (1-28)"
 ASK_PAYDAY_AGAIN = "Please send a day from 1 to 28. For example: 1, or the 15th."
 NAP_TIP = (
@@ -67,7 +67,8 @@ def parse_payday(text: str) -> int | None:
 
 async def handle_start(ctx: Ctx) -> list[str]:
     update_settings(ctx.engine, step="budget")
-    return [f"{WELCOME}\n\n{ASK_BUDGET.format(currency=ctx.cfg.currency)}"]
+    other = "$3,000" if ctx.cfg.currency != "$" else "₺30,000"
+    return [f"{WELCOME}\n\n{ASK_BUDGET.format(currency=ctx.cfg.currency, other=other)}"]
 
 
 async def handle_answer(ctx: Ctx, text: str) -> list[str] | None:

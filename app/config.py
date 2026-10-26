@@ -41,7 +41,7 @@ def get_config() -> Config:
         telegram_bot_token=env("TELEGRAM_BOT_TOKEN", ""),
         webhook_secret=env("TELEGRAM_WEBHOOK_SECRET", ""),
         allowed_ids=_ids(env("ALLOWED_TELEGRAM_IDS", "")),
-        currency=env("CURRENCY", "₺") or "₺",
+        currency=env("CURRENCY", "$") or "$",  # a plain budget number means dollars
         timezone=env("TIMEZONE", "Europe/Istanbul") or "Europe/Istanbul",
         gemma_provider=(env("GEMMA_PROVIDER", "aistudio") or "aistudio").lower(),
         gemini_api_key=env("GEMINI_API_KEY", ""),

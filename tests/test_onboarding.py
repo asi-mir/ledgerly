@@ -104,3 +104,14 @@ def test_no_sign_keeps_the_default_currency(ctx):
     run(onboarding.handle_answer(ctx, "1"))
     assert get_settings(ctx.engine)["currency"] is None
     assert [onboarding.currency_in(t) for t in ("3000 EUR", "£2,500", "3,000 tl", "30000")] == ["€", "£", "₺", None]
+
+
+def test_a_plain_number_means_dollars_by_default(monkeypatch):
+    from app.config import get_config
+
+    monkeypatch.delenv("CURRENCY")
+    get_config.cache_clear()
+    try:
+        assert get_config().currency == "$"
+    finally:
+        get_config.cache_clear()

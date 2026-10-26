@@ -30,7 +30,7 @@ services:
       - key: GEMMA_MODEL
         value: gemma-4-26b-a4b-it
       - key: CURRENCY
-        value: ₺
+        value: $
       - key: TIMEZONE
         value: Europe/Istanbul
       - key: SENTRY_ENVIRONMENT

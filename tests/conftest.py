@@ -32,6 +32,7 @@ os.environ.update(
         "RENDER_EXTERNAL_URL": "",
         "DEMO_TODAY": "",
         "DATABASE_URL": "sqlite:///:memory:",
+        "CURRENCY": "₺",  # the tests use the demo household's currency
     }
 )
 

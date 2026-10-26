@@ -23,8 +23,9 @@ Each person runs their own bot and their own database. One bot = one household.
    empty to turn tracing off). Render creates a free web service and a free Postgres database
    from [`render.yaml`](render.yaml), and makes a random webhook secret for you.
 3. **Open your bot in Telegram and send `/start`.** Answer two questions: your monthly budget
-   and your payday. Not using lira? Write the budget with your sign, like `$3,000` or
-   `3000 EUR`, and the bot uses that currency from then on. Then send a receipt photo.
+   and your payday. A plain number means dollars. Another currency? Write the budget with its
+   sign, like `₺30,000` or `3000 EUR`, and the bot uses that currency from then on. Then send a
+   receipt photo.
 
 The bot sets its own Telegram webhook when it starts. It answers only the IDs in
 `ALLOWED_TELEGRAM_IDS`.
@@ -71,7 +72,7 @@ Every number below comes from a command in this repo.
 
 | What | Number |
 |---|---|
-| Tests | 164 offline tests, plus 5 live checks with real Gemma and TabPFN |
+| Tests | 165 offline tests, plus 5 live checks with real Gemma and TabPFN |
 | TabPFN error on the 14-day total, real ledger | **19.3%** (two windows: 1.3% and 37.2%) |
 | Same for "a typical day" (median day × 14) | 24.5% |
 | Same for "an average day" (mean day × 14) | 250.9% (a few very large days pull the mean up) |
@@ -101,7 +102,7 @@ cp .env.example .env    # fill in the keys
 Locally the bot uses SQLite (`data/private/ledger.db`). Tests post made-up Telegram updates to
 the app; there is no polling mode.
 
-**Demo copy.** Set `DEMO_TODAY=2026-12-01` to pin the bot's date and seed a synthetic household
+**Demo copy.** Set `DEMO_TODAY=2026-12-01` (and `CURRENCY=₺`) to pin the bot's date and seed a synthetic household
 (a made-up family, 12 months of made-up receipts, `samples/`). All amounts in the demo data and
 in this README are made up.
 
